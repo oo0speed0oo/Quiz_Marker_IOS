@@ -15,68 +15,45 @@ class QuizManager {
     
     func loadQuestions(filename: String, units: [String], chapters: [String], limit: Int) {
         let cleanName = filename.replacingOccurrences(of: ".csv", with: "")
-        
-        guard let path = Bundle.main.path(forResource: cleanName, ofType: "csv") else {
-            print("❌ Error: CSV file \(filename) not found.")
-            return
-        }
+        guard let path = Bundle.main.path(forResource: cleanName, ofType: "csv") else { return }
         
         var loaded: [Question] = []
-        
         do {
-            // Use the encoding that was working for you previously
             let content = try String(contentsOfFile: path, encoding: .utf8)
-            
-            let lines = content.components(separatedBy: .newlines)
-                .filter { !$0.trimmingCharacters(in: .whitespaces).isEmpty }
+            let lines = content.components(separatedBy: .newlines).filter { !$0.trimmingCharacters(in: .whitespaces).isEmpty }
             
             for line in lines.dropFirst() {
-                // Use safeSplit to handle commas inside Japanese text correctly
                 let cols = CSVParser.safeSplit(line: line)
+                guard cols.count >= 9 else { continue }
                 
-                // Ensure there are enough columns to prevent index out of range
-                if cols.count < 9 { continue }
+                let qUnit = cols[1].trimmed
+                let qChap = cols[2].trimmed
                 
-                let qUnit = cols[1].trimmingCharacters(in: .whitespacesAndNewlines)
-                let qChap = cols[2].trimmingCharacters(in: .whitespacesAndNewlines)
-                
-                // Filtering logic
-                let unitMatch = units.isEmpty || units.contains { $0.trimmed == qUnit }
-                let chapMatch = chapters.isEmpty || chapters.contains { $0.trimmed == qChap }
-                
-                if unitMatch && chapMatch {
+                if (units.isEmpty || units.contains(qUnit)) && (chapters.isEmpty || chapters.contains(qChap)) {
                     let q = Question(
-                        number: cols[0].trimmingCharacters(in: .whitespacesAndNewlines),
+                        number: cols[0],
                         unit: qUnit,
                         chapter: qChap,
-                        text: cols[3].trimmingCharacters(in: .whitespacesAndNewlines),
-                        choices: [
-                            "A": cols[4].trimmingCharacters(in: .whitespacesAndNewlines),
-                            "B": cols[5].trimmingCharacters(in: .whitespacesAndNewlines),
-                            "C": cols[6].trimmingCharacters(in: .whitespacesAndNewlines),
-                            "D": cols[7].trimmingCharacters(in: .whitespacesAndNewlines)
-                        ],
-                        answer: cols[8].trimmingCharacters(in: .whitespacesAndNewlines).uppercased()
+                        rawText: cols[3],
+                        choiceA: cols[4],
+                        choiceB: cols[5],
+                        choiceC: cols[6],
+                        choiceD: cols[7],
+                        answer: cols[8]
                     )
                     loaded.append(q)
                 }
             }
             
-            print("✅ Loaded \(loaded.count) questions.")
-            
             DispatchQueue.main.async {
                 let shuffled = loaded.shuffled()
-                // Safely handle the limit
                 let actualLimit = limit > 0 ? min(limit, shuffled.count) : shuffled.count
                 self.questions = Array(shuffled.prefix(actualLimit))
                 self.currentIndex = 0
                 self.score = 0
                 self.isFinished = false
             }
-            
-        } catch {
-            print("❌ Read Error: \(error.localizedDescription)")
-        }
+        } catch { print("Read Error: \(error)") }
     }
     
     func checkAnswer(_ letter: String) -> Bool {
@@ -87,16 +64,11 @@ class QuizManager {
     }
     
     func nextQuestion() {
-        if currentIndex + 1 < questions.count {
-            currentIndex += 1
-        } else {
-            isFinished = true
-        }
+        if currentIndex + 1 < questions.count { currentIndex += 1 } else { isFinished = true }
     }
 }
 
+// Keeping the trimmed extension here is fine
 extension String {
-    var trimmed: String {
-        self.trimmingCharacters(in: .whitespacesAndNewlines)
-    }
+    var trimmed: String { trimmingCharacters(in: .whitespacesAndNewlines) }
 }

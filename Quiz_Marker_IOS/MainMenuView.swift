@@ -3,6 +3,9 @@ import SwiftUI
 struct MainMenuView: View {
     @State private var path = NavigationPath()
     @State private var quizFiles: [String] = []
+    
+    // 1. ADD: Create the manager instance here to be shared with QuizView
+    @State private var manager = QuizManager()
 
     var body: some View {
         NavigationStack(path: $path) {
@@ -13,7 +16,6 @@ struct MainMenuView: View {
             }
             .navigationTitle("Select a Quiz")
             .navigationDestination(for: QuizRoute.self) { route in
-                // FIXED: Updated switch cases to match the labeled enum parameters
                 switch route {
                 case .unitSelection(let f):
                     UnitSelectionView(path: $path, file: f)
@@ -25,7 +27,15 @@ struct MainMenuView: View {
                     QuestionCountView(path: $path, file: f, units: u, chapters: c)
                     
                 case .activeQuiz(let f, let u, let c, let l):
-                    QuizView(path: $path, file: f, units: u, chapters: c, limit: l)
+                    // 2. FIXED: Pass the 'manager' instance into QuizView
+                    QuizView(
+                        path: $path,
+                        manager: manager,
+                        file: f,
+                        units: u,
+                        chapters: c,
+                        limit: l
+                    )
                 }
             }
         }
@@ -39,7 +49,6 @@ struct MainMenuView: View {
     }
     
     func processSelection(_ file: String) {
-        // FIXED: Added argument label 'file:'
         path.append(QuizRoute.unitSelection(file: file))
     }
 }
