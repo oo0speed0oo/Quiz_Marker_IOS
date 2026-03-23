@@ -4,123 +4,117 @@ struct ChapterSelectionView: View {
     @Binding var path: NavigationPath
     let file: String
     let units: [String]
-    
+    let store: QuizStore   // ← NEW: needed for wrong-answer badges
+
     @State private var chapters: [String] = []
     @State private var selectedChapters: Set<String> = []
+    @State private var isLoading = true
+
+    var allSelected: Bool { selectedChapters.count == chapters.count }
+
+    private var quizName: String {
+        file.replacingOccurrences(of: ".csv", with: "").capitalized
+    }
 
     var body: some View {
         VStack(spacing: 20) {
-            if chapters.isEmpty {
+            if isLoading {
                 Spacer()
-                VStack(spacing: 15) {
-                    ProgressView()
-                    Text("Searching for chapters...")
-                        .foregroundColor(.secondary)
-                }
+                ProgressView("Searching for chapters…")
                 Spacer()
             } else {
-                HStack {
-                    Spacer()
-                    Button(selectedChapters.count == chapters.count ? "Deselect All" : "Select All") {
-                        if selectedChapters.count == chapters.count {
-                            selectedChapters = []
-                        } else {
-                            selectedChapters = Set(chapters)
-                        }
-                    }
-                    .font(.subheadline)
-                    .padding(.horizontal)
-                }
+                selectAllButton
+                chapterList
+            }
 
-                List(chapters, id: \.self) { chapter in
-                    Button(action: {
-                        if selectedChapters.contains(chapter) {
-                            selectedChapters.remove(chapter)
-                        } else {
-                            selectedChapters.insert(chapter)
-                        }
-                    }) {
-                        HStack {
-                            Image(systemName: selectedChapters.contains(chapter) ? "checkmark.square.fill" : "square")
-                                .foregroundColor(selectedChapters.contains(chapter) ? .blue : .secondary)
-                                .font(.system(size: 20))
-                            
-                            Text("Chapter \(chapter)")
-                                .foregroundColor(.primary)
-                            
-                            Spacer()
-                        }
-                    }
-                    .buttonStyle(.plain)
-                }
-            }
-            
-            Button(action: {
-                let sortedChapters = Array(selectedChapters).sorted { $0.localizedStandardCompare($1) == .orderedAscending }
-                path.append(QuizRoute.questionCount(file: file, units: units, chapters: sortedChapters))
-            }) {
-                Text("Continue")
-                    .frame(maxWidth: .infinity)
-                    .padding()
-                    .background(selectedChapters.isEmpty ? Color.gray : Color.blue)
-                    .foregroundColor(.white)
-                    .cornerRadius(10)
-            }
-            .disabled(selectedChapters.isEmpty)
-            .padding(.horizontal)
-            .padding(.bottom)
+            continueButton
         }
         .navigationTitle("Select Chapters")
         .onAppear(perform: loadChapters)
     }
 
-    func loadChapters() {
-        let resourceName = file.replacingOccurrences(of: ".csv", with: "")
-        guard let filepath = Bundle.main.path(forResource: resourceName, ofType: "csv"),
-              let content = try? String(contentsOfFile: filepath, encoding: .utf8) else {
-            return
+    // MARK: - Subviews
+
+    private var selectAllButton: some View {
+        HStack {
+            Spacer()
+            Button(allSelected ? "Deselect All" : "Select All") {
+                selectedChapters = allSelected ? [] : Set(chapters)
+            }
+            .font(.subheadline)
+            .padding(.horizontal)
         }
-        
-        let lines = content.components(separatedBy: .newlines)
-            .map { $0.trimmingCharacters(in: .whitespacesAndNewlines) }
-            .filter { !$0.isEmpty }
-            
-        guard let headerLine = lines.first else { return }
-        let headers = CSVParser.safeSplit(line: headerLine)
-        
-        // 1. DYNAMIC INDEX: Find where 'unit' and 'chapter' columns are
-        let unitIndex = headers.firstIndex { $0.lowercased().contains("unit") }
-        let chapterIndex = headers.firstIndex { $0.lowercased().contains("chapter") } ?? 2
-            
-        var foundChapters = Set<String>()
-        
-        for line in lines.dropFirst() {
-            let cols = CSVParser.safeSplit(line: line)
-            
-            if cols.count > chapterIndex {
-                let c = cols[chapterIndex].trimmingCharacters(in: .whitespacesAndNewlines)
-                
-                // 2. SMART FILTERING
-                if units.isEmpty {
-                    // No units selected (screen skipped), so show ALL chapters
-                    if !c.isEmpty { foundChapters.insert(c) }
-                } else if let uIndex = unitIndex, cols.count > uIndex {
-                    // Units ARE selected, so only show chapters for those units
-                    let u = cols[uIndex].trimmingCharacters(in: .whitespacesAndNewlines)
-                    if units.contains(u) && !c.isEmpty {
-                        foundChapters.insert(c)
+    }
+
+    private var chapterList: some View {
+        List(chapters, id: \.self) { chapter in
+            Button {
+                if selectedChapters.contains(chapter) {
+                    selectedChapters.remove(chapter)
+                } else {
+                    selectedChapters.insert(chapter)
+                }
+            } label: {
+                HStack {
+                    Image(systemName: selectedChapters.contains(chapter) ? "checkmark.square.fill" : "square")
+                        .foregroundColor(selectedChapters.contains(chapter) ? .blue : .secondary)
+                        .font(.system(size: 20))
+
+                    Text("Chapter \(chapter)")
+                        .foregroundColor(.primary)
+
+                    Spacer()
+
+                    // ── Wrong answer badge ──
+                    let wrongCount = store.wrongCount(for: chapter, quizName: quizName)
+                    if wrongCount > 0 {
+                        HStack(spacing: 3) {
+                            Image(systemName: "xmark.circle.fill")
+                                .font(.caption2)
+                            Text("\(wrongCount)")
+                                .font(.caption.bold())
+                        }
+                        .foregroundColor(.white)
+                        .padding(.horizontal, 7)
+                        .padding(.vertical, 3)
+                        .background(Color.red.opacity(0.85))
+                        .cornerRadius(10)
                     }
                 }
             }
+            .buttonStyle(.plain)
         }
-        
-        DispatchQueue.main.async {
-            if foundChapters.isEmpty {
-                // If no chapters found, skip to count screen
-                path.append(QuizRoute.questionCount(file: file, units: units, chapters: []))
-            } else {
-                self.chapters = foundChapters.sorted { $0.localizedStandardCompare($1) == .orderedAscending }
-                self.selectedChapters = []
+    }
+
+    private var continueButton: some View {
+        Button {
+            let sorted = Array(selectedChapters).sorted { $0.localizedStandardCompare($1) == .orderedAscending }
+            path.append(QuizRoute.questionCount(file: file, units: units, chapters: sorted))
+        } label: {
+            Text("Continue")
+                .frame(maxWidth: .infinity)
+                .padding()
+                .background(selectedChapters.isEmpty ? Color.gray : Color.blue)
+                .foregroundColor(.white)
+                .cornerRadius(10)
+        }
+        .disabled(selectedChapters.isEmpty)
+        .padding(.horizontal)
+        .padding(.bottom)
+    }
+
+    // MARK: - Data
+
+    private func loadChapters() {
+        DispatchQueue.global(qos: .userInitiated).async {
+            let found = QuizDataService(file: file)?.chapters(inUnits: units) ?? []
+            DispatchQueue.main.async {
+                isLoading = false
+                if found.isEmpty {
+                    path.append(QuizRoute.questionCount(file: file, units: units, chapters: []))
+                } else {
+                    chapters = found
+                }
             }
         }
     }

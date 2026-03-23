@@ -1,74 +1,78 @@
 import Foundation
 import Observation
 
+// Represents one wrong answer during a session
+struct WrongAnswer: Identifiable {
+    let id          = UUID()
+    let question:   Question
+    let chosen:     String   // letter the user picked, e.g. "B"
+}
+
 @Observable
 class QuizManager {
-    var questions: [Question] = []
+    var questions:    [Question]    = []
+    var wrongAnswers: [WrongAnswer] = []   // ← NEW: collects mistakes this session
     var currentIndex = 0
-    var score = 0
-    var isFinished = false
-    
+    var score        = 0
+    var isFinished   = false
+    var isLoading    = false
+
     var currentQuestion: Question? {
         guard currentIndex < questions.count else { return nil }
         return questions[currentIndex]
     }
-    
-    func loadQuestions(filename: String, units: [String], chapters: [String], limit: Int) {
-        let cleanName = filename.replacingOccurrences(of: ".csv", with: "")
-        guard let path = Bundle.main.path(forResource: cleanName, ofType: "csv") else { return }
-        
-        var loaded: [Question] = []
-        do {
-            let content = try String(contentsOfFile: path, encoding: .utf8)
-            let lines = content.components(separatedBy: .newlines).filter { !$0.trimmingCharacters(in: .whitespaces).isEmpty }
-            
-            for line in lines.dropFirst() {
-                let cols = CSVParser.safeSplit(line: line)
-                guard cols.count >= 9 else { continue }
-                
-                let qUnit = cols[1].trimmed
-                let qChap = cols[2].trimmed
-                
-                if (units.isEmpty || units.contains(qUnit)) && (chapters.isEmpty || chapters.contains(qChap)) {
-                    let q = Question(
-                        number: cols[0],
-                        unit: qUnit,
-                        chapter: qChap,
-                        rawText: cols[3],
-                        choiceA: cols[4],
-                        choiceB: cols[5],
-                        choiceC: cols[6],
-                        choiceD: cols[7],
-                        answer: cols[8]
-                    )
-                    loaded.append(q)
-                }
+
+    /// Always loads fresh with the exact limit passed in.
+    func load(file: String, units: [String], chapters: [String], limit: Int) {
+        guard !isLoading else { return }
+        isLoading    = true
+        questions    = []
+        wrongAnswers = []
+        currentIndex = 0
+        score        = 0
+        isFinished   = false
+
+        DispatchQueue.global(qos: .userInitiated).async {
+            guard let service = QuizDataService(file: file) else {
+                DispatchQueue.main.async { self.isLoading = false }
+                return
             }
-            
+            let loaded = service.questions(units: units, chapters: chapters, limit: limit)
             DispatchQueue.main.async {
-                let shuffled = loaded.shuffled()
-                let actualLimit = limit > 0 ? min(limit, shuffled.count) : shuffled.count
-                self.questions = Array(shuffled.prefix(actualLimit))
-                self.currentIndex = 0
-                self.score = 0
-                self.isFinished = false
+                self.questions = loaded
+                self.isLoading = false
             }
-        } catch { print("Read Error: \(error)") }
+        }
     }
-    
+
+    func reset() {
+        questions    = []
+        wrongAnswers = []
+        currentIndex = 0
+        score        = 0
+        isFinished   = false
+        isLoading    = false
+    }
+
+    /// Returns true if correct. Records the mistake if wrong.
+    @discardableResult
     func checkAnswer(_ letter: String) -> Bool {
         guard let current = currentQuestion else { return false }
-        let correct = current.answer == letter.uppercased()
-        if correct { score += 1 }
+        let upper   = letter.uppercased()
+        let correct = current.answer == upper
+        if correct {
+            score += 1
+        } else {
+            wrongAnswers.append(WrongAnswer(question: current, chosen: upper))
+        }
         return correct
     }
-    
-    func nextQuestion() {
-        if currentIndex + 1 < questions.count { currentIndex += 1 } else { isFinished = true }
-    }
-}
 
-// Keeping the trimmed extension here is fine
-extension String {
-    var trimmed: String { trimmingCharacters(in: .whitespacesAndNewlines) }
+    func nextQuestion() {
+        if currentIndex + 1 < questions.count {
+            currentIndex += 1
+        } else {
+            isFinished = true
+        }
+    }
 }

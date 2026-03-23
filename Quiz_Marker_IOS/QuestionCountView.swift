@@ -6,137 +6,119 @@ struct QuestionCountView: View {
     let units: [String]
     let chapters: [String]
 
-    @State private var totalAvailable: Int = 0
-    @State private var selectedAmount: Int = 1
-    
-    @State private var amountString: String = "1"
+    @State private var totalAvailable: Int? = nil
+    @State private var selectedAmount = 1
+    @State private var amountString = "1"
     @FocusState private var isInputActive: Bool
 
     var body: some View {
         VStack(spacing: 30) {
             Text("How many questions?")
                 .font(.headline)
-            
-            if totalAvailable == 0 {
-                VStack {
-                    ProgressView()
-                    Text("Searching for matching questions...")
-                        .font(.caption)
-                        .foregroundColor(.secondary)
-                }
-            } else {
-                VStack(spacing: 10) {
-                    Text("\(totalAvailable) questions available")
-                        .font(.subheadline)
-                        .foregroundColor(.green)
-                    
-                    HStack {
-                        Text("Enter Amount:")
-                        
-                        TextField("", text: $amountString)
-                            .keyboardType(.numberPad)
-                            .multilineTextAlignment(.center)
-                            .padding(10)
-                            .frame(width: 80)
-                            .background(Color.gray.opacity(0.1))
-                            .cornerRadius(8)
-                            .focused($isInputActive)
-                            .onChange(of: amountString) { oldValue, newValue in
-                                validateInput(newValue)
-                            }
-                    }
-                    .font(.title3)
-                }
-            }
-            
+
+            stateView
+
             Button("Start Quiz") {
-                path.append(QuizRoute.activeQuiz(file: file, units: units, chapters: chapters, limit: selectedAmount))
+                path.append(QuizRoute.activeQuiz(
+                    file: file, units: units, chapters: chapters, limit: selectedAmount
+                ))
             }
             .buttonStyle(.borderedProminent)
             .controlSize(.large)
-            .disabled(totalAvailable == 0 || selectedAmount < 1)
+            .disabled(selectedAmount < 1 || totalAvailable == nil || totalAvailable == 0)
         }
         .navigationTitle("Questions")
-        .onAppear(perform: countPossibleQuestions)
+        .onAppear(perform: countQuestions)
         .toolbar {
             ToolbarItemGroup(placement: .keyboard) {
                 Spacer()
-                Button("Done") {
-                    isInputActive = false
-                }
+                Button("Done") { commitTextField(); isInputActive = false }
             }
         }
     }
 
-    func validateInput(_ value: String) {
-        let filtered = value.filter { "0123456789".contains($0) }
-        if let currentInt = Int(filtered) {
-            if currentInt > totalAvailable {
-                selectedAmount = totalAvailable
-                amountString = "\(totalAvailable)"
-            } else {
-                selectedAmount = currentInt
-                amountString = filtered
+    // MARK: - State Views
+
+    @ViewBuilder
+    private var stateView: some View {
+        switch totalAvailable {
+        case nil:
+            VStack(spacing: 8) {
+                ProgressView()
+                Text("Counting matching questions…")
+                    .font(.caption)
+                    .foregroundColor(.secondary)
             }
-        } else if filtered.isEmpty {
-            selectedAmount = 0
-            amountString = ""
+
+        case 0:
+            Text("No questions found for the selected filters.")
+                .font(.subheadline)
+                .foregroundColor(.red)
+                .multilineTextAlignment(.center)
+                .padding(.horizontal)
+
+        default:
+            let total = totalAvailable!
+            VStack(spacing: 16) {
+                Text("\(total) questions available")
+                    .font(.subheadline)
+                    .foregroundColor(.green)
+
+                // Stepper — always works, no keyboard needed
+                Stepper(value: $selectedAmount, in: 1...total) {
+                    Text("\(selectedAmount) questions")
+                        .font(.title2.bold())
+                }
+                .padding(.horizontal, 40)
+                .onChange(of: selectedAmount) { _, newValue in
+                    // Keep text field in sync when stepper changes
+                    amountString = "\(newValue)"
+                }
+
+                // Text field — lets you type a specific number directly
+                HStack {
+                    Text("Or type:")
+                        .foregroundColor(.secondary)
+                    TextField("", text: $amountString)
+                        .keyboardType(.numberPad)
+                        .multilineTextAlignment(.center)
+                        .padding(10)
+                        .frame(width: 80)
+                        .background(Color.gray.opacity(0.1))
+                        .cornerRadius(8)
+                        .focused($isInputActive)
+                        // Only commit when the user finishes typing (focus lost),
+                        // NOT on every keystroke — this prevents the rewrite loop.
+                        .onSubmit { commitTextField() }
+                }
+                .font(.title3)
+            }
         }
     }
 
-    func countPossibleQuestions() {
-        let resourceName = file.replacingOccurrences(of: ".csv", with: "")
-        guard let filepath = Bundle.main.path(forResource: resourceName, ofType: "csv"),
-              let content = try? String(contentsOfFile: filepath, encoding: .utf8) else { return }
-        
-        let allLines = content.components(separatedBy: .newlines)
-            .filter { !$0.trimmingCharacters(in: .whitespaces).isEmpty }
-        
-        guard let headerLine = allLines.first else { return }
-        let headers = CSVParser.safeSplit(line: headerLine)
-        
-        // 1. Find correct column indexes from the header
-        let unitIndex = headers.firstIndex { $0.lowercased().contains("unit") }
-        let chapterIndex = headers.firstIndex { $0.lowercased().contains("chapter") } ?? 1
-            
-        var count = 0
-        let dataLines = allLines.dropFirst()
-        
-        for line in dataLines {
-            let cols = CSVParser.safeSplit(line: line)
-            
-            if cols.count > chapterIndex {
-                let c = cols[chapterIndex].trimmingCharacters(in: .whitespacesAndNewlines)
-                
-                // 2. LOGIC FIX: Check if Chapter matches
-                let matchesChapter = chapters.contains(c)
-                
-                // 3. LOGIC FIX: Check Unit ONLY if the units array isn't empty
-                var matchesUnit = true
-                if !units.isEmpty, let uIdx = unitIndex, cols.count > uIdx {
-                    let u = cols[uIdx].trimmingCharacters(in: .whitespacesAndNewlines)
-                    matchesUnit = units.contains(u)
-                } else if !units.isEmpty && unitIndex == nil {
-                    // Safety: user picked units but file has no unit column
-                    matchesUnit = false
-                }
+    // MARK: - Logic
 
-                if matchesUnit && matchesChapter {
-                    count += 1
-                }
-            }
+    /// Called when the user dismisses the keyboard or submits.
+    /// Updates selectedAmount from whatever is in amountString.
+    /// Does NOT rewrite amountString — that was the loop.
+    private func commitTextField() {
+        guard let total = totalAvailable else { return }
+        let digits = amountString.filter { $0.isNumber }
+        if let entered = Int(digits), entered >= 1 {
+            selectedAmount = min(entered, total)
+        } else {
+            selectedAmount = max(1, min(selectedAmount, total))
         }
-        
-        DispatchQueue.main.async {
-            // Safety: If somehow 0 are found, set to 0 but allow the UI to move on
-            // or show a "No Questions" state.
-            self.totalAvailable = count
-            self.selectedAmount = count
-            self.amountString = "\(count)"
-            
-            // If the file is broken and count is really 0, we shouldn't hang
-            if count == 0 {
-                self.totalAvailable = -1 // Temporary flag to show "No questions found"
+        amountString = "\(selectedAmount)"
+    }
+
+    private func countQuestions() {
+        DispatchQueue.global(qos: .userInitiated).async {
+            let count = QuizDataService(file: file)?.questionCount(units: units, chapters: chapters) ?? 0
+            DispatchQueue.main.async {
+                totalAvailable = count
+                selectedAmount = min(selectedAmount, count)
+                amountString   = "\(selectedAmount)"
             }
         }
     }
