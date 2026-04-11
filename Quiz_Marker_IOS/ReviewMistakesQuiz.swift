@@ -20,6 +20,7 @@ struct ReviewMistakesQuizView: View {
     @State private var showTranslation:   Bool    = false
     @State private var hasCopied:         Bool    = false
     @State private var translatingChoice: String? = nil
+    @State private var isBookmarked:      Bool    = false
 
     private var current: PersistedWrongAnswer? {
         guard currentIndex < queue.count else { return nil }
@@ -179,9 +180,33 @@ struct ReviewMistakesQuizView: View {
                         .font(.caption.bold())
                         .foregroundColor(hasCopied ? .green : .blue)
                 }
+
+                Button {
+                    store.toggleBookmark(
+                        quizName:       w.quizName,
+                        chapter:        w.chapter,
+                        unit:           w.unit,
+                        questionNumber: w.questionNumber,
+                        questionText:   w.questionText,
+                        choiceA:        w.choiceA,
+                        choiceB:        w.choiceB,
+                        choiceC:        w.choiceC,
+                        choiceD:        w.choiceD,
+                        correctAnswer:  w.correctAnswer
+                    )
+                    isBookmarked = store.isBookmarked(questionNumber: w.questionNumber, quizName: w.quizName)
+                } label: {
+                    Label(isBookmarked ? "Bookmarked" : "Bookmark",
+                          systemImage: isBookmarked ? "bookmark.fill" : "bookmark")
+                        .font(.caption.bold())
+                        .foregroundColor(isBookmarked ? .yellow : .blue)
+                }
             }
         }
         .padding(.horizontal)
+        .onAppear {
+            isBookmarked = store.isBookmarked(questionNumber: w.questionNumber, quizName: w.quizName)
+        }
     }
 
     // MARK: - Choices Block  (no GeometryReader — text wraps, buttons grow)
@@ -277,6 +302,7 @@ struct ReviewMistakesQuizView: View {
         showingAnswer     = false
         hasCopied         = false
         translatingChoice = nil
+        isBookmarked      = false
 
         if currentIndex + 1 >= queue.count {
             isFinished = true

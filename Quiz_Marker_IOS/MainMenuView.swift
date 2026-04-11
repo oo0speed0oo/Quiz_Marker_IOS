@@ -14,6 +14,12 @@ struct MainMenuView: View {
                         .padding(.vertical, 6)
                 }
 
+                NavigationLink(destination: FlashcardFileSelectView(path: $path, store: store)) {
+                    Label("Flashcards", systemImage: "rectangle.stack.fill")
+                        .font(.title3.bold())
+                        .padding(.vertical, 6)
+                }
+
                 NavigationLink(destination: ScoresView(store: store)) {
                     Label("View Scores", systemImage: "chart.bar.fill")
                         .font(.title3.bold())
@@ -89,6 +95,15 @@ struct MainMenuView: View {
 
         case .reviewMistakes:
             ReviewMistakesQuizView(path: $path, store: store)
+
+        case .flashcardUnitSelection(let f):
+            FlashcardUnitSelectionView(path: $path, file: f, store: store)
+
+        case .flashcardChapterSelection(let f, let u):
+            FlashcardChapterSelectionView(path: $path, file: f, units: u, store: store)
+
+        case .flashcards(let f, let u, let c):
+            FlashcardView(file: f, units: u, chapters: c, store: store)
         }
     }
 }

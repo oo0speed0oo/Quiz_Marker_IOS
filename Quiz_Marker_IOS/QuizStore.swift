@@ -40,6 +40,31 @@ struct PersistedWrongAnswer: Codable, Identifiable {
     let date:           Date
 }
 
+/// A question the user has bookmarked for later review.
+struct PersistedBookmark: Codable, Identifiable {
+    let id:             UUID
+    let quizName:       String
+    let chapter:        String
+    let unit:           String
+    let questionNumber: String
+    let questionText:   String
+    let choiceA:        String
+    let choiceB:        String
+    let choiceC:        String
+    let choiceD:        String
+    let correctAnswer:  String
+    let date:           Date
+}
+
+/// Tracks when a user last completed a full pass through a flashcard chapter.
+struct FlashcardProgress: Codable, Identifiable {
+    let id:        UUID
+    let fileName:  String   // the CSV file name e.g. "jlpt_n5.csv"
+    let chapter:   String
+    var lastReviewed: Date
+    var reviewCount:  Int   // how many full passes completed
+}
+
 /// Cumulative correct/total attempts for one chapter across ALL sessions.
 /// Merging strategy: each new quiz session adds to the running totals.
 struct ChapterAttempt: Codable, Identifiable {
@@ -60,15 +85,19 @@ struct ChapterAttempt: Codable, Identifiable {
 
 @Observable
 class QuizStore {
-    private(set) var records:         [QuizRecord]           = []
-    private(set) var sessions:        [StudySession]         = []
-    private(set) var wrongAnswers:    [PersistedWrongAnswer] = []
-    private(set) var chapterAttempts: [ChapterAttempt]       = []   // ← NEW
+    private(set) var records:           [QuizRecord]           = []
+    private(set) var sessions:          [StudySession]         = []
+    private(set) var wrongAnswers:      [PersistedWrongAnswer] = []
+    private(set) var chapterAttempts:   [ChapterAttempt]       = []
+    private(set) var bookmarks:         [PersistedBookmark]    = []
+    private(set) var flashcardProgress: [FlashcardProgress]    = []
 
-    private let recordsKey         = "quiz_records_v1"
-    private let sessionsKey        = "quiz_sessions_v1"
-    private let wrongAnswersKey    = "wrong_answers_v1"
-    private let chapterAttemptsKey = "chapter_attempts_v1"           // ← NEW
+    private let recordsKey            = "quiz_records_v1"
+    private let sessionsKey           = "quiz_sessions_v1"
+    private let wrongAnswersKey       = "wrong_answers_v1"
+    private let chapterAttemptsKey    = "chapter_attempts_v1"
+    private let bookmarksKey          = "bookmarks_v1"
+    private let flashcardProgressKey  = "flashcard_progress_v1"
 
     init() { load() }
 
@@ -126,6 +155,81 @@ class QuizStore {
         chapterAttempts.first { $0.chapter == chapter && $0.quizName == quizName }
     }
 
+    // MARK: - Flashcard Progress
+
+    /// Returns the progress record for a specific file + chapter, if it exists.
+    func flashcardProgress(fileName: String, chapter: String) -> FlashcardProgress? {
+        flashcardProgress.first { $0.fileName == fileName && $0.chapter == chapter }
+    }
+
+    /// Call this when the user finishes a full pass through a chapter's cards.
+    func markFlashcardChapterComplete(fileName: String, chapter: String) {
+        if let idx = flashcardProgress.firstIndex(where: {
+            $0.fileName == fileName && $0.chapter == chapter
+        }) {
+            flashcardProgress[idx].lastReviewed = Date()
+            flashcardProgress[idx].reviewCount  += 1
+        } else {
+            flashcardProgress.append(FlashcardProgress(
+                id:           UUID(),
+                fileName:     fileName,
+                chapter:      chapter,
+                lastReviewed: Date(),
+                reviewCount:  1
+            ))
+        }
+        persist(flashcardProgress, key: flashcardProgressKey)
+    }
+
+    /// Resets the completed status for a chapter so it shows as unreviewed again.
+    func resetFlashcardProgress(fileName: String, chapter: String) {
+        flashcardProgress.removeAll { $0.fileName == fileName && $0.chapter == chapter }
+        persist(flashcardProgress, key: flashcardProgressKey)
+    }
+
+    // MARK: - Bookmarks
+
+    func isBookmarked(questionNumber: String, quizName: String) -> Bool {
+        bookmarks.contains { $0.questionNumber == questionNumber && $0.quizName == quizName }
+    }
+
+    func toggleBookmark(quizName: String, chapter: String, unit: String,
+                        questionNumber: String, questionText: String,
+                        choiceA: String, choiceB: String, choiceC: String, choiceD: String,
+                        correctAnswer: String) {
+        if let idx = bookmarks.firstIndex(where: {
+            $0.questionNumber == questionNumber && $0.quizName == quizName
+        }) {
+            bookmarks.remove(at: idx)
+        } else {
+            bookmarks.insert(PersistedBookmark(
+                id:             UUID(),
+                quizName:       quizName,
+                chapter:        chapter,
+                unit:           unit,
+                questionNumber: questionNumber,
+                questionText:   questionText,
+                choiceA:        choiceA,
+                choiceB:        choiceB,
+                choiceC:        choiceC,
+                choiceD:        choiceD,
+                correctAnswer:  correctAnswer,
+                date:           Date()
+            ), at: 0)
+        }
+        persist(bookmarks, key: bookmarksKey)
+    }
+
+    func removeBookmark(id: UUID) {
+        bookmarks.removeAll { $0.id == id }
+        persist(bookmarks, key: bookmarksKey)
+    }
+
+    func clearBookmarks() {
+        bookmarks = []
+        persist(bookmarks, key: bookmarksKey)
+    }
+
     // MARK: - Wrong Answers
 
     func saveWrongAnswers(_ mistakes: [WrongAnswer], quizName: String) {
@@ -178,10 +282,12 @@ class QuizStore {
     // MARK: - Persistence
 
     private func load() {
-        records         = decode([QuizRecord].self,           key: recordsKey)         ?? []
-        sessions        = decode([StudySession].self,         key: sessionsKey)        ?? []
-        wrongAnswers    = decode([PersistedWrongAnswer].self,  key: wrongAnswersKey)    ?? []
-        chapterAttempts = decode([ChapterAttempt].self,        key: chapterAttemptsKey) ?? []
+        records           = decode([QuizRecord].self,           key: recordsKey)           ?? []
+        sessions          = decode([StudySession].self,         key: sessionsKey)          ?? []
+        wrongAnswers      = decode([PersistedWrongAnswer].self,  key: wrongAnswersKey)      ?? []
+        chapterAttempts   = decode([ChapterAttempt].self,        key: chapterAttemptsKey)   ?? []
+        bookmarks         = decode([PersistedBookmark].self,     key: bookmarksKey)         ?? []
+        flashcardProgress = decode([FlashcardProgress].self,     key: flashcardProgressKey) ?? []
     }
 
     private func persist<T: Encodable>(_ value: T, key: String) {

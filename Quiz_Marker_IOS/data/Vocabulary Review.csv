@@ -1,0 +1,1199 @@
+question_number,grammar_ref,unit_number,section_number,question,choice_a,choice_b,choice_c,choice_d,answer
+1,N5,きほん / Basic,N5: 1,私:     : わたし,私,わたし,I / me,1,I / me
+2,N5,きほん / Basic,N5: 1,～さん:     : ～さん,～さん,～さん,Mr. / Ms. / Mrs.,1,Mr. / Ms. / Mrs.
+3,N5,きほん / Basic,N5: 1,～ちゃん:     : ～ちゃん,～ちゃん,～ちゃん,(friendly suffix for children or close friends),1,(friendly suffix for children or close friends)
+4,N5,きほん / Basic,N5: 1,あなた:     : あなた,あなた,あなた,you,1,you
+5,N5,きほん / Basic,N5: 1,彼:     : かれ,彼,かれ,he / boyfriend,1,he / boyfriend
+6,N5,きほん / Basic,N5: 1,彼女:     : かのじょ,彼女,かのじょ,she / girlfriend,1,she / girlfriend
+7,N5,きほん / Basic,N5: 1,名前:     : なまえ,名前,なまえ,name,1,name
+8,N5,きほん / Basic,N5: 1,はい:     : はい,はい,はい,yes,1,yes
+9,N5,きほん / Basic,N5: 1,ええ:     : ええ,ええ,ええ,yeah / yes (casual),1,yeah / yes (casual)
+10,N5,きほん / Basic,N5: 1,いいえ:     : いいえ,いいえ,いいえ,no,1,no
+11,N5,きほん / Basic,N5: 1,そうです:     : そうです,そうです,そうです,that’s right,1,that’s right
+12,N5,きほん / Basic,N5: 1,ちがいます:     : ちがいます,ちがいます,ちがいます,"that’s wrong / no, it isn’t",1,"that’s wrong / no, it isn’t"
+13,N5,あいさつ / Greeting,N5: 2,おはよう:     : おはよう,おはよう,おはよう,good morning (casual),2,good morning (casual)
+14,N5,あいさつ / Greeting,N5: 2,おはようございます:     : おはようございます,おはようございます,おはようございます,good morning (polite),2,good morning (polite)
+15,N5,あいさつ / Greeting,N5: 2,こんにちは:     : こんにちは,こんにちは,こんにちは,hello / good afternoon,2,hello / good afternoon
+16,N5,あいさつ / Greeting,N5: 2,こんばんは:     : こんばんは,こんばんは,こんばんは,good evening,2,good evening
+17,N5,あいさつ / Greeting,N5: 2,さようなら:     : さようなら,さようなら,さようなら,goodbye,2,goodbye
+18,N5,あいさつ / Greeting,N5: 2,じゃ、また:     : じゃ、また,じゃ、また,じゃ、また,see you later,2,see you later
+19,N5,あいさつ / Greeting,N5: 2,おやすみ:     : おやすみ,おやすみ,おやすみ,good night (casual),2,good night (casual)
+20,N5,あいさつ / Greeting,N5: 2,おやすみなさい:     : おやすみなさい,おやすみなさい,おやすみなさい,good night (polite),2,good night (polite)
+21,N5,あいさつ / Greeting,N5: 2,ありがとう:     : ありがとう,ありがとう,ありがとう,thank you (casual),2,thank you (casual)
+22,N5,あいさつ / Greeting,N5: 2,ありがとうございます:     : ありがとうございます,ありがとうございます,ありがとうございます,thank you (polite),2,thank you (polite)
+23,N5,あいさつ / Greeting,N5: 2,どういたしまして:     : どういたしまして,どういたしまして,どういたしまして,you’re welcome,2,you’re welcome
+24,N5,あいさつ / Greeting,N5: 2,どうぞ:     : どうぞ,どうぞ,どうぞ,please / go ahead,2,please / go ahead
+25,N5,あいさつ / Greeting,N5: 2,どうも:     : どうも,どうも,どうも,thanks / hello / excuse me (depends on context),2,thanks / hello / excuse me (depends on context)
+26,N5,あいさつ / Greeting,N5: 2,はじめまして:     : はじめまして,はじめまして,はじめまして,nice to meet you (first time),2,nice to meet you (first time)
+27,N5,あいさつ / Greeting,N5: 2,どうぞよろしくお願いします:     : どうぞよろしくおねがいします,どうぞよろしくお願いします,どうぞよろしくおねがいします,pleased to meet you / I look forward to working with you,2,pleased to meet you / I look forward to working with you
+28,N5,あいさつ / Greeting,N5: 2,こちらこそ:     : こちらこそ,こちらこそ,こちらこそ,likewise / the pleasure is mine,2,likewise / the pleasure is mine
+29,N5,かぞく / Family,N5: 3,家族:     : かぞく,家族,かぞく,Family,3,Family
+30,N5,かぞく / Family,N5: 3,両親:     : りょうしん,両親,りょうしん,parents,3,parents
+31,N5,かぞく / Family,N5: 3,父:     : ちち,父,ちち,(my) father,3,(my) father
+32,N5,かぞく / Family,N5: 3,母:     : はは,母,はは,(my) mother,3,(my) mother
+33,N5,かぞく / Family,N5: 3,兄弟:     : きょうだい,兄弟,きょうだい,siblings,3,siblings
+34,N5,かぞく / Family,N5: 3,姉:     : あね,姉,あね,(my) older sister,3,(my) older sister
+35,N5,かぞく / Family,N5: 3,兄:     : あに,兄,あに,(my) older brother,3,(my) older brother
+36,N5,かぞく / Family,N5: 3,弟:     : おとうと,弟,おとうと,(my) younger brother,3,(my) younger brother
+37,N5,かぞく / Family,N5: 3,妹:     : いもうと,妹,いもうと,(my) younger sister,3,(my) younger sister
+38,N5,かぞく / Family,N5: 3,犬:     : いぬ,犬,いぬ,dog,3,dog
+39,N5,かぞく / Family,N5: 3,猫:     : ねこ,猫,ねこ,cat,3,cat
+40,N5,かぞく / Family,N5: 3,いる:     : いる,いる,いる,to exist (for living things),3,to exist (for living things)
+41,N5,かぞく / Family,N5: 4,うち | 家:     : うち,うち | 家,うち,my home / house / family,4,my home / house / family
+42,N5,かぞく / Family,N5: 4,おじいさん:     : おじいさん,おじいさん,おじいさん,grandfather / old man,4,grandfather / old man
+43,N5,かぞく / Family,N5: 4,おばあさん:     : おばあさん,おばあさん,おばあさん,grandmother / old woman,4,grandmother / old woman
+44,N5,かぞく / Family,N5: 4,ご両親:     : ごりょうしん,ご両親,ごりょうしん,(someone’s) parents,4,(someone’s) parents
+45,N5,かぞく / Family,N5: 4,お父さん:     : おとうさん,お父さん,おとうさん,(someone’s) father,4,(someone’s) father
+46,N5,かぞく / Family,N5: 4,お母さん:     : おかあさん,お母さん,おかあさん,(someone’s) mother,4,(someone’s) mother
+47,N5,かぞく / Family,N5: 4,お姉さん:     : おねえさん,お姉さん,おねえさん,(someone’s) older sister,4,(someone’s) older sister
+48,N5,かぞく / Family,N5: 4,お兄さん:     : おにいさん,お兄さん,おにいさん,(someone’s) older brother,4,(someone’s) older brother
+49,N5,かぞく / Family,N5: 4,弟さん:     : おとうとさん,弟さん,おとうとさん,(someone’s) younger brother,4,(someone’s) younger brother
+50,N5,かぞく / Family,N5: 4,妹さん:     : いもうとさん,妹さん,いもうとさん,(someone’s) younger sister,4,(someone’s) younger sister
+51,N5,なんにん？ / How many people?,N5: 5,一人:     : ひとり,一人,ひとり,one person,5,one person
+52,N5,なんにん？ / How many people?,N5: 5,二人:     : ふたり,二人,ふたり,two people,5,two people
+53,N5,なんにん？ / How many people?,N5: 5,三人:     : さんにん,三人,さんにん,three people,5,three people
+54,N5,なんにん？ / How many people?,N5: 5,四人:     : よにん,四人,よにん,four people,5,four people
+55,N5,なんにん？ / How many people?,N5: 5,五人:     : ごにん,五人,ごにん,five people,5,five people
+56,N5,なんにん？ / How many people?,N5: 5,六人:     : ろくにん,六人,ろくにん,six people,5,six people
+57,N5,なんにん？ / How many people?,N5: 5,七人:     : しちにん／ななにん,七人,しちにん／ななにん,seven people,5,seven people
+58,N5,なんにん？ / How many people?,N5: 5,八人:     : はちにん,八人,はちにん,eight people,5,eight people
+59,N5,なんにん？ / How many people?,N5: 5,九人:     : きゅうにん,九人,きゅうにん,nine people,5,nine people
+60,N5,なんにん？ / How many people?,N5: 6,十人:     : じゅうにん,十人,じゅうにん,ten people,6,ten people
+61,N5,なんにん？ / How many people?,N5: 6,何人:     : なんにん,何人,なんにん,how many people,6,how many people
+62,N5,なんにん？ / How many people?,N5: 6,大人:     : おとな,大人,おとな,adult,6,adult
+63,N5,なんにん？ / How many people?,N5: 6,子供:     : こども,子供,こども,child,6,child
+64,N5,なんにん？ / How many people?,N5: 6,男の人:     : おとこのひと,男の人,おとこのひと,man,6,man
+65,N5,なんにん？ / How many people?,N5: 6,女の人:     : おんなのひと,女の人,おんなのひと,woman,6,woman
+66,N5,なんにん？ / How many people?,N5: 6,男の子:     : おとこのこ,男の子,おとこのこ,boy,6,boy
+67,N5,なんにん？ / How many people?,N5: 6,女の子:     : おんなのこ,女の子,おんなのこ,girl,6,girl
+68,N5,～からきました / I came from,N5: 7,国:     : くに,国,くに,country,7,country
+69,N5,～からきました / I came from,N5: 7,ある:     : ある,ある,ある,to exist (for things/places),7,to exist (for things/places)
+70,N5,～からきました / I came from,N5: 7,どちら:     : どちら,どちら,どちら,which / where (polite),7,which / where (polite)
+71,N5,～からきました / I came from,N5: 7,どこ:     : どこ,どこ,どこ,where,7,where
+72,N5,～からきました / I came from,N5: 7,<Place> からきました:     : ～からきました,<Place> からきました,～からきました,came from ～,7,came from ～
+73,N5,～からきました / I came from,N5: 7,アメリカ人:     : アメリカじん,アメリカ人,アメリカじん,American,7,American
+74,N5,～からきました / I came from,N5: 7,日本人:     : にほんじん,日本人,にほんじん,Japanese,7,Japanese
+75,N5,～からきました / I came from,N5: 7,地図:     : ちず,地図,ちず,map,7,map
+76,N5,～からきました / I came from,N5: 7,世界:     : せかい,世界,せかい,world,7,world
+77,N5,～からきました / I came from,N5: 7,日本:     : にほん,日本,にほん,Japan,7,Japan
+78,N5,～からきました / I came from,N5: 7,インド:     : インド,インド,インド,India,7,India
+79,N5,～からきました / I came from,N5: 7,インドネシア:     : インドネシア,インドネシア,インドネシア,Indonesia,7,Indonesia
+80,N5,～からきました / I came from,N5: 7,韓国:     : かんこく,韓国,かんこく,South Korea,7,South Korea
+81,N5,～からきました / I came from,N5: 8,タイ:     : タイ,タイ,タイ,Thailand,8,Thailand
+82,N5,～からきました / I came from,N5: 8,台湾:     : たいわん,台湾,たいわん,Taiwan,8,Taiwan
+83,N5,～からきました / I came from,N5: 8,中国:     : ちゅうごく,中国,ちゅうごく,China,8,China
+84,N5,～からきました / I came from,N5: 8,ネパール:     : ネパール,ネパール,ネパール,Nepal,8,Nepal
+85,N5,～からきました / I came from,N5: 8,フィリピン:     : フィリピン,フィリピン,フィリピン,Philippines,8,Philippines
+86,N5,～からきました / I came from,N5: 8,ベトナム:     : ベトナム,ベトナム,ベトナム,Vietnam,8,Vietnam
+87,N5,～からきました / I came from,N5: 8,マレーシア:     : マレーシア,マレーシア,マレーシア,Malaysia,8,Malaysia
+88,N5,～からきました / I came from,N5: 8,ミャンマー:     : ミャンマー,ミャンマー,ミャンマー,Myanmar,8,Myanmar
+89,N5,～からきました / I came from,N5: 8,トルコ:     : トルコ,トルコ,トルコ,Turkey,8,Turkey
+90,N5,～からきました / I came from,N5: 8,オーストラリア:     : オーストラリア,オーストラリア,オーストラリア,Australia,8,Australia
+91,N5,～からきました / I came from,N5: 8,ニュージーランド:     : ニュージーランド,ニュージーランド,ニュージーランド,New Zealand,8,New Zealand
+92,N5,～からきました / I came from,N5: 9,アメリカ:     : アメリカ,アメリカ,アメリカ,the United States,9,the United States
+93,N5,～からきました / I came from,N5: 9,カナダ:     : カナダ,カナダ,カナダ,Canada,9,Canada
+94,N5,～からきました / I came from,N5: 9,メキシコ:     : メキシコ,メキシコ,メキシコ,Mexico,9,Mexico
+95,N5,～からきました / I came from,N5: 9,ブラジル:     : ブラジル,ブラジル,ブラジル,Brazil,9,Brazil
+96,N5,～からきました / I came from,N5: 9,ロシア:     : ロシア,ロシア,ロシア,Russia,9,Russia
+97,N5,～からきました / I came from,N5: 9,イギリス:     : イギリス,イギリス,イギリス,the United Kingdom,9,the United Kingdom
+98,N5,～からきました / I came from,N5: 9,フランス:     : フランス,フランス,フランス,France,9,France
+99,N5,～からきました / I came from,N5: 9,ドイツ:     : ドイツ,ドイツ,ドイツ,Germany,9,Germany
+100,N5,～からきました / I came from,N5: 9,スイス:     : スイス,スイス,スイス,Switzerland,9,Switzerland
+101,N5,～からきました / I came from,N5: 9,イタリア:     : イタリア,イタリア,イタリア,Italy,9,Italy
+102,N5,～からきました / I came from,N5: 9,スペイン:     : スペイン,スペイン,スペイン,Spain,9,Spain
+103,N5,～からきました / I came from,N5: 9,オランダ:     : オランダ,オランダ,オランダ,Netherlands,9,Netherlands
+104,N5,～からきました / I came from,N5: 9,エジプト:     : エジプト,エジプト,エジプト,Egypt,9,Egypt
+105,N5,がっこう / School,N5: 10,先生:     : せんせい,先生,せんせい,teacher,10,teacher
+106,N5,がっこう / School,N5: 10,学生:     : がくせい,学生,がくせい,student,10,student
+107,N5,がっこう / School,N5: 10,留学生:     : りゅうがくせい,留学生,りゅうがくせい,international student,10,international student
+108,N5,がっこう / School,N5: 10,学校:     : がっこう,学校,がっこう,school,10,school
+109,N5,がっこう / School,N5: 10,勉強（する）:     : べんきょう（する）,勉強（する）,べんきょう（する）,to study,10,to study
+110,N5,がっこう / School,N5: 10,日本語学校:     : にほんごがっこう,日本語学校,にほんごがっこう,Japanese language school,10,Japanese language school
+111,N5,がっこう / School,N5: 10,小学校:     : しょうがっこう,小学校,しょうがっこう,elementary school,10,elementary school
+112,N5,がっこう / School,N5: 11,中学校:     : ちゅうがっこう,中学校,ちゅうがっこう,junior high school,11,junior high school
+113,N5,がっこう / School,N5: 11,高校:     : こうこう,高校,こうこう,high school,11,high school
+114,N5,がっこう / School,N5: 11,大学:     : だいがく,大学,だいがく,university,11,university
+115,N5,がっこう / School,N5: 11,教室:     : きょうしつ,教室,きょうしつ,classroom,11,classroom
+116,N5,がっこう / School,N5: 11,クラス:     : クラス,クラス,クラス,class,11,class
+117,N5,がっこう / School,N5: 11,行く:     : いく,行く,いく,to go,11,to go
+118,N5,がっこう / School,N5: 11,来る:     : くる,来る,くる,to come,11,to come
+119,N5,がっこう / School,N5: 11,帰る:     : かえる,帰る,かえる,to go home / return,11,to go home / return
+120,N5,つき / Month,N5: 12,～月:     : ～がつ,～月,～がつ,month (suffix),12,month (suffix)
+121,N5,つき / Month,N5: 12,１月:     : いちがつ,１月,いちがつ,January,12,January
+122,N5,つき / Month,N5: 12,２月:     : にがつ,２月,にがつ,February,12,February
+123,N5,つき / Month,N5: 12,３月:     : さんがつ,３月,さんがつ,March,12,March
+124,N5,つき / Month,N5: 12,４月:     : しがつ,４月,しがつ,April,12,April
+125,N5,つき / Month,N5: 12,５月:     : ごがつ,５月,ごがつ,May,12,May
+126,N5,つき / Month,N5: 12,６月:     : ろくがつ,６月,ろくがつ,June,12,June
+127,N5,つき / Month,N5: 12,７月:     : しちがつ,７月,しちがつ,July,12,July
+128,N5,つき / Month,N5: 12,８月:     : はちがつ,８月,はちがつ,August,12,August
+129,N5,つき / Month,N5: 12,９月:     : くがつ,９月,くがつ,September,12,September
+130,N5,つき / Month,N5: 12,１０月:     : じゅうがつ,１０月,じゅうがつ,October,12,October
+131,N5,つき / Month,N5: 12,１１月:     : じゅういちがつ,１１月,じゅういちがつ,November,12,November
+132,N5,つき / Month,N5: 12,１２月:     : じゅうにがつ,１２月,じゅうにがつ,December,12,December
+133,N5,つき / Month,N5: 12,何月:     : なんがつ,何月,なんがつ,what month,12,what month
+134,N5,ようび / Day of the week,N5: 13,曜日:     : ようび,曜日,ようび,day of the week,13,day of the week
+135,N5,ようび / Day of the week,N5: 13,日曜日:     : にちようび,日曜日,にちようび,Sunday,13,Sunday
+136,N5,ようび / Day of the week,N5: 13,月曜日:     : げつようび,月曜日,げつようび,Monday,13,Monday
+137,N5,ようび / Day of the week,N5: 13,火曜日:     : かようび,火曜日,かようび,Tuesday,13,Tuesday
+138,N5,ようび / Day of the week,N5: 13,水曜日:     : すいようび,水曜日,すいようび,Wednesday,13,Wednesday
+139,N5,ようび / Day of the week,N5: 13,木曜日:     : もくようび,木曜日,もくようび,Thursday,13,Thursday
+140,N5,ようび / Day of the week,N5: 13,金曜日:     : きんようび,金曜日,きんようび,Friday,13,Friday
+141,N5,ようび / Day of the week,N5: 13,土曜日:     : どようび,土曜日,どようび,Saturday,13,Saturday
+142,N5,ようび / Day of the week,N5: 13,何曜日:     : なんようび,何曜日,なんようび,what day of the week,13,what day of the week
+143,N5,ようび / Day of the week,N5: 13,今日:     : きょう,今日,きょう,today,13,today
+144,N5,ようび / Day of the week,N5: 13,明日:     : あした,明日,あした,tomorrow,13,tomorrow
+145,N5,ようび / Day of the week,N5: 13,昨日:     : きのう,昨日,きのう,yesterday,13,yesterday
+146,N5,ようび / Day of the week,N5: 13,毎日:     : まいにち,毎日,まいにち,every day,13,every day
+147,N5,ようび / Day of the week,N5: 14,～週間:     : ～しゅうかん,～週間,～しゅうかん,...weeks (duration),14,...weeks (duration)
+148,N5,ようび / Day of the week,N5: 14,一週間:     : いっしゅうかん,一週間,いっしゅうかん,one week,14,one week
+149,N5,ようび / Day of the week,N5: 14,二週間:     : にしゅうかん,二週間,にしゅうかん,two weeks,14,two weeks
+150,N5,ようび / Day of the week,N5: 14,～か月:     : ～かげつ,～か月,～かげつ,...months (duration),14,...months (duration)
+151,N5,ようび / Day of the week,N5: 14,一か月:     : いっかげつ,一か月,いっかげつ,one month,14,one month
+152,N5,ようび / Day of the week,N5: 14,二か月:     : にかげつ,二か月,にかげつ,two months,14,two months
+153,N5,ようび / Day of the week,N5: 14,～年:     : ～ねん,～年,～ねん,...years,14,...years
+154,N5,ようび / Day of the week,N5: 14,一年:     : いちねん,一年,いちねん,one year,14,one year
+155,N5,ようび / Day of the week,N5: 14,二年:     : にねん,二年,にねん,two years,14,two years
+156,N5,ようび / Day of the week,N5: 14,～回:     : ～かい,～回,～かい,...times,14,...times
+157,N5,ようび / Day of the week,N5: 14,一回:     : いっかい,一回,いっかい,once,14,once
+158,N5,ようび / Day of the week,N5: 14,二回:     : にかい,二回,にかい,twice,14,twice
+159,N5,ようび / Day of the week,N5: 14,何回:     : なんかい,何回,なんかい,how many times,14,how many times
+160,N5,ようび / Day of the week,N5: 14,アルバイト（する）:     : アルバイト（する）,アルバイト（する）,アルバイト（する）,part-time job / to work part-time,14,part-time job / to work part-time
+161,N5,ようび / Day of the week,N5: 14,する:     : する,する,する,to do,14,to do
+162,N5,ことば / Words,N5: 15,言葉:     : ことば,言葉,ことば,word / language,15,word / language
+163,N5,ことば / Words,N5: 15,字:     : じ,字,じ,character / letter,15,character / letter
+164,N5,ことば / Words,N5: 15,日本語:     : にほんご,日本語,にほんご,Japanese language,15,Japanese language
+165,N5,ことば / Words,N5: 15,～語:     : ～ご,～語,～ご,...language,15,...language
+166,N5,ことば / Words,N5: 15,英語:     : えいご,英語,えいご,English,15,English
+167,N5,ことば / Words,N5: 15,スペイン語:     : スペインご,スペイン語,スペインご,Spanish,15,Spanish
+168,N5,ことば / Words,N5: 15,ドイツ語:     : ドイツご,ドイツ語,ドイツご,German,15,German
+169,N5,ことば / Words,N5: 15,話す:     : はなす,話す,はなす,to speak,15,to speak
+170,N5,ことば / Words,N5: 15,ゆっくり:     : ゆっくり,ゆっくり,ゆっくり,slowly,15,slowly
+171,N5,ことば / Words,N5: 15,言う:     : いう,言う,いう,to say,15,to say
+172,N5,ことば / Words,N5: 15,もう一度:     : もういちど,もう一度,もういちど,once more / again,15,once more / again
+173,N5,ことば / Words,N5: 15,お願いします:     : おねがいします,お願いします,おねがいします,please,15,please
+174,N5,ことば / Words,N5: 16,分かる:     : わかる,分かる,わかる,to understand,16,to understand
+175,N5,ことば / Words,N5: 16,少し:     : すこし,少し,すこし,a little,16,a little
+176,N5,ことば / Words,N5: 16,もう少し:     : もうすこし,もう少し,もうすこし,a little more,16,a little more
+177,N5,ことば / Words,N5: 16,よく:     : よく,よく,よく,well / often,16,well / often
+178,N5,ことば / Words,N5: 16,だいたい:     : だいたい,だいたい,だいたい,mostly / approximately,16,mostly / approximately
+179,N5,ことば / Words,N5: 16,全然:     : ぜんぜん,全然,ぜんぜん,not at all (with neg.),16,not at all (with neg.)
+180,N5,ことば / Words,N5: 16,ひらがな:     : ひらがな,ひらがな,ひらがな,hiragana,16,hiragana
+181,N5,ことば / Words,N5: 16,カタカナ:     : カタカナ,カタカナ,カタカナ,katakana,16,katakana
+182,N5,ことば / Words,N5: 16,漢字:     : かんじ,漢字,かんじ,kanji,16,kanji
+183,N5,ことば / Words,N5: 16,ローマ字:     : ローマじ,ローマ字,ローマじ,roman letters,16,roman letters
+184,N5,べんきょう / Study,N5: 17,読む:     : よむ,読む,よむ,to read,17,to read
+185,N5,べんきょう / Study,N5: 17,本:     : ほん,本,ほん,book,17,book
+186,N5,べんきょう / Study,N5: 17,書く:     : かく,書く,かく,to write,17,to write
+187,N5,べんきょう / Study,N5: 17,聞く:     : きく,聞く,きく,to listen / ask,17,to listen / ask
+188,N5,べんきょう / Study,N5: 17,CD:     : シーディー,CD,シーディー,CD,17,CD
+189,N5,べんきょう / Study,N5: 17,調べる:     : しらべる,調べる,しらべる,to check / look up,17,to check / look up
+190,N5,べんきょう / Study,N5: 17,買う:     : かう,買う,かう,to buy,17,to buy
+191,N5,べんきょう / Study,N5: 17,辞書:     : じしょ,辞書,じしょ,dictionary,17,dictionary
+192,N5,べんきょう / Study,N5: 17,電子辞書:     : でんしじしょ,電子辞書,でんしじしょ,electronic dictionary,17,electronic dictionary
+193,N5,べんきょう / Study,N5: 17,意味:     : いみ,意味,いみ,meaning,17,meaning
+194,N5,べんきょう / Study,N5: 17,頑張る:     : がんばる,頑張る,がんばる,to do one’s best,17,to do one’s best
+195,N5,べんきょう / Study,N5: 17,宿題:     : しゅくだい,宿題,しゅくだい,homework,17,homework
+196,N5,べんきょう / Study,N5: 18,日記:     : にっき,日記,にっき,diary,18,diary
+197,N5,べんきょう / Study,N5: 18,レポート:     : レポート,レポート,レポート,report,18,report
+198,N5,べんきょう / Study,N5: 18,図書館:     : としょかん,図書館,としょかん,library,18,library
+199,N5,べんきょう / Study,N5: 18,本屋:     : ほんや,本屋,ほんや,bookstore,18,bookstore
+200,N5,べんきょう / Study,N5: 18,本屋さん:     : ほんやさん,本屋さん,ほんやさん,(polite) bookstore,18,(polite) bookstore
+201,N5,べんきょう / Study,N5: 18,練習（する）:     : れんしゅう（する）,練習（する）,れんしゅう（する）,to practice,18,to practice
+202,N5,べんきょう / Study,N5: 18,スピーチ:     : スピーチ,スピーチ,スピーチ,speech,18,speech
+203,N5,べんきょう / Study,N5: 18,覚える:     : おぼえる,覚える,おぼえる,to memorize,18,to memorize
+204,N5,べんきょう / Study,N5: 18,忘れる:     : わすれる,忘れる,わすれる,to forget,18,to forget
+205,N5,べんきょう / Study,N5: 18,問題:     : もんだい,問題,もんだい,question / problem,18,question / problem
+206,N5,べんきょう / Study,N5: 18,例:     : れい,例,れい,example,18,example
+207,N5,べんきょう / Study,N5: 18,答え:     : こたえ,答え,こたえ,answer,18,answer
+208,N5,べんきょう / Study,N5: 18,質問（する）:     : しつもん（する）,質問（する）,しつもん（する）,to ask a question,18,to ask a question
+209,N5,べんきょう / Study,N5: 18,見学（する）:     : けんがく（する）,見学（する）,けんがく（する）,to visit / observe,18,to visit / observe
+210,N5,はたらく / To work,N5: 19,会社:     : かいしゃ,会社,かいしゃ,company,19,company
+211,N5,はたらく / To work,N5: 19,銀行:     : ぎんこう,銀行,ぎんこう,bank,19,bank
+212,N5,はたらく / To work,N5: 19,働く:     : はたらく,働く,はたらく,to work,19,to work
+213,N5,はたらく / To work,N5: 19,休む:     : やすむ,休む,やすむ,to rest / take a day off,19,to rest / take a day off
+214,N5,はたらく / To work,N5: 19,休み:     : やすみ,休み,やすみ,holiday / break,19,holiday / break
+215,N5,はたらく / To work,N5: 19,昼休み:     : ひるやすみ,昼休み,ひるやすみ,lunch break,19,lunch break
+216,N5,はたらく / To work,N5: 19,暇な:     : ひまな,暇な,ひまな,free / not busy,19,free / not busy
+217,N5,はたらく / To work,N5: 19,忙しい:     : いそがしい,忙しい,いそがしい,busy,19,busy
+218,N5,はたらく / To work,N5: 19,残業（する）:     : ざんぎょう（する）,残業（する）,ざんぎょう（する）,(to) work overtime,19,(to) work overtime
+219,N5,はたらく / To work,N5: 19,出張（する）:     : しゅっちょう（する）,出張（する）,しゅっちょう（する）,(to) go on a business trip,19,(to) go on a business trip
+220,N5,はたらく / To work,N5: 19,事務所:     : じむしょ,事務所,じむしょ,office,19,office
+221,N5,はたらく / To work,N5: 20,工場:     : こうじょう,工場,こうじょう,factory,20,factory
+222,N5,はたらく / To work,N5: 20,受付:     : うけつけ,受付,うけつけ,reception,20,reception
+223,N5,はたらく / To work,N5: 20,会議:     : かいぎ,会議,かいぎ,meeting,20,meeting
+224,N5,はたらく / To work,N5: 20,会議室:     : かいぎしつ,会議室,かいぎしつ,meeting room,20,meeting room
+225,N5,はたらく / To work,N5: 20,電話:     : でんわ,電話,でんわ,telephone,20,telephone
+226,N5,はたらく / To work,N5: 20,電話をかける:     : でんわをかける,電話をかける,でんわをかける,to make a phone call,20,to make a phone call
+227,N5,はたらく / To work,N5: 20,もしもし:     : もしもし,もしもし,もしもし,hello (on the phone),20,hello (on the phone)
+228,N5,はたらく / To work,N5: 20,電話番号:     : でんわばんごう,電話番号,でんわばんごう,phone number,20,phone number
+229,N5,はたらく / To work,N5: 20,知る:     : しる,知る,しる,to know,20,to know
+230,N5,はたらく / To work,N5: 20,何番:     : なんばん,何番,なんばん,what number,20,what number
+231,N5,はたらく / To work,N5: 20,教える:     : おしえる,教える,おしえる,to teach / tell,20,to teach / tell
+232,N5,はたらく / To work,N5: 20,手伝う:     : てつだう,手伝う,てつだう,to help,20,to help
+233,N5,はたらく / To work,N5: 20,作る:     : つくる,作る,つくる,to make,20,to make
+234,N5,はたらく / To work,N5: 21,役に立つ:     : やくにたつ,役に立つ,やくにたつ,to be useful,21,to be useful
+235,N5,はたらく / To work,N5: 21,仕事:     : しごと,仕事,しごと,job / work,21,job / work
+236,N5,はたらく / To work,N5: 21,会社員:     : かいしゃいん,会社員,かいしゃいん,office worker,21,office worker
+237,N5,はたらく / To work,N5: 21,銀行員:     : ぎんこういん,銀行員,ぎんこういん,bank clerk,21,bank clerk
+238,N5,はたらく / To work,N5: 21,医者:     : いしゃ,医者,いしゃ,doctor,21,doctor
+239,N5,はたらく / To work,N5: 21,お医者さん:     : おいしゃさん,お医者さん,おいしゃさん,(polite) doctor,21,(polite) doctor
+240,N5,はたらく / To work,N5: 21,看護師:     : かんごし,看護師,かんごし,nurse,21,nurse
+241,N5,はたらく / To work,N5: 21,看護師さん:     : かんごしさん,看護師さん,かんごしさん,(polite) nurse,21,(polite) nurse
+242,N5,はたらく / To work,N5: 21,介護士:     : かいごし,介護士,かいごし,care worker,21,care worker
+243,N5,はたらく / To work,N5: 21,介護士さん:     : かいごしさん,介護士さん,かいごしさん,(polite) care worker,21,(polite) care worker
+244,N5,はたらく / To work,N5: 21,警察官:     : けいさつかん,警察官,けいさつかん,police officer,21,police officer
+245,N5,はたらく / To work,N5: 21,おまわりさん:     : おまわりさん,おまわりさん,おまわりさん,(friendly term for) police officer,21,(friendly term for) police officer
+246,N5,はたらく / To work,N5: 22,駅員:     : えきいん,駅員,えきいん,station staff,22,station staff
+247,N5,はたらく / To work,N5: 22,駅員さん:     : えきいんさん,駅員さん,えきいんさん,(polite) station staff,22,(polite) station staff
+248,N5,はたらく / To work,N5: 22,運転手:     : うんてんしゅ,運転手,うんてんしゅ,driver,22,driver
+249,N5,はたらく / To work,N5: 22,運転手さん:     : うんてんしゅさん,運転手さん,うんてんしゅさん,(polite) driver,22,(polite) driver
+250,N5,はたらく / To work,N5: 22,社長:     : しゃちょう,社長,しゃちょう,company president,22,company president
+251,N5,はたらく / To work,N5: 22,部長:     : ぶちょう,部長,ぶちょう,department manager,22,department manager
+252,N5,はたらく / To work,N5: 22,課長:     : かちょう,課長,かちょう,section manager,22,section manager
+253,N5,はたらく / To work,N5: 22,社員:     : しゃいん,社員,しゃいん,company employee,22,company employee
+254,N5,これはなんですか / What is this?,N5: 23,これ:     : これ,これ,これ,this (thing near me),23,this (thing near me)
+255,N5,これはなんですか / What is this?,N5: 23,それ:     : それ,それ,それ,that (thing near you),23,that (thing near you)
+256,N5,これはなんですか / What is this?,N5: 23,あれ:     : あれ,あれ,あれ,that (thing over there),23,that (thing over there)
+257,N5,これはなんですか / What is this?,N5: 23,どれ:     : どれ,どれ,どれ,which (thing),23,which (thing)
+258,N5,これはなんですか / What is this?,N5: 23,この:     : この,この,この,this (＋noun),23,this (＋noun)
+259,N5,これはなんですか / What is this?,N5: 23,その:     : その,その,その,that (＋noun),23,that (＋noun)
+260,N5,これはなんですか / What is this?,N5: 23,あの:     : あの,あの,あの,"that (＋noun, over there)",23,"that (＋noun, over there)"
+261,N5,これはなんですか / What is this?,N5: 23,どの:     : どの,どの,どの,which (＋noun),23,which (＋noun)
+262,N5,これはなんですか / What is this?,N5: 23,何:     : なに／なん,何,なに／なん,what,23,what
+263,N5,これはなんですか / What is this?,N5: 23,名刺:     : めいし,名刺,めいし,business card,23,business card
+264,N5,これはなんですか / What is this?,N5: 24,ケータイ:     : ケータイ,ケータイ,ケータイ,cell phone,24,cell phone
+265,N5,これはなんですか / What is this?,N5: 24,スマホ:     : スマホ,スマホ,スマホ,smartphone,24,smartphone
+266,N5,これはなんですか / What is this?,N5: 24,電池:     : でんち,電池,でんち,battery,24,battery
+267,N5,これはなんですか / What is this?,N5: 24,ノート:     : ノート,ノート,ノート,notebook,24,notebook
+268,N5,これはなんですか / What is this?,N5: 24,紙:     : かみ,紙,かみ,paper,24,paper
+269,N5,これはなんですか / What is this?,N5: 24,手帳:     : てちょう,手帳,てちょう,planner / notebook,24,planner / notebook
+270,N5,これはなんですか / What is this?,N5: 24,ボールペン:     : ボールペン,ボールペン,ボールペン,ballpoint pen,24,ballpoint pen
+271,N5,これはなんですか / What is this?,N5: 24,シャープペンシル:     : シャープペンシル,シャープペンシル,シャープペンシル,mechanical pencil,24,mechanical pencil
+272,N5,これはなんですか / What is this?,N5: 24,鉛筆:     : えんぴつ,鉛筆,えんぴつ,pencil,24,pencil
+273,N5,これはなんですか / What is this?,N5: 24,消しゴム:     : けしゴム,消しゴム,けしゴム,eraser,24,eraser
+274,N5,これはなんですか / What is this?,N5: 24,パンチ:     : パンチ,パンチ,パンチ,hole punch,24,hole punch
+275,N5,これはなんですか / What is this?,N5: 24,ホッチキス:     : ホッチキス,ホッチキス,ホッチキス,stapler,24,stapler
+276,N5,これはなんですか / What is this?,N5: 25,セロテープ:     : セロテープ,セロテープ,セロテープ,Scotch tape,25,Scotch tape
+277,N5,これはなんですか / What is this?,N5: 25,はさみ:     : はさみ,はさみ,はさみ,scissors,25,scissors
+278,N5,これはなんですか / What is this?,N5: 25,箱:     : はこ,箱,はこ,box,25,box
+279,N5,これはなんですか / What is this?,N5: 25,コンピューター:     : コンピューター,コンピューター,コンピューター,computer,25,computer
+280,N5,これはなんですか / What is this?,N5: 25,パソコン:     : パソコン,パソコン,パソコン,personal computer,25,personal computer
+281,N5,これはなんですか / What is this?,N5: 25,インターネット:     : インターネット,インターネット,インターネット,internet,25,internet
+282,N5,これはなんですか / What is this?,N5: 25,資料:     : しりょう,資料,しりょう,materials / documents,25,materials / documents
+283,N5,これはなんですか / What is this?,N5: 25,切る:     : きる,切る,きる,to cut,25,to cut
+284,N5,これはなんですか / What is this?,N5: 25,使う:     : つかう,使う,つかう,to use,25,to use
+285,N5,何こありますか？ / How many is there?,N5: 26,何個:     : なんこ,何個,なんこ,how many (small objects),26,how many (small objects)
+286,N5,何こありますか？ / How many is there?,N5: 26,～個:     : ～こ,～個,～こ,counter for small objects,26,counter for small objects
+287,N5,何こありますか？ / How many is there?,N5: 26,１個:     : いっこ,１個,いっこ,one (small object),26,one (small object)
+288,N5,何こありますか？ / How many is there?,N5: 26,２個:     : にこ,２個,にこ,two,26,two
+289,N5,何こありますか？ / How many is there?,N5: 26,３個:     : さんこ,３個,さんこ,three,26,three
+290,N5,何こありますか？ / How many is there?,N5: 26,４個:     : よんこ,４個,よんこ,four,26,four
+291,N5,何こありますか？ / How many is there?,N5: 26,５個:     : ごこ,５個,ごこ,five,26,five
+292,N5,何こありますか？ / How many is there?,N5: 26,６個:     : ろっこ,６個,ろっこ,six,26,six
+293,N5,何こありますか？ / How many is there?,N5: 26,７個:     : ななこ,７個,ななこ,seven,26,seven
+294,N5,何こありますか？ / How many is there?,N5: 27,８個:     : はっこ,８個,はっこ,eight,27,eight
+295,N5,何こありますか？ / How many is there?,N5: 27,９個:     : きゅうこ,９個,きゅうこ,nine,27,nine
+296,N5,何こありますか？ / How many is there?,N5: 27,１０個:     : じゅっこ／じっこ,１０個,じゅっこ／じっこ,ten,27,ten
+297,N5,何こありますか？ / How many is there?,N5: 27,何台:     : なんだい,何台,なんだい,"how many (machines, vehicles)",27,"how many (machines, vehicles)"
+298,N5,何こありますか？ / How many is there?,N5: 27,～台:     : ～だい,～台,～だい,"counter for machines, vehicles",27,"counter for machines, vehicles"
+299,N5,何こありますか？ / How many is there?,N5: 27,１台:     : いちだい,１台,いちだい,one (machine),27,one (machine)
+300,N5,何こありますか？ / How many is there?,N5: 27,２台:     : にだい,２台,にだい,two,27,two
+301,N5,何こありますか？ / How many is there?,N5: 27,３台:     : さんだい,３台,さんだい,three,27,three
+302,N5,何こありますか？ / How many is there?,N5: 27,４台:     : よんだい,４台,よんだい,four,27,four
+303,N5,何こありますか？ / How many is there?,N5: 27,５台:     : ごだい,５台,ごだい,five,27,five
+304,N5,何こありますか？ / How many is there?,N5: 27,６台:     : ろくだい,６台,ろくだい,six,27,six
+305,N5,何こありますか？ / How many is there?,N5: 27,７台:     : ななだい,７台,ななだい,seven,27,seven
+306,N5,何こありますか？ / How many is there?,N5: 27,８台:     : はちだい,８台,はちだい,eight,27,eight
+307,N5,何こありますか？ / How many is there?,N5: 27,９台:     : きゅうだい,９台,きゅうだい,nine,27,nine
+308,N5,何こありますか？ / How many is there?,N5: 27,１０台:     : じゅうだい,１０台,じゅうだい,ten,27,ten
+309,N5,時間 / Time,N5: 28,何時:     : なんじ,何時,なんじ,what time,28,what time
+310,N5,時間 / Time,N5: 28,何分:     : なんぷん,何分,なんぷん,what minute,28,what minute
+311,N5,時間 / Time,N5: 28,～時:     : ～じ,～時,～じ,o’clock,28,o’clock
+312,N5,時間 / Time,N5: 28,１時:     : いちじ,１時,いちじ,1 o’clock,28,1 o’clock
+313,N5,時間 / Time,N5: 28,２時:     : にじ,２時,にじ,2 o’clock,28,2 o’clock
+314,N5,時間 / Time,N5: 28,３時:     : さんじ,３時,さんじ,3 o’clock,28,3 o’clock
+315,N5,時間 / Time,N5: 28,４時:     : よじ,４時,よじ,4 o’clock,28,4 o’clock
+316,N5,時間 / Time,N5: 28,５時:     : ごじ,５時,ごじ,5 o’clock,28,5 o’clock
+317,N5,時間 / Time,N5: 28,６時:     : ろくじ,６時,ろくじ,6 o’clock,28,6 o’clock
+318,N5,時間 / Time,N5: 28,７時:     : しちじ,７時,しちじ,7 o’clock,28,7 o’clock
+319,N5,時間 / Time,N5: 28,８時:     : はちじ,８時,はちじ,8 o’clock,28,8 o’clock
+320,N5,時間 / Time,N5: 28,９時:     : くじ,９時,くじ,9 o’clock,28,9 o’clock
+321,N5,時間 / Time,N5: 28,１０時:     : じゅうじ,１０時,じゅうじ,10 o’clock,28,10 o’clock
+322,N5,時間 / Time,N5: 28,１１時:     : じゅういちじ,１１時,じゅういちじ,11 o’clock,28,11 o’clock
+323,N5,時間 / Time,N5: 28,１２時:     : じゅうにじ,１２時,じゅうにじ,12 o’clock,28,12 o’clock
+324,N5,時間 / Time,N5: 29,～分:     : ～ふん／～ぷん,～分,～ふん／～ぷん,minute(s),29,minute(s)
+325,N5,時間 / Time,N5: 29,１分:     : いっぷん,１分,いっぷん,1 minute,29,1 minute
+326,N5,時間 / Time,N5: 29,２分:     : にふん,２分,にふん,2 minutes,29,2 minutes
+327,N5,時間 / Time,N5: 29,３分:     : さんぷん,３分,さんぷん,3 minutes,29,3 minutes
+328,N5,時間 / Time,N5: 29,４分:     : よんぷん,４分,よんぷん,4 minutes,29,4 minutes
+329,N5,時間 / Time,N5: 29,５分:     : ごふん,５分,ごふん,5 minutes,29,5 minutes
+330,N5,時間 / Time,N5: 29,６分:     : ろっぷん,６分,ろっぷん,6 minutes,29,6 minutes
+331,N5,時間 / Time,N5: 29,７分:     : ななふん,７分,ななふん,7 minutes,29,7 minutes
+332,N5,時間 / Time,N5: 29,８分:     : はっぷん,８分,はっぷん,8 minutes,29,8 minutes
+333,N5,時間 / Time,N5: 29,９分:     : きゅうふん,９分,きゅうふん,9 minutes,29,9 minutes
+334,N5,時間 / Time,N5: 29,１０分:     : じゅっぷん／じっぷん,１０分,じゅっぷん／じっぷん,10 minutes,29,10 minutes
+335,N5,時間 / Time,N5: 30,１１分:     : じゅういっぷん,１１分,じゅういっぷん,11 minutes,30,11 minutes
+336,N5,時間 / Time,N5: 30,１２分:     : じゅうにふん,１２分,じゅうにふん,12 minutes,30,12 minutes
+337,N5,時間 / Time,N5: 30,１５分:     : じゅうごふん,１５分,じゅうごふん,15 minutes,30,15 minutes
+338,N5,時間 / Time,N5: 30,２０分:     : にじゅっぷん／にじっぷん,２０分,にじゅっぷん／にじっぷん,20 minutes,30,20 minutes
+339,N5,時間 / Time,N5: 30,３０分:     : さんじゅっぷん／さんじっぷん,３０分,さんじゅっぷん／さんじっぷん,30 minutes,30,30 minutes
+340,N5,時間 / Time,N5: 30,４０分:     : よんじゅっぷん／よんじっぷん,４０分,よんじゅっぷん／よんじっぷん,40 minutes,30,40 minutes
+341,N5,時間 / Time,N5: 30,４５分:     : よんじゅうごふん,４５分,よんじゅうごふん,45 minutes,30,45 minutes
+342,N5,時間 / Time,N5: 30,５０分:     : ごじゅっぷん／ごじっぷん,５０分,ごじゅっぷん／ごじっぷん,50 minutes,30,50 minutes
+343,N5,時間 / Time,N5: 30,半:     : はん,半,はん,half past,30,half past
+344,N5,時間 / Time,N5: 30,～頃:     : ～ごろ,～頃,～ごろ,around (time),30,around (time)
+345,N5,時間 / Time,N5: 31,午前:     : ごぜん,午前,ごぜん,a.m.,31,a.m.
+346,N5,時間 / Time,N5: 31,午後:     : ごご,午後,ごご,p.m.,31,p.m.
+347,N5,時間 / Time,N5: 31,今:     : いま,今,いま,now,31,now
+348,N5,時間 / Time,N5: 31,～ぐらい:     : ～ぐらい,～ぐらい,～ぐらい,about / approximately,31,about / approximately
+349,N5,時間 / Time,N5: 31,～時間:     : ～じかん,～時間,～じかん,~hours,31,~hours
+350,N5,時間 / Time,N5: 31,何時間:     : なんじかん,何時間,なんじかん,how many hours,31,how many hours
+351,N5,時間 / Time,N5: 31,～から:     : ～から,～から,～から,from,31,from
+352,N5,時間 / Time,N5: 31,～まで:     : ～まで,～まで,～まで,until / to,31,until / to
+353,N5,どんな人 / What kind of person?,N5: 32,友達:     : ともだち,友達,ともだち,friend,32,friend
+354,N5,どんな人 / What kind of person?,N5: 32,どんな:     : どんな,どんな,どんな,what kind of,32,what kind of
+355,N5,どんな人 / What kind of person?,N5: 32,人:     : ひと,人,ひと,person,32,person
+356,N5,どんな人 / What kind of person?,N5: 32,親切な:     : しんせつな,親切な,しんせつな,kind,32,kind
+357,N5,どんな人 / What kind of person?,N5: 32,みんな:     : みんな,みんな,みんな,everyone,32,everyone
+358,N5,どんな人 / What kind of person?,N5: 32,元気な:     : げんきな,元気な,げんきな,healthy / energetic,32,healthy / energetic
+359,N5,どんな人 / What kind of person?,N5: 32,きれいな:     : きれいな,きれいな,きれいな,pretty / clean,32,pretty / clean
+360,N5,どんな人 / What kind of person?,N5: 32,ハンサムな:     : ハンサムな,ハンサムな,ハンサムな,handsome,32,handsome
+361,N5,どんな人 / What kind of person?,N5: 32,かわいい:     : かわいい,かわいい,かわいい,cute,32,cute
+362,N5,どんな人 / What kind of person?,N5: 32,かっこいい:     : かっこいい,かっこいい,かっこいい,cool / good-looking,32,cool / good-looking
+363,N5,どんな人 / What kind of person?,N5: 32,頭がいい:     : あたまがいい,頭がいい,あたまがいい,smart,32,smart
+364,N5,どんな人 / What kind of person?,N5: 33,やさしい:     : やさしい,やさしい,やさしい,kind / gentle,33,kind / gentle
+365,N5,どんな人 / What kind of person?,N5: 33,ユーモア:     : ユーモア,ユーモア,ユーモア,humor,33,humor
+366,N5,どんな人 / What kind of person?,N5: 33,背:     : せ,背,せ,height,33,height
+367,N5,どんな人 / What kind of person?,N5: 33,高い:     : たかい,高い,たかい,tall / high,33,tall / high
+368,N5,どんな人 / What kind of person?,N5: 33,低い:     : ひくい,低い,ひくい,short (height) / low,33,short (height) / low
+369,N5,どんな人 / What kind of person?,N5: 33,目:     : め,目,め,eye,33,eye
+370,N5,どんな人 / What kind of person?,N5: 33,大きい:     : おおきい,大きい,おおきい,big,33,big
+371,N5,どんな人 / What kind of person?,N5: 33,小さい:     : ちいさい,小さい,ちいさい,small,33,small
+372,N5,どんな人 / What kind of person?,N5: 33,髪:     : かみ,髪,かみ,hair,33,hair
+373,N5,どんな人 / What kind of person?,N5: 33,長い:     : ながい,長い,ながい,long,33,long
+374,N5,どんな人 / What kind of person?,N5: 33,短い:     : みじかい,短い,みじかい,short,33,short
+375,N5,シャツをきています / I am wearing a shirt,N5: 34,洋服:     : ようふく,洋服,ようふく,clothes (Western-style),34,clothes (Western-style)
+376,N5,シャツをきています / I am wearing a shirt,N5: 34,服:     : ふく,服,ふく,clothes,34,clothes
+377,N5,シャツをきています / I am wearing a shirt,N5: 34,サイズ:     : サイズ,サイズ,サイズ,size,34,size
+378,N5,シャツをきています / I am wearing a shirt,N5: 34,すてきな:     : すてきな,すてきな,すてきな,nice / wonderful,34,nice / wonderful
+379,N5,シャツをきています / I am wearing a shirt,N5: 34,デザイン:     : デザイン,デザイン,デザイン,design,34,design
+380,N5,シャツをきています / I am wearing a shirt,N5: 34,着る:     : きる,着る,きる,to wear (top),34,to wear (top)
+381,N5,シャツをきています / I am wearing a shirt,N5: 34,脱ぐ:     : ぬぐ,脱ぐ,ぬぐ,to take off (clothes),34,to take off (clothes)
+382,N5,シャツをきています / I am wearing a shirt,N5: 34,赤い:     : あかい,赤い,あかい,red,34,red
+383,N5,シャツをきています / I am wearing a shirt,N5: 34,青い:     : あおい,青い,あおい,blue,34,blue
+384,N5,シャツをきています / I am wearing a shirt,N5: 34,白い:     : しろい,白い,しろい,white,34,white
+385,N5,シャツをきています / I am wearing a shirt,N5: 35,黒い:     : くろい,黒い,くろい,black,35,black
+386,N5,シャツをきています / I am wearing a shirt,N5: 35,黄色い:     : きいろい,黄色い,きいろい,yellow,35,yellow
+387,N5,シャツをきています / I am wearing a shirt,N5: 35,いろいろな:     : いろいろな,いろいろな,いろいろな,various,35,various
+388,N5,シャツをきています / I am wearing a shirt,N5: 35,シャツ:     : シャツ,シャツ,シャツ,Shirts,35,Shirts
+389,N5,シャツをきています / I am wearing a shirt,N5: 35,セーター:     : セーター,セーター,セーター,sweater,35,sweater
+390,N5,シャツをきています / I am wearing a shirt,N5: 35,コート:     : コート,コート,コート,coat,35,coat
+391,N5,シャツをきています / I am wearing a shirt,N5: 35,スーツ:     : スーツ,スーツ,スーツ,suit,35,suit
+392,N5,シャツをきています / I am wearing a shirt,N5: 35,上着:     : うわぎ,上着,うわぎ,jacket,35,jacket
+393,N5,シャツをきています / I am wearing a shirt,N5: 35,下着:     : したぎ,下着,したぎ,underwear,35,underwear
+394,N5,シャツをきています / I am wearing a shirt,N5: 35,着物:     : きもの,着物,きもの,kimono,35,kimono
+395,N5,スカートをはきます / I wear a skirt,N5: 36,はく:     : はく,はく,はく,to wear (bottoms/shoes),36,to wear (bottoms/shoes)
+396,N5,スカートをはきます / I wear a skirt,N5: 36,ズボン:     : ズボン,ズボン,ズボン,pants,36,pants
+397,N5,スカートをはきます / I wear a skirt,N5: 36,ジーンズ:     : ジーンズ,ジーンズ,ジーンズ,jeans,36,jeans
+398,N5,スカートをはきます / I wear a skirt,N5: 36,パンツ:     : パンツ,パンツ,パンツ,underwear / pants,36,underwear / pants
+399,N5,スカートをはきます / I wear a skirt,N5: 36,スカート:     : スカート,スカート,スカート,skirt,36,skirt
+400,N5,スカートをはきます / I wear a skirt,N5: 36,靴:     : くつ,靴,くつ,shoes,36,shoes
+401,N5,スカートをはきます / I wear a skirt,N5: 36,靴下:     : くつした,靴下,くつした,socks,36,socks
+402,N5,スカートをはきます / I wear a skirt,N5: 36,かぶる:     : かぶる,かぶる,かぶる,to wear (hat),36,to wear (hat)
+403,N5,スカートをはきます / I wear a skirt,N5: 36,帽子:     : ぼうし,帽子,ぼうし,hat,36,hat
+404,N5,スカートをはきます / I wear a skirt,N5: 36,（めがねを）かける:     : （めがねを）かける,（めがねを）かける,（めがねを）かける,to wear (glasses),36,to wear (glasses)
+405,N5,スカートをはきます / I wear a skirt,N5: 37,めがね:     : めがね,めがね,めがね,glasses,37,glasses
+406,N5,スカートをはきます / I wear a skirt,N5: 37,サングラス:     : サングラス,サングラス,サングラス,sunglasses,37,sunglasses
+407,N5,スカートをはきます / I wear a skirt,N5: 37,（ゆびわを）する:     : （ゆびわを）する,（ゆびわを）する,（ゆびわを）する,to wear (a ring),37,to wear (a ring)
+408,N5,スカートをはきます / I wear a skirt,N5: 37,ネクタイ:     : ネクタイ,ネクタイ,ネクタイ,necktie,37,necktie
+409,N5,スカートをはきます / I wear a skirt,N5: 37,ゆびわ:     : ゆびわ,ゆびわ,ゆびわ,ring,37,ring
+410,N5,スカートをはきます / I wear a skirt,N5: 37,時計:     : とけい,時計,とけい,watch / clock,37,watch / clock
+411,N5,スカートをはきます / I wear a skirt,N5: 37,持つ:     : もつ,持つ,もつ,to hold / to have,37,to hold / to have
+412,N5,スカートをはきます / I wear a skirt,N5: 37,かばん:     : かばん,かばん,かばん,bag,37,bag
+413,N5,スカートをはきます / I wear a skirt,N5: 37,財布:     : さいふ,財布,さいふ,wallet,37,wallet
+414,N5,あそぶ / To play,N5: 38,遊ぶ:     : あそぶ,遊ぶ,あそぶ,to play / have fun,38,to play / have fun
+415,N5,あそぶ / To play,N5: 38,案内（する）:     : あんない（する）,案内（する）,あんない（する）,(to) guide / show around,38,(to) guide / show around
+416,N5,あそぶ / To play,N5: 38,むかえる:     : むかえる,むかえる,むかえる,to welcome / meet,38,to welcome / meet
+417,N5,あそぶ / To play,N5: 38,連れていく:     : つれていく,連れていく,つれていく,to take (someone) along,38,to take (someone) along
+418,N5,あそぶ / To play,N5: 38,連れてくる:     : つれてくる,連れてくる,つれてくる,to bring (someone),38,to bring (someone)
+419,N5,あそぶ / To play,N5: 38,動物:     : どうぶつ,動物,どうぶつ,animal,38,animal
+420,N5,あそぶ / To play,N5: 38,動物園:     : どうぶつえん,動物園,どうぶつえん,zoo,38,zoo
+421,N5,あそぶ / To play,N5: 38,パンダ:     : パンダ,パンダ,パンダ,panda,38,panda
+422,N5,あそぶ / To play,N5: 38,ぞう:     : ぞう,ぞう,ぞう,elephant,38,elephant
+423,N5,あそぶ / To play,N5: 39,馬:     : うま,馬,うま,horse,39,horse
+424,N5,あそぶ / To play,N5: 39,祭り:     : まつり,祭り,まつり,festival,39,festival
+425,N5,あそぶ / To play,N5: 39,お祭り:     : おまつり,お祭り,おまつり,festival (polite),39,festival (polite)
+426,N5,あそぶ / To play,N5: 39,寺:     : てら,寺,てら,temple,39,temple
+427,N5,あそぶ / To play,N5: 39,お寺:     : おてら,お寺,おてら,temple (polite),39,temple (polite)
+428,N5,あそぶ / To play,N5: 39,神社:     : じんじゃ,神社,じんじゃ,shrine,39,shrine
+429,N5,あそぶ / To play,N5: 39,旅行（する）:     : りょこう（する）,旅行（する）,りょこう（する）,(to) travel,39,(to) travel
+430,N5,あそぶ / To play,N5: 39,準備（する）:     : じゅんび（する）,準備（する）,じゅんび（する）,(to) prepare,39,(to) prepare
+431,N5,あそぶ / To play,N5: 39,予約（する）:     : よやく（する）,予約（する）,よやく（する）,(to) reserve / book,39,(to) reserve / book
+432,N5,あそぶ / To play,N5: 39,ホテル:     : ホテル,ホテル,ホテル,hotel,39,hotel
+433,N5,あそぶ / To play,N5: 40,泊まる:     : とまる,泊まる,とまる,to stay overnight,40,to stay overnight
+434,N5,あそぶ / To play,N5: 40,ロビー:     : ロビー,ロビー,ロビー,lobby,40,lobby
+435,N5,あそぶ / To play,N5: 40,お土産:     : おみやげ,お土産,おみやげ,souvenir,40,souvenir
+436,N5,あそぶ / To play,N5: 40,サービス:     : サービス,サービス,サービス,service,40,service
+437,N5,あそぶ / To play,N5: 40,ホームステイ（する）:     : ホームステイ（する）,ホームステイ（する）,ホームステイ（する）,(to) do a homestay,40,(to) do a homestay
+438,N5,まち / Town,N5: 41,町:     : まち,町,まち,town / city,41,town / city
+439,N5,まち / Town,N5: 41,県:     : けん,県,けん,prefecture,41,prefecture
+440,N5,まち / Town,N5: 41,ふくおか県:     : ふくおかけん,ふくおか県,ふくおかけん,Fukuoka Prefecture,41,Fukuoka Prefecture
+441,N5,まち / Town,N5: 41,ちば県:     : ちばけん,ちば県,ちばけん,Chiba Prefecture,41,Chiba Prefecture
+442,N5,まち / Town,N5: 41,東京:     : とうきょう,東京,とうきょう,Tokyo,41,Tokyo
+443,N5,まち / Town,N5: 41,成田:     : なりた,成田,なりた,Narita,41,Narita
+444,N5,まち / Town,N5: 41,上野:     : うえの,上野,うえの,Ueno,41,Ueno
+445,N5,まち / Town,N5: 41,浅草:     : あさくさ,浅草,あさくさ,Asakusa,41,Asakusa
+446,N5,まち / Town,N5: 41,秋葉原:     : あきはばら,秋葉原,あきはばら,Akihabara,41,Akihabara
+447,N5,まち / Town,N5: 41,新宿:     : しんじゅく,新宿,しんじゅく,Shinjuku,41,Shinjuku
+448,N5,まち / Town,N5: 41,渋谷:     : しぶや,渋谷,しぶや,Shibuya,41,Shibuya
+449,N5,まち / Town,N5: 42,銀座:     : ぎんざ,銀座,ぎんざ,Ginza,42,Ginza
+450,N5,まち / Town,N5: 42,羽田:     : はねだ,羽田,はねだ,Haneda,42,Haneda
+451,N5,まち / Town,N5: 42,鎌倉:     : かまくら,鎌倉,かまくら,Kamakura,42,Kamakura
+452,N5,まち / Town,N5: 42,横浜:     : よこはま,横浜,よこはま,Yokohama,42,Yokohama
+453,N5,まち / Town,N5: 42,北海道:     : ほっかいどう,北海道,ほっかいどう,Hokkaido,42,Hokkaido
+454,N5,まち / Town,N5: 42,札幌:     : さっぽろ,札幌,さっぽろ,Sapporo,42,Sapporo
+455,N5,まち / Town,N5: 42,仙台:     : せんだい,仙台,せんだい,Sendai,42,Sendai
+456,N5,まち / Town,N5: 42,日光:     : にっこう,日光,にっこう,Nikko,42,Nikko
+457,N5,まち / Town,N5: 42,富士山:     : ふじさん,富士山,ふじさん,Mount Fuji,42,Mount Fuji
+458,N5,まち / Town,N5: 42,金沢:     : かなざわ,金沢,かなざわ,Kanazawa,42,Kanazawa
+459,N5,まち / Town,N5: 42,名古屋:     : なごや,名古屋,なごや,Nagoya,42,Nagoya
+460,N5,まち / Town,N5: 42,京都:     : きょうと,京都,きょうと,Kyoto,42,Kyoto
+461,N5,まち / Town,N5: 43,奈良:     : なら,奈良,なら,Nara,43,Nara
+462,N5,まち / Town,N5: 43,大阪:     : おおさか,大阪,おおさか,Osaka,43,Osaka
+463,N5,まち / Town,N5: 43,神戸:     : こうべ,神戸,こうべ,Kobe,43,Kobe
+464,N5,まち / Town,N5: 43,広島:     : ひろしま,広島,ひろしま,Hiroshima,43,Hiroshima
+465,N5,まち / Town,N5: 43,長崎:     : ながさき,長崎,ながさき,Nagasaki,43,Nagasaki
+466,N5,まち / Town,N5: 43,沖縄:     : おきなわ,沖縄,おきなわ,Okinawa,43,Okinawa
+467,N5,あさ・よる / Morning・Evening,N5: 44,朝:     : あさ,朝,あさ,morning,44,morning
+468,N5,あさ・よる / Morning・Evening,N5: 44,昼:     : ひる,昼,ひる,noon / daytime,44,noon / daytime
+469,N5,あさ・よる / Morning・Evening,N5: 44,夜:     : よる,夜,よる,night,44,night
+470,N5,あさ・よる / Morning・Evening,N5: 44,毎朝:     : まいあさ,毎朝,まいあさ,every morning,44,every morning
+471,N5,あさ・よる / Morning・Evening,N5: 44,毎晩:     : まいばん,毎晩,まいばん,every night,44,every night
+472,N5,あさ・よる / Morning・Evening,N5: 44,今朝:     : けさ,今朝,けさ,this morning,44,this morning
+473,N5,あさ・よる / Morning・Evening,N5: 44,今晩:     : こんばん,今晩,こんばん,this evening / tonight,44,this evening / tonight
+474,N5,あさ・よる / Morning・Evening,N5: 44,起きる:     : おきる,起きる,おきる,to get up,44,to get up
+475,N5,あさ・よる / Morning・Evening,N5: 44,寝る:     : ねる,寝る,ねる,to sleep,44,to sleep
+476,N5,あさ・よる / Morning・Evening,N5: 44,見る:     : みる,見る,みる,to see / to watch,44,to see / to watch
+477,N5,あさ・よる / Morning・Evening,N5: 44,ニュース:     : ニュース,ニュース,ニュース,news,44,news
+478,N5,あさ・よる / Morning・Evening,N5: 44,ラジオ:     : ラジオ,ラジオ,ラジオ,radio,44,radio
+479,N5,あさ・よる / Morning・Evening,N5: 44,テレビ:     : テレビ,テレビ,テレビ,television,44,television
+480,N5,あさ・よる / Morning・Evening,N5: 45,早い:     : はやい,早い,はやい,early / fast,45,early / fast
+481,N5,あさ・よる / Morning・Evening,N5: 45,遅い:     : おそい,遅い,おそい,late / slow,45,late / slow
+482,N5,あさ・よる / Morning・Evening,N5: 45,鏡:     : かがみ,鏡,かがみ,mirror,45,mirror
+483,N5,あさ・よる / Morning・Evening,N5: 45,顔:     : かお,顔,かお,face,45,face
+484,N5,あさ・よる / Morning・Evening,N5: 45,洗う:     : あらう,洗う,あらう,to wash,45,to wash
+485,N5,あさ・よる / Morning・Evening,N5: 45,お風呂:     : おふろ,お風呂,おふろ,bath,45,bath
+486,N5,あさ・よる / Morning・Evening,N5: 45,入る:     : はいる,入る,はいる,to enter / take (a bath),45,to enter / take (a bath)
+487,N5,あさ・よる / Morning・Evening,N5: 45,シャワー:     : シャワー,シャワー,シャワー,shower,45,shower
+488,N5,あさ・よる / Morning・Evening,N5: 45,浴びる:     : あびる,浴びる,あびる,to take (a shower),45,to take (a shower)
+489,N5,あさ・よる / Morning・Evening,N5: 45,歯:     : は,歯,は,tooth / teeth,45,tooth / teeth
+490,N5,あさ・よる / Morning・Evening,N5: 45,磨く:     : みがく,磨く,みがく,to brush / polish,45,to brush / polish
+491,N5,たべる・のむ / To eat ・To drink,N5: 46,食べる:     : たべる,食べる,たべる,to eat,46,to eat
+492,N5,たべる・のむ / To eat ・To drink,N5: 46,食べ物:     : たべもの,食べ物,たべもの,food,46,food
+493,N5,たべる・のむ / To eat ・To drink,N5: 46,朝ごはん:     : あさごはん,朝ごはん,あさごはん,breakfast,46,breakfast
+494,N5,たべる・のむ / To eat ・To drink,N5: 46,昼ごはん:     : ひるごはん,昼ごはん,ひるごはん,lunch,46,lunch
+495,N5,たべる・のむ / To eat ・To drink,N5: 46,晩ごはん:     : ばんごはん,晩ごはん,ばんごはん,dinner,46,dinner
+496,N5,たべる・のむ / To eat ・To drink,N5: 46,たくさん:     : たくさん,たくさん,たくさん,a lot / many,46,a lot / many
+497,N5,たべる・のむ / To eat ・To drink,N5: 46,スーパー:     : スーパー,スーパー,スーパー,supermarket,46,supermarket
+498,N5,たべる・のむ / To eat ・To drink,N5: 46,肉:     : にく,肉,にく,meat,46,meat
+499,N5,たべる・のむ / To eat ・To drink,N5: 46,牛肉:     : ぎゅうにく,牛肉,ぎゅうにく,beef,46,beef
+500,N5,たべる・のむ / To eat ・To drink,N5: 46,豚肉:     : ぶたにく,豚肉,ぶたにく,pork,46,pork
+501,N5,たべる・のむ / To eat ・To drink,N5: 46,鶏肉:     : とりにく,鶏肉,とりにく,chicken,46,chicken
+502,N5,たべる・のむ / To eat ・To drink,N5: 46,魚:     : さかな,魚,さかな,fish,46,fish
+503,N5,たべる・のむ / To eat ・To drink,N5: 47,卵:     : たまご,卵,たまご,egg,47,egg
+504,N5,たべる・のむ / To eat ・To drink,N5: 47,野菜:     : やさい,野菜,やさい,vegetables,47,vegetables
+505,N5,たべる・のむ / To eat ・To drink,N5: 47,果物:     : くだもの,果物,くだもの,fruit,47,fruit
+506,N5,たべる・のむ / To eat ・To drink,N5: 47,バナナ:     : バナナ,バナナ,バナナ,banana,47,banana
+507,N5,たべる・のむ / To eat ・To drink,N5: 47,リンゴ:     : りんご,リンゴ,りんご,apple,47,apple
+508,N5,たべる・のむ / To eat ・To drink,N5: 47,レモン:     : レモン,レモン,レモン,lemon,47,lemon
+509,N5,たべる・のむ / To eat ・To drink,N5: 47,みかん:     : みかん,みかん,みかん,mandarin orange,47,mandarin orange
+510,N5,たべる・のむ / To eat ・To drink,N5: 47,パン:     : パン,パン,パン,bread,47,bread
+511,N5,たべる・のむ / To eat ・To drink,N5: 47,（お）菓子:     : （お）かし,（お）菓子,（お）かし,sweets / snacks,47,sweets / snacks
+512,N5,たべる・のむ / To eat ・To drink,N5: 47,チョコレート:     : チョコレート,チョコレート,チョコレート,chocolate,47,chocolate
+513,N5,たべる・のむ / To eat ・To drink,N5: 47,飲む:     : のむ,飲む,のむ,to drink,47,to drink
+514,N5,たべる・のむ / To eat ・To drink,N5: 47,飲み物:     : のみもの,飲み物,のみもの,drink / beverage,47,drink / beverage
+515,N5,たべる・のむ / To eat ・To drink,N5: 47,水:     : みず,水,みず,water,47,water
+516,N5,たべる・のむ / To eat ・To drink,N5: 47,（お）湯:     : （お）ゆ,（お）湯,（お）ゆ,hot water,47,hot water
+517,N5,たべる・のむ / To eat ・To drink,N5: 48,冷たい:     : つめたい,冷たい,つめたい,cold (to the touch),48,cold (to the touch)
+518,N5,たべる・のむ / To eat ・To drink,N5: 48,～がいい:     : ～がいい,～がいい,～がいい,prefer ~,48,prefer ~
+519,N5,たべる・のむ / To eat ・To drink,N5: 48,お肉がいい:     : おにくがいい,お肉がいい,おにくがいい,I prefer meat,48,I prefer meat
+520,N5,たべる・のむ / To eat ・To drink,N5: 48,魚がいい:     : さかながいい,魚がいい,さかながいい,I prefer fish,48,I prefer fish
+521,N5,たべる・のむ / To eat ・To drink,N5: 48,入れる:     : いれる,入れる,いれる,to put in / to add,48,to put in / to add
+522,N5,たべる・のむ / To eat ・To drink,N5: 48,ミルク:     : ミルク,ミルク,ミルク,milk,48,milk
+523,N5,たべる・のむ / To eat ・To drink,N5: 48,自動販売機:     : じどうはんばいき,自動販売機,じどうはんばいき,vending machine,48,vending machine
+524,N5,たべる・のむ / To eat ・To drink,N5: 48,牛乳:     : ぎゅうにゅう,牛乳,ぎゅうにゅう,milk,48,milk
+525,N5,たべる・のむ / To eat ・To drink,N5: 48,ジュース:     : ジュース,ジュース,ジュース,juice,48,juice
+526,N5,たべる・のむ / To eat ・To drink,N5: 48,コーヒー:     : コーヒー,コーヒー,コーヒー,coffee,48,coffee
+527,N5,たべる・のむ / To eat ・To drink,N5: 49,紅茶:     : こうちゃ,紅茶,こうちゃ,black tea,49,black tea
+528,N5,たべる・のむ / To eat ・To drink,N5: 49,お茶:     : おちゃ,お茶,おちゃ,green tea,49,green tea
+529,N5,たべる・のむ / To eat ・To drink,N5: 49,お酒:     : おさけ,お酒,おさけ,alcohol / sake,49,alcohol / sake
+530,N5,たべる・のむ / To eat ・To drink,N5: 49,ビール:     : ビール,ビール,ビール,beer,49,beer
+531,N5,たべる・のむ / To eat ・To drink,N5: 49,ワイン:     : ワイン,ワイン,ワイン,wine,49,wine
+532,N5,たべる・のむ / To eat ・To drink,N5: 49,カップ:     : カップ,カップ,カップ,cup,49,cup
+533,N5,たべる・のむ / To eat ・To drink,N5: 49,コップ:     : コップ,コップ,コップ,glass / cup,49,glass / cup
+534,N5,りょうり / Cooking,N5: 50,料理:     : りょうり,料理,りょうり,cuisine / cooking,50,cuisine / cooking
+535,N5,りょうり / Cooking,N5: 50,ご飯:     : ごはん,ご飯,ごはん,rice / meal,50,rice / meal
+536,N5,りょうり / Cooking,N5: 50,サンドイッチ:     : サンドイッチ,サンドイッチ,サンドイッチ,sandwich,50,sandwich
+537,N5,りょうり / Cooking,N5: 50,おにぎり:     : おにぎり,おにぎり,おにぎり,rice ball,50,rice ball
+538,N5,りょうり / Cooking,N5: 50,お弁当:     : おべんとう,お弁当,おべんとう,boxed lunch,50,boxed lunch
+539,N5,りょうり / Cooking,N5: 50,ラーメン:     : ラーメン,ラーメン,ラーメン,ramen,50,ramen
+540,N5,りょうり / Cooking,N5: 50,パスタ:     : パスタ,パスタ,パスタ,pasta,50,pasta
+541,N5,りょうり / Cooking,N5: 50,うどん:     : うどん,うどん,うどん,udon,50,udon
+542,N5,りょうり / Cooking,N5: 50,そば:     : そば,そば,そば,soba noodles,50,soba noodles
+543,N5,りょうり / Cooking,N5: 50,天ぷら:     : てんぷら,天ぷら,てんぷら,tempura,50,tempura
+544,N5,りょうり / Cooking,N5: 50,すき焼き:     : すきやき,すき焼き,すきやき,sukiyaki,50,sukiyaki
+545,N5,りょうり / Cooking,N5: 51,刺身:     : さしみ,刺身,さしみ,sashimi,51,sashimi
+546,N5,りょうり / Cooking,N5: 51,カレーライス:     : カレーライス,カレーライス,カレーライス,curry rice,51,curry rice
+547,N5,りょうり / Cooking,N5: 51,牛丼:     : ぎゅうどん,牛丼,ぎゅうどん,beef bowl,51,beef bowl
+548,N5,りょうり / Cooking,N5: 51,お寿司:     : おすし,お寿司,おすし,sushi,51,sushi
+549,N5,りょうり / Cooking,N5: 51,ケーキ:     : ケーキ,ケーキ,ケーキ,cake,51,cake
+550,N5,りょうり / Cooking,N5: 51,アイスクリーム:     : アイスクリーム,アイスクリーム,アイスクリーム,ice cream,51,ice cream
+551,N5,りょうり / Cooking,N5: 51,取る:     : とる,取る,とる,to take / pick up,51,to take / pick up
+552,N5,りょうり / Cooking,N5: 51,砂糖:     : さとう,砂糖,さとう,sugar,51,sugar
+553,N5,りょうり / Cooking,N5: 51,塩:     : しお,塩,しお,salt,51,salt
+554,N5,りょうり / Cooking,N5: 51,しょうゆ:     : しょうゆ,しょうゆ,しょうゆ,soy sauce,51,soy sauce
+555,N5,レストラン / Restaurant,N5: 52,何:     : なに,何,なに,what,52,what
+556,N5,レストラン / Restaurant,N5: 52,何か:     : なにか,何か,なにか,something,52,something
+557,N5,レストラン / Restaurant,N5: 52,食事（する）:     : しょくじ（する）,食事（する）,しょくじ（する）,(to) have a meal,52,(to) have a meal
+558,N5,レストラン / Restaurant,N5: 52,有名な:     : ゆうめいな,有名な,ゆうめいな,famous,52,famous
+559,N5,レストラン / Restaurant,N5: 52,入る:     : はいる,入る,はいる,to enter,52,to enter
+560,N5,レストラン / Restaurant,N5: 52,レストラン:     : レストラン,レストラン,レストラン,Restaurant,52,Restaurant
+561,N5,レストラン / Restaurant,N5: 52,食堂:     : しょくどう,食堂,しょくどう,cafeteria / dining hall,52,cafeteria / dining hall
+562,N5,レストラン / Restaurant,N5: 52,定食:     : ていしょく,定食,ていしょく,set meal,52,set meal
+563,N5,レストラン / Restaurant,N5: 52,きっさてん:     : きっさてん,きっさてん,きっさてん,coffee shop,52,coffee shop
+564,N5,レストラン / Restaurant,N5: 52,箸:     : はし,箸,はし,chopsticks,52,chopsticks
+565,N5,レストラン / Restaurant,N5: 52,スプーン:     : スプーン,スプーン,スプーン,spoon,52,spoon
+566,N5,レストラン / Restaurant,N5: 52,フォーク:     : フォーク,フォーク,フォーク,fork,52,fork
+567,N5,レストラン / Restaurant,N5: 53,ナイフ:     : ナイフ,ナイフ,ナイフ,knife,53,knife
+568,N5,レストラン / Restaurant,N5: 53,皿:     : さら,皿,さら,plate,53,plate
+569,N5,レストラン / Restaurant,N5: 53,茶碗:     : ちゃわん,茶碗,ちゃわん,rice bowl,53,rice bowl
+570,N5,レストラン / Restaurant,N5: 53,～で:     : ～で,～で,～で,with / using,53,with / using
+571,N5,レストラン / Restaurant,N5: 53,箸で:     : はしで,箸で,はしで,with chopsticks,53,with chopsticks
+572,N5,レストラン / Restaurant,N5: 53,スプーンで:     : スプーンで,スプーンで,スプーンで,with a spoon,53,with a spoon
+573,N5,レストラン / Restaurant,N5: 53,フォークで:     : フォークで,フォークで,フォークで,with a fork,53,with a fork
+574,N5,レストラン / Restaurant,N5: 53,いらっしゃいませ:     : いらっしゃいませ,いらっしゃいませ,いらっしゃいませ,welcome (at stores/restaurants),53,welcome (at stores/restaurants)
+575,N5,レストラン / Restaurant,N5: 53,ご注文は:     : ごちゅうもんは,ご注文は,ごちゅうもんは,may I take your order?,53,may I take your order?
+576,N5,レストラン / Restaurant,N5: 53,これでお願いします:     : これでおねがいします,これでお願いします,これでおねがいします,"this one, please",53,"this one, please"
+577,N5,レストラン / Restaurant,N5: 53,他に:     : ほかに,他に,ほかに,anything else,53,anything else
+578,N5,レストラン / Restaurant,N5: 53,別々で:     : べつべつで,別々で,べつべつで,separately (for payment),53,separately (for payment)
+579,N5,どうですか？・How is it?,N5: 54,どうですか？:     : どうですか？,どうですか？,どうですか？,How is it?,54,How is it?
+580,N5,どうですか？・How is it?,N5: 54,甘い:     : あまい,甘い,あまい,sweet,54,sweet
+581,N5,どうですか？・How is it?,N5: 54,辛い:     : からい,辛い,からい,spicy,54,spicy
+582,N5,どうですか？・How is it?,N5: 54,おいしい:     : おいしい,おいしい,おいしい,delicious,54,delicious
+583,N5,どうですか？・How is it?,N5: 54,全部:     : ぜんぶ,全部,ぜんぶ,all / everything,54,all / everything
+584,N5,どうですか？・How is it?,N5: 54,自分で:     : じぶんで,自分で,じぶんで,by oneself,54,by oneself
+585,N5,どうですか？・How is it?,N5: 54,お腹が空く:     : おなかがすく,お腹が空く,おなかがすく,to get hungry,54,to get hungry
+586,N5,どうですか？・How is it?,N5: 54,喉が渇く:     : のどがかわく,喉が渇く,のどがかわく,to get thirsty,54,to get thirsty
+587,N5,どうですか？・How is it?,N5: 54,いっぱいな:     : いっぱいな,いっぱいな,いっぱいな,full (stomach),54,full (stomach)
+588,N5,どうですか？・How is it?,N5: 54,＿＿＿＿はいかがですか:     : ＿＿＿＿はいかがですか,＿＿＿＿はいかがですか,＿＿＿＿はいかがですか,Would you like ____ ? / How about ____ ?,54,Would you like ____ ? / How about ____ ?
+589,N5,どうですか？・How is it?,N5: 54,もういっぱい:     : もういっぱい,もういっぱい,もういっぱい,another cup / one more,54,another cup / one more
+590,N5,どうですか？・How is it?,N5: 54,結構です:     : けっこうです,結構です,けっこうです,no thank you / I’m fine,54,no thank you / I’m fine
+591,N5,どうですか？・How is it?,N5: 54,乾杯:     : かんぱい,乾杯,かんぱい,cheers,54,cheers
+592,N5,どうですか？・How is it?,N5: 54,いただきます:     : いただきます,いただきます,いただきます,The phrase that is said before eating,54,The phrase that is said before eating
+593,N5,どうですか？・How is it?,N5: 54,ごちそうさまでした:     : ごちそうさまでした,ごちそうさまでした,ごちそうさまでした,The phrase that is said after eating,54,The phrase that is said after eating
+594,N5,しゅみ / Hobby,N5: 55,趣味:     : しゅみ,趣味,しゅみ,hobby,55,hobby
+595,N5,しゅみ / Hobby,N5: 55,日:     : ひ,日,ひ,day,55,day
+596,N5,しゅみ / Hobby,N5: 55,楽しい:     : たのしい,楽しい,たのしい,fun,55,fun
+597,N5,しゅみ / Hobby,N5: 55,好きな:     : すきな,好きな,すきな,like / favorite,55,like / favorite
+598,N5,しゅみ / Hobby,N5: 55,嫌いな:     : きらいな,嫌いな,きらいな,dislike,55,dislike
+599,N5,しゅみ / Hobby,N5: 55,あまり:     : あまり,あまり,あまり,not much (with negative),55,not much (with negative)
+600,N5,しゅみ / Hobby,N5: 55,どちら:     : どちら,どちら,どちら,which (of two),55,which (of two)
+601,N5,しゅみ / Hobby,N5: 55,どちらも:     : どちらも,どちらも,どちらも,both,55,both
+602,N5,しゅみ / Hobby,N5: 55,どっち:     : どっち,どっち,どっち,which (casual),55,which (casual)
+603,N5,しゅみ / Hobby,N5: 55,上手な:     : じょうずな,上手な,じょうずな,skillful,55,skillful
+604,N5,しゅみ / Hobby,N5: 55,下手な:     : へたな,下手な,へたな,unskilled,55,unskilled
+605,N5,しゅみ / Hobby,N5: 56,まだまだです:     : まだまだです,まだまだです,まだまだです,not yet / still learning,56,not yet / still learning
+606,N5,しゅみ / Hobby,N5: 56,習う:     : ならう,習う,ならう,to learn,56,to learn
+607,N5,しゅみ / Hobby,N5: 56,生け花:     : いけばな,生け花,いけばな,the traditional Japanese art of flower arrangement,56,the traditional Japanese art of flower arrangement
+608,N5,しゅみ / Hobby,N5: 56,茶道:     : さどう,茶道,さどう,tea ceremony,56,tea ceremony
+609,N5,しゅみ / Hobby,N5: 56,簡単な:     : かんたんな,簡単な,かんたんな,easy / simple,56,easy / simple
+610,N5,しゅみ / Hobby,N5: 56,優しい:     : やさしい,優しい,やさしい,kind / gentle,56,kind / gentle
+611,N5,しゅみ / Hobby,N5: 56,難しい:     : むずかしい,難しい,むずかしい,difficult,56,difficult
+612,N5,しゅみ / Hobby,N5: 56,写真:     : しゃしん,写真,しゃしん,photo,56,photo
+613,N5,しゅみ / Hobby,N5: 56,撮る:     : とる,撮る,とる,to take (a photo),56,to take (a photo)
+614,N5,しゅみ / Hobby,N5: 56,カメラ:     : カメラ,カメラ,カメラ,camera,56,camera
+615,N5,しゅみ / Hobby,N5: 56,絵:     : え,絵,え,picture / drawing,56,picture / drawing
+616,N5,しゅみ / Hobby,N5: 56,描く:     : かく,描く,かく,to draw / paint,56,to draw / paint
+617,N5,しゅみ / Hobby,N5: 56,書く:     : かく,書く,かく,to write,56,to write
+618,N5,しゅみ / Hobby,N5: 56,美術館:     : びじゅつかん,美術館,びじゅつかん,art museum,56,art museum
+619,N5,おんがく / Music,N5: 57,音楽:     : おんがく,音楽,おんがく,music,57,music
+620,N5,おんがく / Music,N5: 57,カラオケ:     : カラオケ,カラオケ,カラオケ,karaoke,57,karaoke
+621,N5,おんがく / Music,N5: 57,一緒に:     : いっしょに,一緒に,いっしょに,together,57,together
+622,N5,おんがく / Music,N5: 57,みんなで:     : みんなで,みんなで,みんなで,with everyone,57,with everyone
+623,N5,おんがく / Music,N5: 57,歌:     : うた,歌,うた,song,57,song
+624,N5,おんがく / Music,N5: 57,歌う:     : うたう,歌う,うたう,to sing,57,to sing
+625,N5,おんがく / Music,N5: 57,コンサート:     : コンサート,コンサート,コンサート,concert,57,concert
+626,N5,おんがく / Music,N5: 57,クラシック:     : クラシック,クラシック,クラシック,classical music,57,classical music
+627,N5,おんがく / Music,N5: 57,ジャズ:     : ジャズ,ジャズ,ジャズ,jazz,57,jazz
+628,N5,おんがく / Music,N5: 57,ポップス:     : ポップス,ポップス,ポップス,pop music,57,pop music
+629,N5,おんがく / Music,N5: 57,ロック:     : ロック,ロック,ロック,rock,57,rock
+630,N5,おんがく / Music,N5: 58,ピアノ:     : ピアノ,ピアノ,ピアノ,piano,58,piano
+631,N5,おんがく / Music,N5: 58,ギター:     : ギター,ギター,ギター,guitar,58,guitar
+632,N5,おんがく / Music,N5: 58,弾く:     : ひく,弾く,ひく,to play (an instrument),58,to play (an instrument)
+633,N5,おんがく / Music,N5: 58,映画:     : えいが,映画,えいが,movie,58,movie
+634,N5,おんがく / Music,N5: 58,映画館:     : えいがかん,映画館,えいがかん,movie theater,58,movie theater
+635,N5,おんがく / Music,N5: 58,始まる:     : はじまる,始まる,はじまる,to start (intransitive),58,to start (intransitive)
+636,N5,おんがく / Music,N5: 58,終わる:     : おわる,終わる,おわる,to finish,58,to finish
+637,N5,おんがく / Music,N5: 58,マンガ:     : マンガ,マンガ,マンガ,manga,58,manga
+638,N5,おんがく / Music,N5: 58,アニメ:     : アニメ,アニメ,アニメ,anime,58,anime
+639,N5,おんがく / Music,N5: 58,ゲーム:     : ゲーム,ゲーム,ゲーム,game,58,game
+640,N5,おんがく / Music,N5: 58,ソフト:     : ソフト,ソフト,ソフト,software,58,software
+641,N5,おんがく / Music,N5: 58,面白い:     : おもしろい,面白い,おもしろい,interesting / fun,58,interesting / fun
+642,N5,スポーツ / Sports,N5: 59,ジョギング:     : ジョギング,ジョギング,ジョギング,jogging,59,jogging
+643,N5,スポーツ / Sports,N5: 59,スキー:     : スキー,スキー,スキー,skiing,59,skiing
+644,N5,スポーツ / Sports,N5: 59,ダンス:     : ダンス,ダンス,ダンス,dance,59,dance
+645,N5,スポーツ / Sports,N5: 59,泳ぐ:     : およぐ,泳ぐ,およぐ,to swim,59,to swim
+646,N5,スポーツ / Sports,N5: 59,海:     : うみ,海,うみ,sea,59,sea
+647,N5,スポーツ / Sports,N5: 59,プール:     : プール,プール,プール,pool,59,pool
+648,N5,スポーツ / Sports,N5: 59,川:     : かわ,川,かわ,river,59,river
+649,N5,スポーツ / Sports,N5: 59,釣り:     : つり,釣り,つり,fishing,59,fishing
+650,N5,スポーツ / Sports,N5: 59,登る:     : のぼる,登る,のぼる,to climb,59,to climb
+651,N5,スポーツ / Sports,N5: 59,山:     : やま,山,やま,mountain,59,mountain
+652,N5,スポーツ / Sports,N5: 59,試合:     : しあい,試合,しあい,game / match,59,game / match
+653,N5,スポーツ / Sports,N5: 59,勝つ:     : かつ,勝つ,かつ,to win,59,to win
+654,N5,スポーツ / Sports,N5: 60,負ける:     : まける,負ける,まける,to lose,60,to lose
+655,N5,スポーツ / Sports,N5: 60,さあ:     : さあ,さあ,さあ,Hmm well / let’s see,60,Hmm well / let’s see
+656,N5,スポーツ / Sports,N5: 60,強い:     : つよい,強い,つよい,strong,60,strong
+657,N5,スポーツ / Sports,N5: 60,弱い:     : よわい,弱い,よわい,weak,60,weak
+658,N5,スポーツ / Sports,N5: 60,サッカー:     : サッカー,サッカー,サッカー,soccer,60,soccer
+659,N5,スポーツ / Sports,N5: 60,野球:     : やきゅう,野球,やきゅう,baseball,60,baseball
+660,N5,スポーツ / Sports,N5: 60,すもう:     : すもう,すもう,すもう,sumo,60,sumo
+661,N5,スポーツ / Sports,N5: 60,じゅうどう:     : じゅうどう,じゅうどう,じゅうどう,judo,60,judo
+662,N5,スポーツ / Sports,N5: 60,テニス:     : テニス,テニス,テニス,tennis,60,tennis
+663,N5,スポーツ / Sports,N5: 60,ゴルフ:     : ゴルフ,ゴルフ,ゴルフ,golf,60,golf
+664,N5,てんき / Weather,N5: 61,天気:     : てんき,天気,てんき,weather,61,weather
+665,N5,てんき / Weather,N5: 61,いい:     : いい,いい,いい,good,61,good
+666,N5,てんき / Weather,N5: 61,悪い:     : わるい,悪い,わるい,bad,61,bad
+667,N5,てんき / Weather,N5: 61,いいお天気ですね:     : いいおてんきですね,いいお天気ですね,いいおてんきですね,"It’s nice weather, isn’t it?",61,"It’s nice weather, isn’t it?"
+668,N5,てんき / Weather,N5: 61,雨:     : あめ,雨,あめ,rain,61,rain
+669,N5,てんき / Weather,N5: 61,雪:     : ゆき,雪,ゆき,snow,61,snow
+670,N5,てんき / Weather,N5: 61,降る:     : ふる,降る,ふる,to fall (rain/snow),61,to fall (rain/snow)
+671,N5,てんき / Weather,N5: 61,暑い:     : あつい,暑い,あつい,hot,61,hot
+672,N5,てんき / Weather,N5: 61,涼しい:     : すずしい,涼しい,すずしい,cool (temperature),61,cool (temperature)
+673,N5,てんき / Weather,N5: 61,寒い:     : さむい,寒い,さむい,cold,61,cold
+674,N5,てんき / Weather,N5: 61,暖かい:     : あたたかい,暖かい,あたたかい,warm,61,warm
+675,N5,てんき / Weather,N5: 62,多い:     : おおい,多い,おおい,many / much,62,many / much
+676,N5,てんき / Weather,N5: 62,少ない:     : すくない,少ない,すくない,few / little,62,few / little
+677,N5,てんき / Weather,N5: 62,思う:     : おもう,思う,おもう,to think,62,to think
+678,N5,てんき / Weather,N5: 62,たぶん:     : たぶん,たぶん,たぶん,probably,62,probably
+679,N5,てんき / Weather,N5: 62,きっと:     : きっと,きっと,きっと,surely / definitely,62,surely / definitely
+680,N5,てんき / Weather,N5: 62,傘:     : かさ,傘,かさ,umbrella,62,umbrella
+681,N5,てんき / Weather,N5: 62,持ってくる:     : もってくる,持ってくる,もってくる,to bring,62,to bring
+682,N5,てんき / Weather,N5: 62,持っていく:     : もっていく,持っていく,もっていく,to take,62,to take
+683,N5,てんき / Weather,N5: 62,番組:     : ばんぐみ,番組,ばんぐみ,TV program,62,TV program
+684,N5,きせつ / Season,N5: 63,いつ:     : いつ,いつ,いつ,when,63,when
+685,N5,きせつ / Season,N5: 63,去年:     : きょねん,去年,きょねん,last year,63,last year
+686,N5,きせつ / Season,N5: 63,今年:     : ことし,今年,ことし,this year,63,this year
+687,N5,きせつ / Season,N5: 63,来年:     : らいねん,来年,らいねん,next year,63,next year
+688,N5,きせつ / Season,N5: 63,季節:     : きせつ,季節,きせつ,season,63,season
+689,N5,きせつ / Season,N5: 63,一番:     : いちばん,一番,いちばん,the best / number one,63,the best / number one
+690,N5,きせつ / Season,N5: 63,なる:     : なる,なる,なる,to become,63,to become
+691,N5,きせつ / Season,N5: 63,春:     : はる,春,はる,spring,63,spring
+692,N5,きせつ / Season,N5: 63,夏:     : なつ,夏,なつ,summer,63,summer
+693,N5,きせつ / Season,N5: 63,秋:     : あき,秋,あき,autumn / fall,63,autumn / fall
+694,N5,きせつ / Season,N5: 64,冬:     : ふゆ,冬,ふゆ,winter,64,winter
+695,N5,きせつ / Season,N5: 64,花:     : はな,花,はな,flower,64,flower
+696,N5,きせつ / Season,N5: 64,月:     : つき,月,つき,moon / month,64,moon / month
+697,N5,きせつ / Season,N5: 64,お花見:     : おはなみ,お花見,おはなみ,cherry blossom viewing,64,cherry blossom viewing
+698,N5,きせつ / Season,N5: 64,桜:     : さくら,桜,さくら,cherry blossom,64,cherry blossom
+699,N5,きせつ / Season,N5: 64,花火:     : はなび,花火,はなび,fireworks,64,fireworks
+700,N5,きせつ / Season,N5: 64,もみじ:     : もみじ,もみじ,もみじ,Japanese maple,64,Japanese maple
+701,N5,きせつ / Season,N5: 64,初めて:     : はじめて,初めて,はじめて,for the first time,64,for the first time
+702,N5,きせつ / Season,N5: 64,一度:     : いちど,一度,いちど,once,64,once
+703,N5,きせつ / Season,N5: 64,何回も:     : なんかいも,何回も,なんかいも,many times,64,many times
+704,N5,きせつ / Season,N5: 64,一度も～ない／一度も～ません:     : いちども～ない／いちども～ません,一度も～ない／一度も～ません,いちども～ない／いちども～ません,not even once,64,not even once
+705,N5,きせつ / Season,N5: 65,公園:     : こうえん,公園,こうえん,park,65,park
+706,N5,きせつ / Season,N5: 65,散歩（する）:     : さんぽ（する）,散歩（する）,さんぽ（する）,(to) take a walk,65,(to) take a walk
+707,N5,きせつ / Season,N5: 65,とても:     : とても,とても,とても,very,65,very
+708,N5,きせつ / Season,N5: 65,本当に:     : ほんとうに,本当に,ほんとうに,really,65,really
+709,N5,きせつ / Season,N5: 65,ぜひ:     : ぜひ,ぜひ,ぜひ,by all means,65,by all means
+710,N5,きせつ / Season,N5: 65,もちろん:     : もちろん,もちろん,もちろん,of course,65,of course
+711,N5,かいもの / Shopping,N5: 66,買い物（する）:     : かいもの（する）,買い物（する）,かいもの（する）,to shop / shopping,66,to shop / shopping
+712,N5,かいもの / Shopping,N5: 66,～をください:     : ～をください,～をください,～をください,please give me ~,66,please give me ~
+713,N5,かいもの / Shopping,N5: 66,～と～:     : ～と～,～と～,～と～,~ and ~,66,~ and ~
+714,N5,かいもの / Shopping,N5: 66,～や～（など）:     : ～や～（など）,～や～（など）,～や～（など）,~ and ~ (etc.),66,~ and ~ (etc.)
+715,N5,かいもの / Shopping,N5: 66,いくら:     : いくら,いくら,いくら,how much,66,how much
+716,N5,かいもの / Shopping,N5: 66,円:     : えん,円,えん,yen,66,yen
+717,N5,かいもの / Shopping,N5: 66,高い:     : たかい,高い,たかい,expensive,66,expensive
+718,N5,かいもの / Shopping,N5: 66,安い:     : やすい,安い,やすい,cheap,66,cheap
+719,N5,かいもの / Shopping,N5: 66,百:     : ひゃく,百,ひゃく,hundred,66,hundred
+720,N5,かいもの / Shopping,N5: 66,千:     : せん,千,せん,thousand,66,thousand
+721,N5,かいもの / Shopping,N5: 67,万:     : まん,万,まん,ten thousand,67,ten thousand
+722,N5,かいもの / Shopping,N5: 67,億:     : おく,億,おく,hundred million,67,hundred million
+723,N5,かいもの / Shopping,N5: 67,ちょっと:     : ちょっと,ちょっと,ちょっと,a little / a bit,67,a little / a bit
+724,N5,かいもの / Shopping,N5: 67,では:     : では,では,では,well then / in that case,67,well then / in that case
+725,N5,かいもの / Shopping,N5: 67,じゃ:     : じゃ,じゃ,じゃ,well then / informal “de wa”,67,well then / informal “de wa”
+726,N5,かいもの / Shopping,N5: 67,お金:     : おかね,お金,おかね,money,67,money
+727,N5,かいもの / Shopping,N5: 67,払う:     : はらう,払う,はらう,to pay,67,to pay
+728,N5,かいもの / Shopping,N5: 67,お釣り:     : おつり,お釣り,おつり,change (money),67,change (money)
+729,N5,かいもの / Shopping,N5: 67,細かいお金:     : こまかいおかね,細かいお金,こまかいおかね,small change / coins,67,small change / coins
+730,N5,かいもの / Shopping,N5: 67,足りる:     : たりる,足りる,たりる,to be enough,67,to be enough
+731,N5,かいもの / Shopping,N5: 67,生活:     : せいかつ,生活,せいかつ,life / living,67,life / living
+732,N5,かいもの / Shopping,N5: 68,物価:     : ぶっか,物価,ぶっか,cost of living / prices,68,cost of living / prices
+733,N5,かいもの / Shopping,N5: 68,いくつ:     : いくつ,いくつ,いくつ,how many / how old,68,how many / how old
+734,N5,かいもの / Shopping,N5: 68,全部で:     : ぜんぶで,全部で,ぜんぶで,in total,68,in total
+735,N5,かいもの / Shopping,N5: 68,～つ:     : ～つ,～つ,～つ,counter for general objects,68,counter for general objects
+736,N5,かいもの / Shopping,N5: 68,１つ:     : ひとつ,１つ,ひとつ,one,68,one
+737,N5,かいもの / Shopping,N5: 68,２つ:     : ふたつ,２つ,ふたつ,two,68,two
+738,N5,かいもの / Shopping,N5: 68,３つ:     : みっつ,３つ,みっつ,three,68,three
+739,N5,かいもの / Shopping,N5: 68,４つ:     : よっつ,４つ,よっつ,four,68,four
+740,N5,かいもの / Shopping,N5: 68,５つ:     : いつつ,５つ,いつつ,five,68,five
+741,N5,かいもの / Shopping,N5: 68,６つ:     : むっつ,６つ,むっつ,six,68,six
+742,N5,かいもの / Shopping,N5: 68,７つ:     : ななつ,７つ,ななつ,seven,68,seven
+743,N5,かいもの / Shopping,N5: 68,８つ:     : やっつ,８つ,やっつ,eight,68,eight
+744,N5,かいもの / Shopping,N5: 68,９つ:     : ここのつ,９つ,ここのつ,nine,68,nine
+745,N5,かいもの / Shopping,N5: 68,１０:     : とお,１０,とお,ten,68,ten
+746,N5,みせ / Store,N5: 69,店:     : みせ,店,みせ,shop / store,69,shop / store
+747,N5,みせ / Store,N5: 69,パン屋:     : ぱんや,パン屋,ぱんや,bakery,69,bakery
+748,N5,みせ / Store,N5: 69,本屋:     : ほんや,本屋,ほんや,bookstore,69,bookstore
+749,N5,みせ / Store,N5: 69,ラーメン屋:     : らーめんや,ラーメン屋,らーめんや,ramen shop,69,ramen shop
+750,N5,みせ / Store,N5: 69,デパート:     : デパート,デパート,デパート,department store,69,department store
+751,N5,みせ / Store,N5: 69,コンビニ:     : コンビニ,コンビニ,コンビニ,convenience store,69,convenience store
+752,N5,みせ / Store,N5: 69,売る:     : うる,売る,うる,to sell,69,to sell
+753,N5,みせ / Store,N5: 69,売り場:     : うりば,売り場,うりば,sales floor / department,69,sales floor / department
+754,N5,みせ / Store,N5: 69,コーナー:     : コーナー,コーナー,コーナー,section / corner,69,section / corner
+755,N5,みせ / Store,N5: 69,棚:     : たな,棚,たな,shelf,69,shelf
+756,N5,みせ / Store,N5: 69,コピー（する）:     : コピー（する）,コピー（する）,コピー（する）,to copy,69,to copy
+757,N5,みせ / Store,N5: 70,チケット:     : チケット,チケット,チケット,ticket,70,ticket
+758,N5,みせ / Store,N5: 70,カタログ:     : カタログ,カタログ,カタログ,catalog,70,catalog
+759,N5,みせ / Store,N5: 70,雑誌:     : ざっし,雑誌,ざっし,magazine,70,magazine
+760,N5,みせ / Store,N5: 70,新聞:     : しんぶん,新聞,しんぶん,newspaper,70,newspaper
+761,N5,みせ / Store,N5: 70,欲しい:     : ほしい,欲しい,ほしい,to want,70,to want
+762,N5,みせ / Store,N5: 70,できる:     : できる,できる,できる,can / be able to,70,can / be able to
+763,N5,みせ / Store,N5: 70,～でございます:     : ～でございます,～でございます,～でございます,(polite) it is ~,70,(polite) it is ~
+764,N5,みせ / Store,N5: 70,１０００円でございます:     : せんえんでございます,１０００円でございます,せんえんでございます,It’s 1000 yen. (polite),70,It’s 1000 yen. (polite)
+765,N5,みせ / Store,N5: 70,お探しですか:     : おさがしですか,お探しですか,おさがしですか,Are you looking for something?,70,Are you looking for something?
+766,N5,みせ / Store,N5: 70,見せる:     : みせる,見せる,みせる,to show,70,to show
+767,N5,みせ / Store,N5: 70,かしこまりました:     : かしこまりました,かしこまりました,かしこまりました,Certainly / Understood (very polite),70,Certainly / Understood (very polite)
+768,N5,みせ / Store,N5: 70,少々お待ちください:     : しょうしょうおまちください,少々お待ちください,しょうしょうおまちください,Please wait a moment,70,Please wait a moment
+769,N5,ATM,N5: 71,ATM:     : エーティーエム,ATM,エーティーエム,ATM,71,ATM
+770,N5,ATM,N5: 71,～方:     : ～かた,～方,～かた,how to (do something),71,how to (do something)
+771,N5,ATM,N5: 71,使い方:     : つかいかた,使い方,つかいかた,how to use,71,how to use
+772,N5,ATM,N5: 71,遊び方:     : あそびかた,遊び方,あそびかた,how to play,71,how to play
+773,N5,ATM,N5: 71,食べ方:     : たべかた,食べ方,たべかた,how to eat,71,how to eat
+774,N5,ATM,N5: 71,飲み方:     : のみかた,飲み方,のみかた,how to drink,71,how to drink
+775,N5,ATM,N5: 71,行き方:     : いきかた,行き方,いきかた,how to get there,71,how to get there
+776,N5,ATM,N5: 71,お引き出しですか:     : おひきだしですか,お引き出しですか,おひきだしですか,Are you withdrawing money?,71,Are you withdrawing money?
+777,N5,ATM,N5: 71,現金:     : げんきん,現金,げんきん,cash,71,cash
+778,N5,ATM,N5: 71,おろす:     : おろす,おろす,おろす,to withdraw,71,to withdraw
+779,N5,ATM,N5: 71,まず:     : まず,まず,まず,first,71,first
+780,N5,ATM,N5: 72,キャッシュカード:     : キャッシュカード,キャッシュカード,キャッシュカード,cash card,72,cash card
+781,N5,ATM,N5: 72,次に:     : つぎに,次に,つぎに,next,72,next
+782,N5,ATM,N5: 72,暗証番号:     : あんしょうばんごう,暗証番号,あんしょうばんごう,PIN number,72,PIN number
+783,N5,ATM,N5: 72,押す:     : おす,押す,おす,to press / push,72,to press / push
+784,N5,ATM,N5: 72,それから:     : それから,それから,それから,after that / and then,72,after that / and then
+785,N5,ATM,N5: 72,金額:     : きんがく,金額,きんがく,amount (of money),72,amount (of money)
+786,N5,ATM,N5: 72,確認（する）:     : かくにん（する）,確認（する）,かくにん（する）,to confirm,72,to confirm
+787,N5,ATM,N5: 72,ボタン:     : ボタン,ボタン,ボタン,button,72,button
+788,N5,ATM,N5: 72,出る:     : でる,出る,でる,to come out,72,to come out
+789,N5,ATM,N5: 72,換える:     : かえる,換える,かえる,to exchange / change money,72,to exchange / change money
+790,N5,おくる / To send,N5: 73,郵便局:     : ゆうびんきょく,郵便局,ゆうびんきょく,post office,73,post office
+791,N5,おくる / To send,N5: 73,ポスト:     : ポスト,ポスト,ポスト,mailbox / post box,73,mailbox / post box
+792,N5,おくる / To send,N5: 73,手紙:     : てがみ,手紙,てがみ,letter,73,letter
+793,N5,おくる / To send,N5: 73,はがき:     : はがき,はがき,はがき,postcard,73,postcard
+794,N5,おくる / To send,N5: 73,年賀状:     : ねんがじょう,年賀状,ねんがじょう,New Year’s card,73,New Year’s card
+795,N5,おくる / To send,N5: 73,出す:     : だす,出す,だす,to send / to post,73,to send / to post
+796,N5,おくる / To send,N5: 73,メール:     : メール,メール,メール,email,73,email
+797,N5,おくる / To send,N5: 73,送る:     : おくる,送る,おくる,to send,73,to send
+798,N5,おくる / To send,N5: 73,切手:     : きって,切手,きって,postage stamp,73,postage stamp
+799,N5,おくる / To send,N5: 73,集める:     : あつめる,集める,あつめる,to collect,73,to collect
+800,N5,おくる / To send,N5: 73,封筒:     : ふうとう,封筒,ふうとう,envelope,73,envelope
+801,N5,おくる / To send,N5: 74,外国:     : がいこく,外国,がいこく,foreign country,74,foreign country
+802,N5,おくる / To send,N5: 74,航空便:     : こうくうびん,航空便,こうくうびん,airmail,74,airmail
+803,N5,おくる / To send,N5: 74,船便:     : ふなびん,船便,ふなびん,surface mail (by ship),74,surface mail (by ship)
+804,N5,おくる / To send,N5: 74,荷物:     : にもつ,荷物,にもつ,package / luggage,74,package / luggage
+805,N5,おくる / To send,N5: 74,重い:     : おもい,重い,おもい,heavy,74,heavy
+806,N5,おくる / To send,N5: 74,軽い:     : かるい,軽い,かるい,light,74,light
+807,N5,プレゼント / Present,N5: 75,あげる:     : あげる,あげる,あげる,to give,75,to give
+808,N5,プレゼント / Present,N5: 75,もらう:     : もらう,もらう,もらう,to receive,75,to receive
+809,N5,プレゼント / Present,N5: 75,くれる:     : くれる,くれる,くれる,to give (to me/us),75,to give (to me/us)
+810,N5,プレゼント / Present,N5: 75,プレゼント:     : プレゼント,プレゼント,プレゼント,present / gift,75,present / gift
+811,N5,プレゼント / Present,N5: 75,物:     : もの,物,もの,thing / object,75,thing / object
+812,N5,プレゼント / Present,N5: 75,パーティー:     : パーティー,パーティー,パーティー,party,75,party
+813,N5,プレゼント / Present,N5: 75,始める:     : はじめる,始める,はじめる,to start / begin,75,to start / begin
+814,N5,プレゼント / Present,N5: 75,だれ:     : だれ,だれ,だれ,who,75,who
+815,N5,プレゼント / Present,N5: 75,どなた:     : どなた,どなた,どなた,who (polite),75,who (polite)
+816,N5,プレゼント / Present,N5: 75,あの方:     : あのかた,あの方,あのかた,that person (polite),75,that person (polite)
+817,N5,プレゼント / Present,N5: 75,クリスマス:     : クリスマス,クリスマス,クリスマス,Christmas,75,Christmas
+818,N5,プレゼント / Present,N5: 75,誕生日:     : たんじょうび,誕生日,たんじょうび,birthday,75,birthday
+819,N5,プレゼント / Present,N5: 75,生まれる:     : うまれる,生まれる,うまれる,to be born,75,to be born
+820,N5,プレゼント / Present,N5: 76,おめでとう:     : おめでとう,おめでとう,おめでとう,congratulations,76,congratulations
+821,N5,プレゼント / Present,N5: 76,おめでとうございます:     : おめでとうございます,おめでとうございます,おめでとうございます,congratulations (polite),76,congratulations (polite)
+822,N5,プレゼント / Present,N5: 76,わあ:     : わあ,わあ,わあ,wow / oh!,76,wow / oh!
+823,N5,プレゼント / Present,N5: 76,何歳:     : なんさい,何歳,なんさい,how old,76,how old
+824,N5,プレゼント / Present,N5: 76,（お）いくつ:     : （お）いくつ,（お）いくつ,（お）いくつ,how old (polite),76,how old (polite)
+825,N5,プレゼント / Present,N5: 76,<Number> + 歳:     : <Number> + さい,<Number> + 歳,<Number> + さい,~ years old,76,~ years old
+826,N5,プレゼント / Present,N5: 76,一歳:     : いっさい,一歳,いっさい,one year old,76,one year old
+827,N5,プレゼント / Present,N5: 76,二歳:     : にさい,二歳,にさい,two years old,76,two years old
+828,N5,プレゼント / Present,N5: 76,三歳:     : さんさい,三歳,さんさい,three years old,76,three years old
+829,N5,プレゼント / Present,N5: 76,四歳:     : よんさい,四歳,よんさい,four years old,76,four years old
+830,N5,プレゼント / Present,N5: 76,五歳:     : ごさい,五歳,ごさい,five years old,76,five years old
+831,N5,プレゼント / Present,N5: 77,六歳:     : ろくさい,六歳,ろくさい,six years old,77,six years old
+832,N5,プレゼント / Present,N5: 77,七歳:     : ななさい,七歳,ななさい,seven years old,77,seven years old
+833,N5,プレゼント / Present,N5: 77,八歳:     : はっさい,八歳,はっさい,eight years old,77,eight years old
+834,N5,プレゼント / Present,N5: 77,九歳:     : きゅうさい,九歳,きゅうさい,nine years old,77,nine years old
+835,N5,プレゼント / Present,N5: 77,十歳:     : じゅっさい／じっさい,十歳,じゅっさい／じっさい,ten years old,77,ten years old
+836,N5,プレゼント / Present,N5: 77,二十歳:     : はたち,二十歳,はたち,twenty years old,77,twenty years old
+837,N5,プレゼント / Present,N5: 77,何日:     : なんにち,何日,なんにち,what day / how many days,77,what day / how many days
+838,N5,プレゼント / Present,N5: 77,一日:     : ついたち,一日,ついたち,1st day of the month,77,1st day of the month
+839,N5,プレゼント / Present,N5: 77,二日:     : ふつか,二日,ふつか,2nd day,77,2nd day
+840,N5,プレゼント / Present,N5: 77,三日:     : みっか,三日,みっか,3rd day,77,3rd day
+841,N5,プレゼント / Present,N5: 77,四日:     : よっか,四日,よっか,4th day,77,4th day
+842,N5,プレゼント / Present,N5: 78,五日:     : いつか,五日,いつか,5th day,78,5th day
+843,N5,プレゼント / Present,N5: 78,六日:     : むいか,六日,むいか,6th day,78,6th day
+844,N5,プレゼント / Present,N5: 78,七日:     : なのか,七日,なのか,7th day,78,7th day
+845,N5,プレゼント / Present,N5: 78,八日:     : ようか,八日,ようか,8th day,78,8th day
+846,N5,プレゼント / Present,N5: 78,九日:     : ここのか,九日,ここのか,9th day,78,9th day
+847,N5,プレゼント / Present,N5: 78,十日:     : とおか,十日,とおか,10th day,78,10th day
+848,N5,プレゼント / Present,N5: 78,十一日:     : じゅういちにち,十一日,じゅういちにち,11th day,78,11th day
+849,N5,プレゼント / Present,N5: 78,十二日:     : じゅうににち,十二日,じゅうににち,12th day,78,12th day
+850,N5,プレゼント / Present,N5: 78,十三日:     : じゅうさんにち,十三日,じゅうさんにち,13th day,78,13th day
+851,N5,プレゼント / Present,N5: 78,十四日:     : じゅうよっか,十四日,じゅうよっか,14th day,78,14th day
+852,N5,プレゼント / Present,N5: 78,十五日:     : じゅうごにち,十五日,じゅうごにち,15th day,78,15th day
+853,N5,プレゼント / Present,N5: 79,十六日:     : じゅうろくにち,十六日,じゅうろくにち,16th day,79,16th day
+854,N5,プレゼント / Present,N5: 79,十七日:     : じゅうしちにち,十七日,じゅうしちにち,17th day,79,17th day
+855,N5,プレゼント / Present,N5: 79,十八日:     : じゅうはちにち,十八日,じゅうはちにち,18th day,79,18th day
+856,N5,プレゼント / Present,N5: 79,十九日:     : じゅうくにち,十九日,じゅうくにち,19th day,79,19th day
+857,N5,プレゼント / Present,N5: 79,二十日:     : はつか,二十日,はつか,20th day,79,20th day
+858,N5,プレゼント / Present,N5: 79,二十一日:     : にじゅういちにち,二十一日,にじゅういちにち,21st day,79,21st day
+859,N5,プレゼント / Present,N5: 79,二十二日:     : にじゅうににち,二十二日,にじゅうににち,22nd day,79,22nd day
+860,N5,プレゼント / Present,N5: 79,二十三日:     : にじゅうさんにち,二十三日,にじゅうさんにち,23rd day,79,23rd day
+861,N5,プレゼント / Present,N5: 79,二十四日:     : にじゅうよっか,二十四日,にじゅうよっか,24th day,79,24th day
+862,N5,プレゼント / Present,N5: 79,二十五日:     : にじゅうごにち,二十五日,にじゅうごにち,25th day,79,25th day
+863,N5,プレゼント / Present,N5: 79,二十六日:     : にじゅうろくにち,二十六日,にじゅうろくにち,26th day,79,26th day
+864,N5,プレゼント / Present,N5: 80,二十七日:     : にじゅうしちにち,二十七日,にじゅうしちにち,27th day,80,27th day
+865,N5,プレゼント / Present,N5: 80,二十八日:     : にじゅうはちにち,二十八日,にじゅうはちにち,28th day,80,28th day
+866,N5,プレゼント / Present,N5: 80,二十九日:     : にじゅうくにち,二十九日,にじゅうくにち,29th day,80,29th day
+867,N5,プレゼント / Present,N5: 80,三十日:     : さんじゅうにち,三十日,さんじゅうにち,30th day,80,30th day
+868,N5,プレゼント / Present,N5: 80,三十一日:     : さんじゅういちにち,三十一日,さんじゅういちにち,31st day,80,31st day
+869,N5,のりもの / Rides,N5: 81,駅:     : えき,駅,えき,station,81,station
+870,N5,のりもの / Rides,N5: 81,電車:     : でんしゃ,電車,でんしゃ,train,81,train
+871,N5,のりもの / Rides,N5: 81,乗る:     : のる,乗る,のる,to get on / ride,81,to get on / ride
+872,N5,のりもの / Rides,N5: 81,降りる:     : おりる,降りる,おりる,to get off,81,to get off
+873,N5,のりもの / Rides,N5: 81,切符:     : きっぷ,切符,きっぷ,ticket,81,ticket
+874,N5,のりもの / Rides,N5: 81,次の:     : つぎの,次の,つぎの,next,81,next
+875,N5,のりもの / Rides,N5: 81,乗り換える:     : のりかえる,乗り換える,のりかえる,"to transfer (trains, buses, etc.)",81,"to transfer (trains, buses, etc.)"
+876,N5,のりもの / Rides,N5: 81,各駅:     : かくえき,各駅,かくえき,local (train),81,local (train)
+877,N5,のりもの / Rides,N5: 81,急行:     : きゅうこう,急行,きゅうこう,express,81,express
+878,N5,のりもの / Rides,N5: 81,特急:     : とっきゅう,特急,とっきゅう,limited express,81,limited express
+879,N5,のりもの / Rides,N5: 81,新幹線:     : しんかんせん,新幹線,しんかんせん,bullet train,81,bullet train
+880,N5,のりもの / Rides,N5: 81,地下鉄:     : ちかてつ,地下鉄,ちかてつ,subway,81,subway
+881,N5,のりもの / Rides,N5: 82,<Number> + 番線:     : <Number> + ばんせん,<Number> + 番線,<Number> + ばんせん,platform number ~,82,platform number ~
+882,N5,のりもの / Rides,N5: 82,何番線:     : なんばんせん,何番線,なんばんせん,which platform,82,which platform
+883,N5,のりもの / Rides,N5: 82,自動車:     : じどうしゃ,自動車,じどうしゃ,automobile,82,automobile
+884,N5,のりもの / Rides,N5: 82,車:     : くるま,車,くるま,car,82,car
+885,N5,のりもの / Rides,N5: 82,運転（する）:     : うんてん（する）,運転（する）,うんてん（する）,to drive,82,to drive
+886,N5,のりもの / Rides,N5: 82,送る:     : おくる,送る,おくる,to send / give a ride,82,to send / give a ride
+887,N5,のりもの / Rides,N5: 82,駐車場:     : ちゅうしゃじょう,駐車場,ちゅうしゃじょう,parking lot,82,parking lot
+888,N5,のりもの / Rides,N5: 82,停める:     : とめる,停める,とめる,to park / stop,82,to park / stop
+889,N5,のりもの / Rides,N5: 82,自転車:     : じてんしゃ,自転車,じてんしゃ,bicycle,82,bicycle
+890,N5,のりもの / Rides,N5: 83,バイク:     : バイク,バイク,バイク,motorbike,83,motorbike
+891,N5,のりもの / Rides,N5: 83,バス:     : バス,バス,バス,bus,83,bus
+892,N5,のりもの / Rides,N5: 83,タクシー:     : タクシー,タクシー,タクシー,taxi,83,taxi
+893,N5,のりもの / Rides,N5: 83,飛行機:     : ひこうき,飛行機,ひこうき,airplane,83,airplane
+894,N5,のりもの / Rides,N5: 83,船:     : ふね,船,ふね,ship / boat,83,ship / boat
+895,N5,のりもの / Rides,N5: 83,乗り場:     : のりば,乗り場,のりば,boarding area / platform,83,boarding area / platform
+896,N5,のりもの / Rides,N5: 83,空港:     : くうこう,空港,くうこう,airport,83,airport
+897,N5,のりもの / Rides,N5: 83,時刻表:     : じこくひょう,時刻表,じこくひょう,timetable / schedule,83,timetable / schedule
+898,N5,どのぐらい / How long,N5: 84,時間:     : じかん,時間,じかん,time,84,time
+899,N5,どのぐらい / How long,N5: 84,急ぐ:     : いそぐ,急ぐ,いそぐ,to hurry,84,to hurry
+900,N5,どのぐらい / How long,N5: 84,どのくらい / どのぐらい:     : どのくらい / どのぐらい,どのくらい / どのぐらい,どのくらい / どのぐらい,how long / how much,84,how long / how much
+901,N5,どのぐらい / How long,N5: 84,かかる:     : かかる,かかる,かかる,to take (time or money),84,to take (time or money)
+902,N5,どのぐらい / How long,N5: 84,近い:     : ちかい,近い,ちかい,near / close,84,near / close
+903,N5,どのぐらい / How long,N5: 84,遠い:     : とおい,遠い,とおい,far,84,far
+904,N5,どのぐらい / How long,N5: 84,ずっと:     : ずっと,ずっと,ずっと,all the time / continuously,84,all the time / continuously
+905,N5,どのぐらい / How long,N5: 84,いつも:     : いつも,いつも,いつも,always,84,always
+906,N5,どのぐらい / How long,N5: 84,たいてい:     : たいてい,たいてい,たいてい,usually,84,usually
+907,N5,どのぐらい / How long,N5: 84,よく:     : よく,よく,よく,often,84,often
+908,N5,どのぐらい / How long,N5: 85,ときどき:     : ときどき,ときどき,ときどき,sometimes,85,sometimes
+909,N5,どのぐらい / How long,N5: 85,～だけ:     : ～だけ,～だけ,～だけ,only / just,85,only / just
+910,N5,どのぐらい / How long,N5: 85,一回だけ:     : いっかいだけ,一回だけ,いっかいだけ,only once,85,only once
+911,N5,どのぐらい / How long,N5: 85,一日だけ:     : いちにちだけ,一日だけ,いちにちだけ,only one day,85,only one day
+912,N5,どのぐらい / How long,N5: 85,一瞬だけ:     : いっしゅんだけ,一瞬だけ,いっしゅんだけ,just for a moment,85,just for a moment
+913,N5,どのぐらい / How long,N5: 85,ちょっとだけ:     : ちょっとだけ,ちょっとだけ,ちょっとだけ,just a little,85,just a little
+914,N5,みち / Street,N5: 86,どうやって:     : どうやって,どうやって,どうやって,how / in what way,86,how / in what way
+915,N5,みち / Street,N5: 86,歩く:     : あるく,歩く,あるく,to walk,86,to walk
+916,N5,みち / Street,N5: 86,道:     : みち,道,みち,road / way,86,road / way
+917,N5,みち / Street,N5: 86,まっすぐ:     : まっすぐ,まっすぐ,まっすぐ,straight ahead,86,straight ahead
+918,N5,みち / Street,N5: 86,曲がる:     : まがる,曲がる,まがる,to turn,86,to turn
+919,N5,みち / Street,N5: 86,渡る:     : わたる,渡る,わたる,to cross,86,to cross
+920,N5,みち / Street,N5: 86,説明（する）:     : せつめい（する）,説明（する）,せつめい（する）,to explain,86,to explain
+921,N5,みち / Street,N5: 86,角:     : かど,角,かど,corner,86,corner
+922,N5,みち / Street,N5: 86,交差点:     : こうさてん,交差点,こうさてん,intersection,86,intersection
+923,N5,みち / Street,N5: 86,信号:     : しんごう,信号,しんごう,traffic light,86,traffic light
+924,N5,みち / Street,N5: 87,左:     : ひだり,左,ひだり,left,87,left
+925,N5,みち / Street,N5: 87,右:     : みぎ,右,みぎ,right,87,right
+926,N5,みち / Street,N5: 87,橋:     : はし,橋,はし,bridge,87,bridge
+927,N5,みち / Street,N5: 87,東:     : ひがし,東,ひがし,east,87,east
+928,N5,みち / Street,N5: 87,西:     : にし,西,にし,west,87,west
+929,N5,みち / Street,N5: 87,南:     : みなみ,南,みなみ,south,87,south
+930,N5,みち / Street,N5: 87,北:     : きた,北,きた,north,87,north
+931,N5,みち / Street,N5: 87,いくつ目:     : いくつめ,いくつ目,いくつめ,which one (in order),87,which one (in order)
+932,N5,みち / Street,N5: 87,１つ目:     : ひとつめ,１つ目,ひとつめ,first,87,first
+933,N5,みち / Street,N5: 87,２つ目:     : ふたつめ,２つ目,ふたつめ,second,87,second
+934,N5,みち / Street,N5: 87,３つ目:     : みっつめ,３つ目,みっつめ,third,87,third
+935,N5,みち / Street,N5: 87,何メートル:     : なんメートル,何メートル,なんメートル,how many meters,87,how many meters
+936,N5,みち / Street,N5: 87,<Number> + メートル:     : <Number> + メートル,<Number> + メートル,<Number> + メートル,~ meters,87,~ meters
+937,N5,どこ / Where,N5: 88,となり:     : となり,となり,となり,next to,88,next to
+938,N5,どこ / Where,N5: 88,間:     : あいだ,間,あいだ,between,88,between
+939,N5,どこ / Where,N5: 88,近く:     : ちかく,近く,ちかく,nearby,88,nearby
+940,N5,どこ / Where,N5: 88,上:     : うえ,上,うえ,above / on,88,above / on
+941,N5,どこ / Where,N5: 88,下:     : した,下,した,below / under,88,below / under
+942,N5,どこ / Where,N5: 88,前:     : まえ,前,まえ,in front of,88,in front of
+943,N5,どこ / Where,N5: 88,後ろ:     : うしろ,後ろ,うしろ,behind,88,behind
+944,N5,どこ / Where,N5: 88,中:     : なか,中,なか,inside,88,inside
+945,N5,どこ / Where,N5: 88,外:     : そと,外,そと,outside,88,outside
+946,N5,どこ / Where,N5: 88,あそこ:     : あそこ,あそこ,あそこ,over there,88,over there
+947,N5,どこ / Where,N5: 88,ここ:     : ここ,ここ,ここ,here,88,here
+948,N5,どこ / Where,N5: 88,そこ:     : そこ,そこ,そこ,there,88,there
+949,N5,どこ / Where,N5: 88,どこ:     : どこ,どこ,どこ,where,88,where
+950,N5,でかける / To go out,N5: 89,出かける:     : でかける,出かける,でかける,to go out,89,to go out
+951,N5,でかける / To go out,N5: 89,出る:     : でる,出る,でる,to leave / to exit,89,to leave / to exit
+952,N5,でかける / To go out,N5: 89,着く:     : つく,着く,つく,to arrive,89,to arrive
+953,N5,でかける / To go out,N5: 89,会う:     : あう,会う,あう,to meet,89,to meet
+954,N5,でかける / To go out,N5: 89,待つ:     : まつ,待つ,まつ,to wait,89,to wait
+955,N5,でかける / To go out,N5: 89,デート（する）:     : デート（する）,デート（する）,デート（する）,(to go on a) date,89,(to go on a) date
+956,N5,でかける / To go out,N5: 89,約束（する）:     : やくそく（する）,約束（する）,やくそく（する）,to make a promise,89,to make a promise
+957,N5,でかける / To go out,N5: 89,用事:     : ようじ,用事,ようじ,errand / something to do,89,errand / something to do
+958,N5,でかける / To go out,N5: 89,都合がいい:     : つごうがいい,都合がいい,つごうがいい,convenient,89,convenient
+959,N5,でかける / To go out,N5: 89,都合が悪い:     : つごうがわるい,都合が悪い,つごうがわるい,inconvenient,89,inconvenient
+960,N5,でかける / To go out,N5: 89,ダメです:     : だめです,ダメです,だめです,not good / no good,89,not good / no good
+961,N5,でかける / To go out,N5: 89,変える:     : かえる,変える,かえる,to change,89,to change
+962,N5,でかける / To go out,N5: 89,お出かけですか:     : おでかけですか,お出かけですか,おでかけですか,Are you going out?,89,Are you going out?
+963,N5,でかける / To go out,N5: 90,ちょっと～まで:     : ちょっと～まで,ちょっと～まで,ちょっと～まで,just going to (place),90,just going to (place)
+964,N5,でかける / To go out,N5: 90,よかったら～:     : よかったら～,よかったら～,よかったら～,if you’d like / if it’s okay,90,if you’d like / if it’s okay
+965,N5,でかける / To go out,N5: 90,すみません:     : すみません,すみません,すみません,excuse me,90,excuse me
+966,N5,でかける / To go out,N5: 90,<Thing>でも～ませんか:     : <Thing>でも～ませんか,<Thing>でも～ませんか,<Thing>でも～ませんか,would you like to do ___ or something ?,90,would you like to do ___ or something ?
+967,N5,でかける / To go out,N5: 90,～はちょっと。:     : ～はちょっと。,～はちょっと。,～はちょっと。,(politely declining) That’s a bit...,90,(politely declining) That’s a bit...
+968,N5,でかける / To go out,N5: 90,残念ですが、～:     : ざんねんですが、～,残念ですが、～,ざんねんですが、～,"I’m sorry, but...",90,"I’m sorry, but..."
+969,N5,でかける / To go out,N5: 90,また今度お願いします:     : またこんどおねがいします,また今度お願いします,またこんどおねがいします,Maybe next time,90,Maybe next time
+970,N5,でかける / To go out,N5: 90,チャンス:     : チャンス,チャンス,チャンス,chance / opportunity,90,chance / opportunity
+971,N5,でかける / To go out,N5: 90,行ってきます:     : いってきます,行ってきます,いってきます,I’m leaving / see you,90,I’m leaving / see you
+972,N5,でかける / To go out,N5: 90,行ってらっしゃい:     : いってらっしゃい,行ってらっしゃい,いってらっしゃい,take care / see you later,90,take care / see you later
+973,N5,でかける / To go out,N5: 90,ただいま:     : ただいま,ただいま,ただいま,I’m home,90,I’m home
+974,N5,でかける / To go out,N5: 90,おかえりなさい:     : おかえりなさい,おかえりなさい,おかえりなさい,welcome home,90,welcome home
+975,N5,いえ / House,N5: 91,家:     : いえ,家,いえ,house / home,91,house / home
+976,N5,いえ / House,N5: 91,部屋:     : へや,部屋,へや,room,91,room
+977,N5,いえ / House,N5: 91,窓:     : まど,窓,まど,window,91,window
+978,N5,いえ / House,N5: 91,ドア:     : ドア,ドア,ドア,door,91,door
+979,N5,いえ / House,N5: 91,開ける:     : あける,開ける,あける,to open,91,to open
+980,N5,いえ / House,N5: 91,閉める:     : しめる,閉める,しめる,to close,91,to close
+981,N5,いえ / House,N5: 91,鍵:     : かぎ,鍵,かぎ,key,91,key
+982,N5,いえ / House,N5: 91,ベッド:     : ベッド,ベッド,ベッド,bed,91,bed
+983,N5,いえ / House,N5: 91,ダイニングキッチン:     : ダイニングキッチン,ダイニングキッチン,ダイニングキッチン,dining kitchen,91,dining kitchen
+984,N5,いえ / House,N5: 91,トイレ / お手洗い:     : トイレ / おてあらい,トイレ / お手洗い,トイレ / おてあらい,toilet / restroom,91,toilet / restroom
+985,N5,いえ / House,N5: 91,テーブル:     : テーブル,テーブル,テーブル,table,91,table
+986,N5,いえ / House,N5: 91,机:     : つくえ,机,つくえ,desk,91,desk
+987,N5,いえ / House,N5: 92,椅子:     : いす,椅子,いす,chair,92,chair
+988,N5,いえ / House,N5: 92,座る:     : すわる,座る,すわる,to sit,92,to sit
+989,N5,いえ / House,N5: 92,立つ:     : たつ,立つ,たつ,to stand,92,to stand
+990,N5,いえ / House,N5: 92,洗濯（する）:     : せんたく（する）,洗濯（する）,せんたく（する）,to do laundry,92,to do laundry
+991,N5,いえ / House,N5: 92,掃除（する）:     : そうじ（する）,掃除（する）,そうじ（する）,to clean,92,to clean
+992,N5,いえ / House,N5: 92,ごみ:     : ごみ,ごみ,ごみ,garbage,92,garbage
+993,N5,いえ / House,N5: 92,捨てる:     : すてる,捨てる,すてる,to throw away,92,to throw away
+994,N5,いえ / House,N5: 92,置く:     : おく,置く,おく,to put / to place,92,to put / to place
+995,N5,いえ / House,N5: 92,住む:     : すむ,住む,すむ,to live,92,to live
+996,N5,いえ / House,N5: 92,住所:     : じゅうしょ,住所,じゅうしょ,address,92,address
+997,N5,いえ / House,N5: 92,冷蔵庫:     : れいぞうこ,冷蔵庫,れいぞうこ,refrigerator,92,refrigerator
+998,N5,いえ / House,N5: 92,洗濯機:     : せんたくき,洗濯機,せんたくき,washing machine,92,washing machine
+999,N5,いえ / House,N5: 92,掃除機:     : そうじき,掃除機,そうじき,vacuum cleaner,92,vacuum cleaner
+1000,N5,たてもの / Building,N5: 93,建物:     : たてもの,建物,たてもの,building,93,building
+1001,N5,たてもの / Building,N5: 93,アパート:     : アパート,アパート,アパート,apartment,93,apartment
+1002,N5,たてもの / Building,N5: 93,寮:     : りょう,寮,りょう,dormitory,93,dormitory
+1003,N5,たてもの / Building,N5: 93,ビル:     : ビル,ビル,ビル,building,93,building
+1004,N5,たてもの / Building,N5: 93,階段:     : かいだん,階段,かいだん,stairs,93,stairs
+1005,N5,たてもの / Building,N5: 93,エスカレーター:     : エスカレーター,エスカレーター,エスカレーター,escalator,93,escalator
+1006,N5,たてもの / Building,N5: 93,エレベーター:     : エレベーター,エレベーター,エレベーター,elevator,93,elevator
+1007,N5,たてもの / Building,N5: 93,何階:     : なんがい,何階,なんがい,which floor,93,which floor
+1008,N5,たてもの / Building,N5: 93,～階:     : ～かい,～階,～かい,~th floor,93,~th floor
+1009,N5,たてもの / Building,N5: 93,１階:     : いっかい,１階,いっかい,first floor,93,first floor
+1010,N5,たてもの / Building,N5: 93,２階:     : にかい,２階,にかい,second floor,93,second floor
+1011,N5,たてもの / Building,N5: 93,３階:     : さんがい,３階,さんがい,third floor,93,third floor
+1012,N5,たてもの / Building,N5: 94,４階:     : よんかい,４階,よんかい,fourth floor,94,fourth floor
+1013,N5,たてもの / Building,N5: 94,５階:     : ごかい,５階,ごかい,fifth floor,94,fifth floor
+1014,N5,たてもの / Building,N5: 94,６階:     : ろっかい,６階,ろっかい,sixth floor,94,sixth floor
+1015,N5,たてもの / Building,N5: 94,７階:     : ななかい,７階,ななかい,seventh floor,94,seventh floor
+1016,N5,たてもの / Building,N5: 94,８階:     : はちかい,８階,はちかい,eighth floor,94,eighth floor
+1017,N5,たてもの / Building,N5: 94,９階:     : きゅうかい,９階,きゅうかい,ninth floor,94,ninth floor
+1018,N5,たてもの / Building,N5: 94,１０階:     : じゅっかい,１０階,じゅっかい,tenth floor,94,tenth floor
+1019,N5,たてもの / Building,N5: 94,地下:     : ちか,地下,ちか,basement,94,basement
+1020,N5,ひっこし / Moving,N5: 95,引っ越し（する）:     : ひっこし（する）,引っ越し（する）,ひっこし（する）,to move (residence),95,to move (residence)
+1021,N5,ひっこし / Moving,N5: 95,転勤（する）:     : てんきん（する）,転勤（する）,てんきん（する）,to transfer (job),95,to transfer (job)
+1022,N5,ひっこし / Moving,N5: 95,家賃:     : やちん,家賃,やちん,rent,95,rent
+1023,N5,ひっこし / Moving,N5: 95,ところ:     : ところ,ところ,ところ,place,95,place
+1024,N5,ひっこし / Moving,N5: 95,田舎:     : いなか,田舎,いなか,countryside,95,countryside
+1025,N5,ひっこし / Moving,N5: 95,静かな:     : しずかな,静かな,しずかな,quiet,95,quiet
+1026,N5,ひっこし / Moving,N5: 95,にぎやかな:     : にぎやかな,にぎやかな,にぎやかな,lively / busy,95,lively / busy
+1027,N5,ひっこし / Moving,N5: 95,便利な:     : べんりな,便利な,べんりな,convenient,95,convenient
+1028,N5,ひっこし / Moving,N5: 95,不便な:     : ふべんな,不便な,ふべんな,inconvenient,95,inconvenient
+1029,N5,ひっこし / Moving,N5: 95,交通:     : こうつう,交通,こうつう,transportation,95,transportation
+1030,N5,ひっこし / Moving,N5: 95,庭:     : にわ,庭,にわ,garden,95,garden
+1031,N5,ひっこし / Moving,N5: 96,木:     : き,木,き,tree,96,tree
+1032,N5,ひっこし / Moving,N5: 96,緑:     : みどり,緑,みどり,greenery,96,greenery
+1033,N5,ひっこし / Moving,N5: 96,若い:     : わかい,若い,わかい,young,96,young
+1034,N5,ひっこし / Moving,N5: 96,年をとる:     : としをとる,年をとる,としをとる,to get older,96,to get older
+1035,N5,ひっこし / Moving,N5: 96,市役所:     : しやくしょ,市役所,しやくしょ,city hall,96,city hall
+1036,N5,ひっこし / Moving,N5: 96,広い:     : ひろい,広い,ひろい,spacious,96,spacious
+1037,N5,ひっこし / Moving,N5: 96,狭い:     : せまい,狭い,せまい,narrow / small,96,narrow / small
+1038,N5,ひっこし / Moving,N5: 96,新しい:     : あたらしい,新しい,あたらしい,new,96,new
+1039,N5,ひっこし / Moving,N5: 96,古い:     : ふるい,古い,ふるい,old,96,old
+1040,N5,いえにいく / To go to a house,N5: 97,いらっしゃい:     : いらっしゃい,いらっしゃい,いらっしゃい,Welcome!,97,Welcome!
+1041,N5,いえにいく / To go to a house,N5: 97,どうぞおあがりください:     : どうぞおあがりください,どうぞおあがりください,どうぞおあがりください,Please come in / Please have a seat,97,Please come in / Please have a seat
+1042,N5,いえにいく / To go to a house,N5: 97,失礼します:     : しつれいします,失礼します,しつれいします,Excuse me / May I come in,97,Excuse me / May I come in
+1043,N5,いえにいく / To go to a house,N5: 97,そろそろ失礼します:     : そろそろしつれいします,そろそろ失礼します,そろそろしつれいします,I should get going soon,97,I should get going soon
+1044,N5,いえにいく / To go to a house,N5: 97,またいらっしゃってください:     : またいらっしゃってください,またいらっしゃってください,またいらっしゃってください,Please come again,97,Please come again
+1045,N5,いえにいく / To go to a house,N5: 97,夫:     : おっと,夫,おっと,husband,97,husband
+1046,N5,いえにいく / To go to a house,N5: 97,妻:     : つま,妻,つま,wife,97,wife
+1047,N5,いえにいく / To go to a house,N5: 97,ご主人:     : ごしゅじん,ご主人,ごしゅじん,(someone else’s) husband,97,(someone else’s) husband
+1048,N5,いえにいく / To go to a house,N5: 97,奥さん:     : おくさん,奥さん,おくさん,(someone else’s) wife,97,(someone else’s) wife
+1049,N5,いえにいく / To go to a house,N5: 97,紹介（する）:     : しょうかい（する）,紹介（する）,しょうかい（する）,to introduce,97,to introduce
+1050,N5,いえにいく / To go to a house,N5: 97,こちらは～さんです:     : こちらは～さんです,こちらは～さんです,こちらは～さんです,This is Mr./Ms. ~,97,This is Mr./Ms. ~
+1051,N5,いえにいく / To go to a house,N5: 97,これからお世話になります:     : これからおせわになります,これからお世話になります,これからおせわになります,I’ll be in your care from now on,97,I’ll be in your care from now on
+1052,N5,いえにいく / To go to a house,N5: 98,いらっしゃいます:     : いらっしゃいます,いらっしゃいます,いらっしゃいます,(honorific) to be / to go / to come,98,(honorific) to be / to go / to come
+1053,N5,いえにいく / To go to a house,N5: 98,独身:     : どくしん,独身,どくしん,single / unmarried,98,single / unmarried
+1054,N5,いえにいく / To go to a house,N5: 98,結婚（する）:     : けっこん（する）,結婚（する）,けっこん（する）,to marry,98,to marry
+1055,N5,いえにいく / To go to a house,N5: 98,僕:     : ぼく,僕,ぼく,I / me (used by men),98,I / me (used by men)
+1056,N5,いえにいく / To go to a house,N5: 98,ありがとうございました:     : ありがとうございました,ありがとうございました,ありがとうございました,Thank you very much,98,Thank you very much
+1057,N5,いえにいく / To go to a house,N5: 98,いろいろ:     : いろいろ,いろいろ,いろいろ,various / many things,98,various / many things
+1058,N5,いえにいく / To go to a house,N5: 98,お世話になりました:     : おせわになりました,お世話になりました,おせわになりました,Thank you for your help / I appreciate your kindness,98,Thank you for your help / I appreciate your kindness
+1059,N5,いえにいく / To go to a house,N5: 98,気をつけて:     : きをつけて,気をつけて,きをつけて,Take care / Be careful,98,Take care / Be careful
+1060,N5,いえにいく / To go to a house,N5: 98,危ない:     : あぶない,危ない,あぶない,dangerous / watch out,98,dangerous / watch out
+1061,N5,いえにいく / To go to a house,N5: 98,週末:     : しゅうまつ,週末,しゅうまつ,weekend,98,weekend
+1062,N5,いえにいく / To go to a house,N5: 98,初め:     : はじめ,初め,はじめ,beginning,98,beginning
+1063,N5,いえにいく / To go to a house,N5: 98,今年の初め:     : ことしのはじめ,今年の初め,ことしのはじめ,the beginning of this year,98,the beginning of this year
+1064,N5,いえにいく / To go to a house,N5: 98,終わり:     : おわり,終わり,おわり,end,98,end
+1065,N5,いえにいく / To go to a house,N5: 99,今年の終わり:     : ことしのおわり,今年の終わり,ことしのおわり,the end of this year,99,the end of this year
+1066,N5,いえにいく / To go to a house,N5: 99,一昨日:     : おととい,一昨日,おととい,the day before yesterday,99,the day before yesterday
+1067,N5,いえにいく / To go to a house,N5: 99,明後日:     : あさって,明後日,あさって,the day after tomorrow,99,the day after tomorrow
+1068,N5,いえにいく / To go to a house,N5: 99,先週:     : せんしゅう,先週,せんしゅう,last week,99,last week
+1069,N5,いえにいく / To go to a house,N5: 99,今週:     : こんしゅう,今週,こんしゅう,this week,99,this week
+1070,N5,いえにいく / To go to a house,N5: 99,来週:     : らいしゅう,来週,らいしゅう,next week,99,next week
+1071,N5,いえにいく / To go to a house,N5: 99,先月:     : せんげつ,先月,せんげつ,last month,99,last month
+1072,N5,いえにいく / To go to a house,N5: 99,今月:     : こんげつ,今月,こんげつ,this month,99,this month
+1073,N5,いえにいく / To go to a house,N5: 99,来月:     : らいげつ,来月,らいげつ,next month,99,next month
+1074,N5,でんき / Electricity,N5: 100,電気:     : でんき,電気,でんき,electricity / light,100,electricity / light
+1075,N5,でんき / Electricity,N5: 100,つける:     : つける,つける,つける,to turn on,100,to turn on
+1076,N5,でんき / Electricity,N5: 100,消す:     : けす,消す,けす,to turn off / erase,100,to turn off / erase
+1077,N5,でんき / Electricity,N5: 100,明るい:     : あかるい,明るい,あかるい,bright,100,bright
+1078,N5,でんき / Electricity,N5: 100,暗い:     : くらい,暗い,くらい,dark,100,dark
+1079,N5,でんき / Electricity,N5: 100,エアコン:     : エアコン,エアコン,エアコン,air conditioner,100,air conditioner
+1080,N5,でんき / Electricity,N5: 100,ビデオ:     : ビデオ,ビデオ,ビデオ,video / VCR,100,video / VCR
+1081,N5,でんき / Electricity,N5: 100,スイッチ:     : スイッチ,スイッチ,スイッチ,switch,100,switch
+1082,N5,でんき / Electricity,N5: 100,回す:     : まわす,回す,まわす,to turn / rotate,100,to turn / rotate
+1083,N5,でんき / Electricity,N5: 100,引く:     : ひく,引く,ひく,to pull,100,to pull
+1084,N5,でんき / Electricity,N5: 101,故障（する）:     : こしょう（する）,故障（する）,こしょう（する）,to break down / malfunction,101,to break down / malfunction
+1085,N5,でんき / Electricity,N5: 101,修理（する）:     : しゅうり（する）,修理（する）,しゅうり（する）,to repair,101,to repair
+1086,N5,でんき / Electricity,N5: 101,呼ぶ:     : よぶ,呼ぶ,よぶ,to call,101,to call
+1087,N5,でんき / Electricity,N5: 101,なおす:     : なおす,なおす,なおす,to fix / repair,101,to fix / repair
+1088,N5,でんき / Electricity,N5: 101,製品:     : せいひん,製品,せいひん,product / manufactured goods,101,product / manufactured goods
+1089,N5,びょうき / Sick,N5: 102,病気:     : びょうき,病気,びょうき,illness / sickness,102,illness / sickness
+1090,N5,びょうき / Sick,N5: 102,病院:     : びょういん,病院,びょういん,hospital,102,hospital
+1091,N5,びょうき / Sick,N5: 102,どうしましたか:     : どうしましたか,どうしましたか,どうしましたか,what’s wrong?,102,what’s wrong?
+1092,N5,びょうき / Sick,N5: 102,熱:     : ねつ,熱,ねつ,fever,102,fever
+1093,N5,びょうき / Sick,N5: 102,風邪:     : かぜ,風邪,かぜ,cold,102,cold
+1094,N5,びょうき / Sick,N5: 102,インフルエンザ:     : インフルエンザ,インフルエンザ,インフルエンザ,influenza / flu,102,influenza / flu
+1095,N5,びょうき / Sick,N5: 102,薬:     : くすり,薬,くすり,medicine,102,medicine
+1096,N5,びょうき / Sick,N5: 102,目:     : め,目,め,eye,102,eye
+1097,N5,びょうき / Sick,N5: 102,耳:     : みみ,耳,みみ,ear,102,ear
+1098,N5,びょうき / Sick,N5: 102,口:     : くち,口,くち,mouth,102,mouth
+1099,N5,びょうき / Sick,N5: 102,のど:     : のど,のど,のど,throat,102,throat
+1100,N5,びょうき / Sick,N5: 103,頭:     : あたま,頭,あたま,head,103,head
+1101,N5,びょうき / Sick,N5: 103,お腹:     : おなか,お腹,おなか,stomach,103,stomach
+1102,N5,びょうき / Sick,N5: 103,手:     : て,手,て,hand,103,hand
+1103,N5,びょうき / Sick,N5: 103,足:     : あし,足,あし,leg / foot,103,leg / foot
+1104,N5,びょうき / Sick,N5: 103,お大事に:     : おだいじに,お大事に,おだいじに,take care (said to the sick),103,take care (said to the sick)
+1105,N5,びょうき / Sick,N5: 103,２、３日:     : にさんにち,２、３日,にさんにち,two or three days,103,two or three days
+1106,N5,びょうき / Sick,N5: 103,～が痛い:     : ～がいたい,～が痛い,～がいたい,~ hurts,103,~ hurts
+1107,N5,びょうき / Sick,N5: 103,歯医者さん:     : はいしゃさん,歯医者さん,はいしゃさん,dentist,103,dentist
+1108,N5,びょうき / Sick,N5: 103,一人で:     : ひとりで,一人で,ひとりで,alone,103,alone
+1109,N5,びょうき / Sick,N5: 103,健康:     : けんこう,健康,けんこう,health,103,health
+1110,N5,びょうき / Sick,N5: 103,保健:     : ほけん,保健,ほけん,health insurance,103,health insurance
+1111,N5,びょうき / Sick,N5: 104,健康保険証:     : けんこうほけんしょう,健康保険証,けんこうほけんしょう,health insurance card,104,health insurance card
+1112,N5,びょうき / Sick,N5: 104,体調:     : たいちょう,体調,たいちょう,physical condition,104,physical condition
+1113,N5,びょうき / Sick,N5: 104,体調がいい:     : たいちょうがいい,体調がいい,たいちょうがいい,to feel well,104,to feel well
+1114,N5,びょうき / Sick,N5: 104,体調が悪い:     : たいちょうがわるい,体調が悪い,たいちょうがわるい,to feel unwell,104,to feel unwell
+1115,N5,おげんきですか / How are you,N5: 105,体:     : からだ,体,からだ,body,105,body
+1116,N5,おげんきですか / How are you,N5: 105,体にいい:     : からだにいい,体にいい,からだにいい,good for the body,105,good for the body
+1117,N5,おげんきですか / How are you,N5: 105,調子:     : ちょうし,調子,ちょうし,condition / tone,105,condition / tone
+1118,N5,おげんきですか / How are you,N5: 105,調子がいい:     : ちょうしがいい,調子がいい,ちょうしがいい,feeling good,105,feeling good
+1119,N5,おげんきですか / How are you,N5: 105,調子が悪い:     : ちょうしがわるい,調子が悪い,ちょうしがわるい,feeling bad,105,feeling bad
+1120,N5,おげんきですか / How are you,N5: 105,疲れる:     : つかれる,疲れる,つかれる,to get tired,105,to get tired
+1121,N5,おげんきですか / How are you,N5: 105,眠い:     : ねむい,眠い,ねむい,sleepy,105,sleepy
+1122,N5,おげんきですか / How are you,N5: 105,早く:     : はやく,早く,はやく,quickly / early,105,quickly / early
+1123,N5,おげんきですか / How are you,N5: 105,大変な:     : たいへんな,大変な,たいへんな,hard / tough,105,hard / tough
+1124,N5,おげんきですか / How are you,N5: 105,最近:     : さいきん,最近,さいきん,recently,105,recently
+1125,N5,おげんきですか / How are you,N5: 106,心配（する）:     : しんぱい（する）,心配（する）,しんぱい（する）,to worry,106,to worry
+1126,N5,おげんきですか / How are you,N5: 106,たばこ:     : たばこ,たばこ,たばこ,tobacco / cigarette,106,tobacco / cigarette
+1127,N5,おげんきですか / How are you,N5: 106,吸う:     : すう,吸う,すう,to smoke / to inhale,106,to smoke / to inhale
+1128,N5,おげんきですか / How are you,N5: 106,禁煙:     : きんえん,禁煙,きんえん,no smoking,106,no smoking
+1129,N5,おげんきですか / How are you,N5: 106,大丈夫な:     : だいじょうぶな,大丈夫な,だいじょうぶな,okay / fine,106,okay / fine
+1130,N5,おげんきですか / How are you,N5: 106,無理な:     : むりな,無理な,むりな,impossible / unreasonable,106,impossible / unreasonable
+1131,N5,おげんきですか / How are you,N5: 106,ダイエット:     : ダイエット,ダイエット,ダイエット,diet,106,diet
+1132,N5,おげんきですか / How are you,N5: 106,思い出す:     : おもいだす,思い出す,おもいだす,to recall / remember,106,to recall / remember
+1133,N5,おげんきですか / How are you,N5: 106,寂しい:     : さびしい,寂しい,さびしい,lonely,106,lonely
+1134,N5,おげんきですか / How are you,N5: 106,お久しぶりです:     : おひさしぶりです,お久しぶりです,おひさしぶりです,long time no see,106,long time no see
+1135,N5,おげんきですか / How are you,N5: 106,あっ:     : あっ,あっ,あっ,ah / oh,106,ah / oh
+1136,N5,おげんきですか / How are you,N5: 106,お元気ですか:     : おげんきですか,お元気ですか,おげんきですか,how are you,106,how are you
+1137,N5,おげんきですか / How are you,N5: 106,おかげさまで:     : おかげさまで,おかげさまで,おかげさまで,thanks to you (I’m fine),106,thanks to you (I’m fine)
+1138,N5,たいせつなもの / Important thing,N5: 107,パスポート:     : パスポート,パスポート,パスポート,passport,107,passport
+1139,N5,たいせつなもの / Important thing,N5: 107,ビザ:     : ビザ,ビザ,ビザ,visa,107,visa
+1140,N5,たいせつなもの / Important thing,N5: 107,大使館:     : たいしかん,大使館,たいしかん,embassy,107,embassy
+1141,N5,たいせつなもの / Important thing,N5: 107,大切な:     : たいせつな,大切な,たいせつな,important,107,important
+1142,N5,たいせつなもの / Important thing,N5: 107,なくす:     : なくす,なくす,なくす,to lose,107,to lose
+1143,N5,たいせつなもの / Important thing,N5: 107,貸す:     : かす,貸す,かす,to lend,107,to lend
+1144,N5,たいせつなもの / Important thing,N5: 107,借りる:     : かりる,借りる,かりる,to borrow,107,to borrow
+1145,N5,たいせつなもの / Important thing,N5: 107,返す:     : かえす,返す,かえす,to return,107,to return
+1146,N5,たいせつなもの / Important thing,N5: 107,無駄な:     : むだな,無駄な,むだな,wasteful,107,wasteful
+1147,N5,たいせつなもの / Important thing,N5: 107,いる:     : いる,いる,いる,to need,107,to need
+1148,N5,たいせつなもの / Important thing,N5: 107,えっ:     : えっ,えっ,えっ,huh? / what?,107,huh? / what?
+1149,N5,たいせつなもの / Important thing,N5: 107,本当:     : ほんとう,本当,ほんとう,truth / really,107,truth / really
+1150,N5,たいせつなもの / Important thing,N5: 108,嘘:     : うそ,嘘,うそ,lie / falsehood,108,lie / falsehood
+1151,N5,たいせつなもの / Important thing,N5: 108,こと:     : こと,こと,こと,thing / matter (abstract),108,thing / matter (abstract)
+1152,N5,たいせつなもの / Important thing,N5: 108,おいのり:     : おいのり,おいのり,おいのり,prayer,108,prayer
+1153,N5,たいせつなもの / Important thing,N5: 108,触る:     : さわる,触る,さわる,to touch,108,to touch
+1154,N5,しょうらい / Future,N5: 109,将来:     : しょうらい,将来,しょうらい,future,109,future
+1155,N5,しょうらい / Future,N5: 109,夢:     : ゆめ,夢,ゆめ,dream,109,dream
+1156,N5,しょうらい / Future,N5: 109,留学（する）:     : りゅうがく（する）,留学（する）,りゅうがく（する）,to study abroad,109,to study abroad
+1157,N5,しょうらい / Future,N5: 109,研究（する）:     : けんきゅう（する）,研究（する）,けんきゅう（する）,to research,109,to research
+1158,N5,しょうらい / Future,N5: 109,研究者:     : けんきゅうしゃ,研究者,けんきゅうしゃ,researcher,109,researcher
+1159,N5,しょうらい / Future,N5: 109,大学院:     : だいがくいん,大学院,だいがくいん,graduate school,109,graduate school
+1160,N5,しょうらい / Future,N5: 109,専門:     : せんもん,専門,せんもん,specialty / major,109,specialty / major
+1161,N5,しょうらい / Future,N5: 109,経済:     : けいざい,経済,けいざい,economics,109,economics
+1162,N5,しょうらい / Future,N5: 109,美術:     : びじゅつ,美術,びじゅつ,art,109,art
+1163,N5,しょうらい / Future,N5: 109,地球:     : ちきゅう,地球,ちきゅう,Earth,109,Earth
+1164,N5,しょうらい / Future,N5: 110,～について:     : ～について,～について,～について,about / regarding,110,about / regarding
+1165,N5,しょうらい / Future,N5: 110,やめる:     : やめる,やめる,やめる,to quit / stop,110,to quit / stop
+1166,N5,しょうらい / Future,N5: 110,考える:     : かんがえる,考える,かんがえる,to think,110,to think
+1167,N5,しょうらい / Future,N5: 110,もう:     : もう,もう,もう,already,110,already
+1168,N5,しょうらい / Future,N5: 110,まだ:     : まだ,まだ,まだ,still / not yet,110,still / not yet
+1169,N5,しょうらい / Future,N5: 110,これから:     : これから,これから,これから,from now on,110,from now on
+1170,N5,他の言葉 / Other words,N5: 111,そして:     : そして,そして,そして,and then,111,and then
+1171,N5,他の言葉 / Other words,N5: 111,前:     : まえ,前,まえ,before / in front,111,before / in front
+1172,N5,他の言葉 / Other words,N5: 111,後:     : あと,後,あと,after / later,111,after / later
+1173,N5,他の言葉 / Other words,N5: 111,もうすぐ:     : もうすぐ,もうすぐ,もうすぐ,soon,111,soon
+1174,N5,他の言葉 / Other words,N5: 111,すぐ:     : すぐ,すぐ,すぐ,immediately,111,immediately
+1175,N5,他の言葉 / Other words,N5: 111,後で:     : あとで,後で,あとで,later,111,later
+1176,N5,他の言葉 / Other words,N5: 111,また:     : また,また,また,again,111,again
+1177,N5,他の言葉 / Other words,N5: 111,までに:     : までに,までに,までに,by (time limit),111,by (time limit)
+1178,N5,他の言葉 / Other words,N5: 111,ですから、～:     : ですから、～,ですから、～,ですから、～,therefore / so,111,therefore / so
+1179,N5,他の言葉 / Other words,N5: 111,だから、～:     : だから、～,だから、～,だから、～,so / that’s why,111,so / that’s why
+1180,N5,他の言葉 / Other words,N5: 111,そんなに:     : そんなに,そんなに,そんなに,not so much / that much,111,not so much / that much
+1181,N5,他の言葉 / Other words,N5: 112,だんだん:     : だんだん,だんだん,だんだん,gradually,112,gradually
+1182,N5,他の言葉 / Other words,N5: 112,みなさん:     : みなさん,みなさん,みなさん,everyone,112,everyone
+1183,N5,他の言葉 / Other words,N5: 112,へえ:     : へえ,へえ,へえ,wow / really?,112,wow / really?
+1184,N5,他の言葉 / Other words,N5: 112,すごい:     : すごい,すごい,すごい,amazing / great,112,amazing / great
+1185,N5,他の言葉 / Other words,N5: 112,特に:     : とくに,特に,とくに,especially,112,especially
+1186,N5,他の言葉 / Other words,N5: 112,なかなか:     : なかなか,なかなか,なかなか,quite / hardly (w. neg.),112,quite / hardly (w. neg.)
+1187,N5,他の言葉 / Other words,N5: 112,～が、:     : ～が、,～が、,～が、,but / however,112,but / however
+1188,N5,他の言葉 / Other words,N5: 112,～けど、:     : ～けど、,～けど、,～けど、,but / though,112,but / though
+1189,N5,他の言葉 / Other words,N5: 112,そうですね:     : そうですね,そうですね,そうですね,that’s right / let me see,112,that’s right / let me see
+1190,N5,他の言葉 / Other words,N5: 112,失礼ですが、:     : しつれいですが、,失礼ですが、,しつれいですが、,"excuse me, but...",112,"excuse me, but..."
+1191,N5,他の言葉 / Other words,N5: 112,聞く:     : きく,聞く,きく,to ask / to listen,112,to ask / to listen
+1192,N5,他の言葉 / Other words,N5: 112,あのー:     : あのー,あのー,あのー,um... (hesitation),112,um... (hesitation)
+1193,N5,他の言葉 / Other words,N5: 112,えーっと:     : えーっと,えーっと,えーっと,let’s see... (thinking),112,let’s see... (thinking)
+1194,N5,他の言葉 / Other words,N5: 113,でも:     : でも,でも,でも,but / however,113,but / however
+1195,N5,他の言葉 / Other words,N5: 113,どうして:     : どうして,どうして,どうして,why,113,why
+1196,N5,他の言葉 / Other words,N5: 113,～から:     : ～から,～から,～から,because ~,113,because ~
+1197,N5,他の言葉 / Other words,N5: 113,そうですか:     : そうですか,そうですか,そうですか,I see / really,113,I see / really
+1198,N5,他の言葉 / Other words,N5: 113,わかりました:     : わかりました,わかりました,わかりました,I understand / got it,113,I understand / got it

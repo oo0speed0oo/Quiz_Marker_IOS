@@ -19,7 +19,8 @@ struct QuizView: View {
     @State private var grammarCache: [String: (rule: String, more: String)] = [:]
     @State private var translatingChoice: String? = nil
     @State private var sessionStart: Date = Date()
-    @State private var lastAnswerCorrect: Bool? = nil   // ← NEW: visual feedback
+    @State private var lastAnswerCorrect: Bool? = nil
+    @State private var isBookmarked: Bool = false
 
     private var quizDisplayName: String {
         file.replacingOccurrences(of: ".csv", with: "").capitalized
@@ -144,9 +145,33 @@ struct QuizView: View {
                         .font(.caption.bold())
                         .foregroundColor(hasCopied ? .green : .blue)
                 }
+
+                Button {
+                    store.toggleBookmark(
+                        quizName:       quizDisplayName,
+                        chapter:        q.chapter,
+                        unit:           q.unit,
+                        questionNumber: q.number,
+                        questionText:   q.text,
+                        choiceA:        q.option(for: "A"),
+                        choiceB:        q.option(for: "B"),
+                        choiceC:        q.option(for: "C"),
+                        choiceD:        q.option(for: "D"),
+                        correctAnswer:  q.answer
+                    )
+                    isBookmarked = store.isBookmarked(questionNumber: q.number, quizName: quizDisplayName)
+                } label: {
+                    Label(isBookmarked ? "Bookmarked" : "Bookmark",
+                          systemImage: isBookmarked ? "bookmark.fill" : "bookmark")
+                        .font(.caption.bold())
+                        .foregroundColor(isBookmarked ? .yellow : .blue)
+                }
             }
         }
         .padding(.horizontal)
+        .onAppear {
+            isBookmarked = store.isBookmarked(questionNumber: q.number, quizName: quizDisplayName)
+        }
     }
 
     // MARK: - Grammar Block
@@ -279,6 +304,7 @@ struct QuizView: View {
         moreText          = ""
         translatingChoice = nil
         lastAnswerCorrect = nil
+        isBookmarked      = false
         manager.nextQuestion()
     }
 
