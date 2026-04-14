@@ -40,6 +40,15 @@ struct PersistedWrongAnswer: Codable, Identifiable {
     let date:           Date
 }
 
+/// A note the user wrote, optionally used to generate quiz questions.
+struct Note: Codable, Identifiable {
+    let id:        UUID
+    var title:     String
+    var body:      String
+    let createdAt: Date
+    var updatedAt: Date
+}
+
 /// A question the user has bookmarked for later review.
 struct PersistedBookmark: Codable, Identifiable {
     let id:             UUID
@@ -91,6 +100,7 @@ class QuizStore {
     private(set) var chapterAttempts:   [ChapterAttempt]       = []
     private(set) var bookmarks:         [PersistedBookmark]    = []
     private(set) var flashcardProgress: [FlashcardProgress]    = []
+    private(set) var notes:             [Note]                 = []
 
     private let recordsKey            = "quiz_records_v1"
     private let sessionsKey           = "quiz_sessions_v1"
@@ -98,6 +108,7 @@ class QuizStore {
     private let chapterAttemptsKey    = "chapter_attempts_v1"
     private let bookmarksKey          = "bookmarks_v1"
     private let flashcardProgressKey  = "flashcard_progress_v1"
+    private let notesKey              = "notes_v1"
 
     init() { load() }
 
@@ -230,6 +241,29 @@ class QuizStore {
         persist(bookmarks, key: bookmarksKey)
     }
 
+    // MARK: - Notes
+
+    @discardableResult
+    func addNote(title: String, body: String) -> Note {
+        let note = Note(id: UUID(), title: title, body: body, createdAt: Date(), updatedAt: Date())
+        notes.insert(note, at: 0)
+        persist(notes, key: notesKey)
+        return note
+    }
+
+    func updateNote(id: UUID, title: String, body: String) {
+        guard let idx = notes.firstIndex(where: { $0.id == id }) else { return }
+        notes[idx].title     = title
+        notes[idx].body      = body
+        notes[idx].updatedAt = Date()
+        persist(notes, key: notesKey)
+    }
+
+    func deleteNote(id: UUID) {
+        notes.removeAll { $0.id == id }
+        persist(notes, key: notesKey)
+    }
+
     // MARK: - Wrong Answers
 
     func saveWrongAnswers(_ mistakes: [WrongAnswer], quizName: String) {
@@ -288,6 +322,7 @@ class QuizStore {
         chapterAttempts   = decode([ChapterAttempt].self,        key: chapterAttemptsKey)   ?? []
         bookmarks         = decode([PersistedBookmark].self,     key: bookmarksKey)         ?? []
         flashcardProgress = decode([FlashcardProgress].self,     key: flashcardProgressKey) ?? []
+        notes             = decode([Note].self,                  key: notesKey)             ?? []
     }
 
     private func persist<T: Encodable>(_ value: T, key: String) {

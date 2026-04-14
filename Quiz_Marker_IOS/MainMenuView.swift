@@ -38,6 +38,47 @@ struct MainMenuView: View {
                         .padding(.vertical, 6)
                 }
 
+                NavigationLink(destination: NotesListView(store: store)) {
+                    HStack {
+                        Label("Notes", systemImage: "note.text")
+                            .font(.title3.bold())
+                            .padding(.vertical, 6)
+
+                        Spacer()
+
+                        if !store.notes.isEmpty {
+                            Text("\(store.notes.count)")
+                                .font(.caption.bold())
+                                .foregroundColor(.white)
+                                .padding(.horizontal, 7)
+                                .padding(.vertical, 3)
+                                .background(Color.indigo)
+                                .cornerRadius(10)
+                        }
+                    }
+                }
+
+                NavigationLink(destination: BookmarksView(store: store)) {
+                    HStack {
+                        Label("Bookmarks", systemImage: "bookmark.fill")
+                            .font(.title3.bold())
+                            .padding(.vertical, 6)
+
+                        Spacer()
+
+                        if !store.bookmarks.isEmpty {
+                            Text("\(store.bookmarks.count)")
+                                .font(.caption.bold())
+                                .foregroundColor(.white)
+                                .padding(.horizontal, 7)
+                                .padding(.vertical, 3)
+                                .background(Color.yellow)
+                                .cornerRadius(10)
+                        }
+                    }
+                }
+                .foregroundColor(store.bookmarks.isEmpty ? .secondary : .primary)
+
                 // ── NEW: Review mistakes ──
                 NavigationLink(destination: WrongAnswersReviewView(store: store)) {
                     HStack {
