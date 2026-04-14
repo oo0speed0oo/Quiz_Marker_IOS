@@ -7,7 +7,7 @@ struct NoteEditorView: View {
     @Environment(\.dismiss) private var dismiss
 
     @State private var title:       String = ""
-    @State private var body:        String = ""
+    @State private var noteBody:    String = ""
 
     // API key prompt
     @State private var showAPIKeySheet    = false
@@ -21,7 +21,7 @@ struct NoteEditorView: View {
     @State private var showQuiz:          Bool   = false
 
     private var isNewNote: Bool { note == nil }
-    private var hasContent: Bool { !title.trimmingCharacters(in: .whitespaces).isEmpty || !body.trimmingCharacters(in: .whitespaces).isEmpty }
+    private var hasContent: Bool { !title.trimmingCharacters(in: .whitespaces).isEmpty || !noteBody.trimmingCharacters(in: .whitespaces).isEmpty }
 
     var body: some View {
         NavigationStack {
@@ -36,7 +36,7 @@ struct NoteEditorView: View {
                 Divider()
 
                 // Body
-                TextEditor(text: $body)
+                TextEditor(text: $noteBody)
                     .font(.body)
                     .padding(.horizontal, 12)
                     .padding(.top, 4)
@@ -167,13 +167,13 @@ struct NoteEditorView: View {
 
     private func loadNote() {
         guard let n = note else { return }
-        title = n.title
-        body  = n.body
+        title    = n.title
+        noteBody = n.body
     }
 
     private func saveAndDismiss() {
         let t = title.trimmingCharacters(in: .whitespaces)
-        let b = body.trimmingCharacters(in: .whitespaces)
+        let b = noteBody.trimmingCharacters(in: .whitespaces)
         if t.isEmpty && b.isEmpty {
             dismiss()
             return
@@ -203,7 +203,7 @@ struct NoteEditorView: View {
 
         // Auto-save before generating so the note isn't lost
         let t = title.trimmingCharacters(in: .whitespaces)
-        let b = body.trimmingCharacters(in: .whitespaces)
+        let b = noteBody.trimmingCharacters(in: .whitespaces)
         let noteText = [t, b].filter { !$0.isEmpty }.joined(separator: "\n\n")
 
         if !t.isEmpty || !b.isEmpty {
